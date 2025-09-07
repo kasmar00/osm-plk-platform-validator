@@ -1,40 +1,49 @@
-import overpass
-import overpy
+import json
+import time
+import requests
+import os
 
-#TODO: automate this download
+
+def should_load_from_cache() -> bool:
+    return os.path.exists("platforms-osm.json") and (
+        os.path.getmtime("platforms-osm.json") > (time.time() - 86400)
+    )
 
 
 def fetch_osm_data():
-    # api = overpass.API()
-    query = """
-    //[out:json][timeout:25];
+    if should_load_from_cache():
+        print("Loading OSM data from cache")
+        with open("platforms-osm.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data["elements"]
 
-    area(id:3600130935)->.searchArea;
+    print("Fetching OSM data from Overpass API")
+
+    query = """
+    [out:json];
+
+    area(id:3600049715)->.searchArea; //Poland
+
 
     node["railway"="stop"](area.searchArea);
     foreach {
-        way(bn)[railway][ref] -> .ways;
-        if (ways.count(ways) > 0) {
-            convert result
-                    ::id = id(),
-                    ::geom = center(geom()),
-                    _track_ref = ways.u(t["railway:track_ref"]),
-                    :: = ::;
-        //out geom;
-        }
-    };
-    """
-    # response = api.get(query, verbosity="geom")
-    api = overpy.Overpass()
-    response = api.query(query)
-    # print(response.)
-    print(f"Fetched: {len(response.nodes)} nodes, {len(response.ways)} ways, {len(response.relations)} relations")
-    # print(f"Fetched {len(response['elements'])} elements from OSM")
-    # print(
-    #     [
-    #         el["properties"]["name"]
-    #         for el in response["elements"][:5]
-    #         if "name" in el["properties"]
-    #     ]
-    # )
-    return response
+    way(bn)[railway] -> .ways;
+    if (ways.count(ways) > 0) {
+        convert result
+                ::id = id(),
+                ::geom = center(geom()),
+                _track_ref = ways.u(t["railway:track_ref"]),
+                :: = ::;
+    (._;>;);
+    out geom;
+    }
+    }
+"""
+    endpoint = "https://overpass-api.de/api/interpreter"
+    response = requests.post(endpoint, data="data=" + query)
+    data = response.json()
+
+    with open("platforms-osm.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    return data["elements"]

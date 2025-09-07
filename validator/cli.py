@@ -2,6 +2,7 @@ import csv
 import itertools
 import json
 from typing import List, NamedTuple
+from .osm_download import fetch_osm_data
 
 PLK_Platform = NamedTuple(
     "PLK_Platform", [("station_name", str), ("platform", str), ("track", str)]
@@ -33,16 +34,15 @@ OSM_Platform = NamedTuple(
 
 def load_platforms_from_osm() -> List[OSM_Platform]:
     platforms = []
-    with open("platforms-osm.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-        for element in data["elements"]:
-            platforms.append(
-                OSM_Platform(
-                    station_name=element["tags"].get("name", ""),
-                    track=element["tags"].get("_track_ref", ""),
-                    location=tuple(element["geometry"]["coordinates"]),
-                )
+    data = fetch_osm_data()
+    for element in data:
+        platforms.append(
+            OSM_Platform(
+                station_name=element["tags"].get("name", ""),
+                track=element["tags"].get("_track_ref", ""),
+                location=tuple(element["geometry"]["coordinates"]),
             )
+        )
 
     return platforms
 
@@ -75,6 +75,7 @@ def compare(all_platforms: List[PLK_Platform], osm_platforms: List[OSM_Platform]
             else:
                 stations_with_more_platforms+=1
 
+    print()
     print("Stations with no platforms in OSM:", stations_with_no_platforms)
     print("Stations with missing platforms:", stations_with_missing_platforms)
     print("Stations with more platforms in OSM than PLK:", stations_with_more_platforms)

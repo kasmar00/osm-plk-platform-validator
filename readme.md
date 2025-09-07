@@ -16,14 +16,14 @@
 
 ## Query
 ```c
-[out:json][timeout:25];
+[out:json];
 
-{{geocodeArea:Mazowieckie}}->.searchArea;
+area(id:3600049715)->.searchArea; //Poland
 
 
 node["railway"="stop"](area.searchArea);
 foreach {
-  way(bn)[railway][ref] -> .ways;
+  way(bn)[railway] -> .ways;
   if (ways.count(ways) > 0) {
     convert result
       		::id = id(),
@@ -31,9 +31,6 @@ foreach {
     		_track_ref = ways.u(t["railway:track_ref"]),
             :: = ::;
    (._;>;);
-   /*added by auto repair*/
-   (._;>;);
-   /*end of auto repair*/
    out geom;
   }
 }
