@@ -1,4 +1,6 @@
-run: .env
+run: platforms-report.json
+
+platforms-report.json: $(wildcard validator/*.py) .env
 	. .env/bin/activate; python3 -m validator
 
 .env: .env/touchfile
@@ -10,9 +12,16 @@ run: .env
 
 clean:
 	rm platforms-report.json || true
+	rm -rf out || true
 
 deep-clean: clean
 	rm -rf .env .env/touchfile || true
 	rm platforms-osm.json || true
 	rm stations-osm.json || true
 	rm -rf __pycache__ || true
+
+publish: out/platforms-list.json
+
+out/platforms-list.json: platforms-report.json
+	mkdir -p out
+	cp platforms-report.json out/platforms-list.json
