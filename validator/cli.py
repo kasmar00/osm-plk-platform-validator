@@ -1,8 +1,8 @@
 import csv
 import itertools
 import json
-from typing import List, NamedTuple
-from .osm_download import fetch_osm_data
+from typing import List, NamedTuple, Dict
+from .osm_download import fetch_osm_platforms, fetch_osm_stations
 
 PLK_Platform = NamedTuple(
     "PLK_Platform", [("station_name", str), ("platform", str), ("track", str)]
@@ -34,7 +34,7 @@ OSM_Platform = NamedTuple(
 
 def load_platforms_from_osm() -> List[OSM_Platform]:
     platforms = []
-    data = fetch_osm_data()
+    data = fetch_osm_platforms()
     for element in data:
         platforms.append(
             OSM_Platform(
@@ -45,6 +45,29 @@ def load_platforms_from_osm() -> List[OSM_Platform]:
         )
 
     return platforms
+
+OSM_Station = NamedTuple(
+    "OSM_Station",
+    [
+        ("station_name", str),
+        ("location", tuple[float, float]),
+    ],
+)
+
+
+def load_stations_from_osm() -> Dict[str, OSM_Station]:
+    stations = {}
+    data = fetch_osm_stations()
+    for element in data:
+        name = element["tags"].get("name", "")
+        if name:
+            stations[name] = OSM_Station(
+                station_name=name,
+                location=(element["lat"], element["lon"]),
+            )
+
+    return stations
+
 
 def compare(all_platforms: List[PLK_Platform], osm_platforms: List[OSM_Platform]) -> None:
     all_grouped = {}
@@ -79,13 +102,102 @@ def compare(all_platforms: List[PLK_Platform], osm_platforms: List[OSM_Platform]
     print("Stations with no platforms in OSM:", stations_with_no_platforms)
     print("Stations with missing platforms:", stations_with_missing_platforms)
     print("Stations with more platforms in OSM than PLK:", stations_with_more_platforms)
-        
+
+
+Report_Platform = NamedTuple(
+    "Report_Platform",
+    [
+        ("station_name", str),
+        ("platform", str),
+        ("track", str),
+        ("location", tuple[float, float]),
+        ("exact_location", bool),
+    ],
+)
+
+
+def platform_locations(
+    plk_platforms: List[PLK_Platform],
+    osm_platforms: List[OSM_Platform],
+    osm_stations: List[OSM_Station],
+) -> Dict[str, List[Report_Platform]]:
+    locations: Dict[str, List[Report_Platform]] = {}
+    osm_by_station = {}
+
+    plk_grouped: Dict[str, List[PLK_Platform]] = {}
+    for k, v in itertools.groupby(
+        sorted(plk_platforms, key=lambda x: x.station_name),
+        key=lambda x: x.station_name,
+    ):
+        plk_grouped[k] = list(v)
+    osm_grouped: Dict[str, List[OSM_Platform]] = {}
+    for k, v in itertools.groupby(
+        sorted(osm_platforms, key=lambda x: x.station_name),
+        key=lambda x: x.station_name,
+    ):
+        osm_grouped[k] = list(v)
+
+    for station, platforms in plk_grouped.items():
+        osm_platforms = osm_grouped.get(station, [])
+        for plk in platforms:
+            matched_osm = next((x for x in osm_platforms if x.track == plk.track), None)
+
+            if matched_osm is not None:
+                locations.setdefault(station, []).append(
+                    Report_Platform(
+                        station_name=plk.station_name,
+                        platform=plk.platform,
+                        track=plk.track,
+                        location=matched_osm.location,
+                        exact_location=True,
+                    )
+                )
+            else:
+                locations.setdefault(station, []).append(
+                    Report_Platform(
+                        station_name=plk.station_name,
+                        platform=plk.platform,
+                        track=plk.track,
+                        location=(None, None),  # TODO: Add location of station
+                        exact_location=False,
+                    )
+                )
+
+    return locations
+
+def dump_report(locations: Dict[str, List[Report_Platform]]) -> None:
+    with open("platforms-report.json", "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                station: [
+                    {
+                        "station_name": p.station_name,
+                        "platform": p.platform,
+                        "track": p.track,
+                        "location": p.location,
+                        "exact_location": p.exact_location,
+                    }
+                    for p in platforms
+                ]
+                for station, platforms in locations.items()
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
 
 def main() -> None:
     plk_platforms = load_platforms_from_plk()
     osm_platforms = load_platforms_from_osm()
+    osm_stations = load_stations_from_osm()
 
     compare(plk_platforms, osm_platforms)
+
+    locations = platform_locations(plk_platforms, osm_platforms, osm_stations)
+    print(list(locations.items())[:10])
+    dump_report(locations)
+
     print("Stats")
     print(f"PLK has {len(plk_platforms)} platforms")
     print(f"OSM has {len(osm_platforms)} platforms")

@@ -2,3 +2,5 @@
 *.pyc
 
 platforms-osm.json
+stations-osm.json
+platforms-report.json
