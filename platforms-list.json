@@ -1805,30 +1805,30 @@
       "platform": "1",
       "track": "1",
       "location": [
-        null,
-        null
+        19.0451617,
+        49.8298222
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Bielsko-Biała Główna",
       "platform": "1a",
       "track": "3",
       "location": [
-        null,
-        null
+        19.0447767,
+        49.8315302
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Bielsko-Biała Główna",
       "platform": "2",
       "track": "4",
       "location": [
-        null,
-        null
+        19.045398,
+        49.8298224
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Bielsko-Biała Główna",
@@ -1845,20 +1845,20 @@
       "platform": "3",
       "track": "12",
       "location": [
-        null,
-        null
+        19.0456876,
+        49.8298463
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Bielsko-Biała Główna",
       "platform": "3",
       "track": "8",
       "location": [
-        null,
-        null
+        19.0455285,
+        49.8298438
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Bielsko-Biała Komorowice": [
@@ -11475,20 +11475,20 @@
       "platform": "1",
       "track": "4",
       "location": [
-        null,
-        null
+        22.3627684,
+        53.8244609
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Ełk",
       "platform": "1",
       "track": "6",
       "location": [
-        null,
-        null
+        22.3625931,
+        53.8244154
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Ełk",
@@ -11505,10 +11505,10 @@
       "platform": "2",
       "track": "5",
       "location": [
-        null,
-        null
+        22.363258,
+        53.8245959
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Ełk",
@@ -11525,10 +11525,10 @@
       "platform": "3",
       "track": "5",
       "location": [
-        null,
-        null
+        22.363258,
+        53.8245959
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Ełk Szyba Wschód": [
@@ -13345,50 +13345,50 @@
       "platform": "1",
       "track": "2",
       "location": [
-        null,
-        null
+        15.2286477,
+        52.727607
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Gorzów Wielkopolski",
       "platform": "1",
       "track": "1",
       "location": [
-        null,
-        null
+        15.2286252,
+        52.7277036
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Gorzów Wielkopolski",
       "platform": "2",
       "track": "4",
       "location": [
-        null,
-        null
+        15.2286555,
+        52.7275702
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Gorzów Wielkopolski",
       "platform": "4",
       "track": "51",
       "location": [
-        null,
-        null
+        15.2284444,
+        52.7267242
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Gorzów Wielkopolski",
       "platform": "4",
       "track": "53",
       "location": [
-        null,
-        null
+        15.2284008,
+        52.7268229
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Gorzów Wielkopolski Karnin": [
@@ -17407,50 +17407,50 @@
       "platform": "1",
       "track": "2",
       "location": [
-        null,
-        null
+        16.7976588,
+        53.40781
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jastrowie",
       "platform": "2",
       "track": "1",
       "location": [
-        null,
-        null
+        16.7978964,
+        53.4079568
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jastrowie",
       "platform": "2",
       "track": "3",
       "location": [
-        null,
-        null
+        16.7980545,
+        53.4079242
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jastrowie",
       "platform": "3",
       "track": "5",
       "location": [
-        null,
-        null
+        16.7981216,
+        53.4079057
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jastrowie",
       "platform": "3",
       "track": "9",
       "location": [
-        null,
-        null
+        16.7982634,
+        53.4078631
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Jastrowie Miasto": [
@@ -17681,50 +17681,50 @@
       "platform": "1",
       "track": "1",
       "location": [
-        null,
-        null
+        16.1971823,
+        51.0553613
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jawor",
       "platform": "1",
       "track": "2",
       "location": [
-        null,
-        null
+        16.1971348,
+        51.055278
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jawor",
       "platform": "2",
       "track": "3",
       "location": [
-        null,
-        null
+        16.197207,
+        51.0553978
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jawor",
       "platform": "2",
       "track": "5",
       "location": [
-        null,
-        null
+        16.1972555,
+        51.0554742
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jawor",
       "platform": "3",
       "track": "2",
       "location": [
-        null,
-        null
+        16.1971348,
+        51.055278
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Jaworzno Ciężkowice": [
@@ -18201,50 +18201,50 @@
       "platform": "1",
       "track": "18",
       "location": [
-        null,
-        null
+        15.7534026,
+        50.9027298
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jelenia Góra",
       "platform": "1a",
       "track": "6",
       "location": [
-        null,
-        null
+        15.7579392,
+        50.9020479
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jelenia Góra",
       "platform": "1b",
       "track": "12",
       "location": [
-        null,
-        null
+        15.7578849,
+        50.9018708
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jelenia Góra",
       "platform": "1b",
       "track": "10",
       "location": [
-        null,
-        null
+        15.7579227,
+        50.9019724
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jelenia Góra",
       "platform": "2",
       "track": "4",
       "location": [
-        null,
-        null
+        15.7564793,
+        50.9023706
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jelenia Góra",
@@ -18271,30 +18271,30 @@
       "platform": "3",
       "track": "3",
       "location": [
-        null,
-        null
+        15.7565773,
+        50.9026485
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jelenia Góra",
       "platform": "4",
       "track": "3",
       "location": [
-        null,
-        null
+        15.7565773,
+        50.9026485
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Jelenia Góra",
       "platform": "4",
       "track": "5",
       "location": [
-        null,
-        null
+        15.7566078,
+        50.9027254
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Jelenia Góra Cieplice": [
@@ -25951,10 +25951,10 @@
       "platform": "5",
       "track": "102",
       "location": [
-        null,
-        null
+        16.6565996,
+        50.4503971
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Kłodzko Główne",
@@ -25971,30 +25971,30 @@
       "platform": "1",
       "track": "5",
       "location": [
-        null,
-        null
+        16.6573076,
+        50.4500826
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Kłodzko Główne",
       "platform": "2",
       "track": "5",
       "location": [
-        null,
-        null
+        16.6573076,
+        50.4500826
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Kłodzko Główne",
       "platform": "2",
       "track": "9",
       "location": [
-        null,
-        null
+        16.6571832,
+        50.4500657
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Kłodzko Główne",
@@ -26021,10 +26021,10 @@
       "platform": "4",
       "track": "101",
       "location": [
-        null,
-        null
+        16.6566832,
+        50.4504099
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Kłodzko Książek": [
@@ -27901,10 +27901,10 @@
       "platform": "1",
       "track": "3",
       "location": [
-        null,
-        null
+        15.293248,
+        51.1112506
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Lubań Śląski",
@@ -27921,10 +27921,10 @@
       "platform": "3",
       "track": "3",
       "location": [
-        null,
-        null
+        15.293248,
+        51.1112506
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Lubań Śląski",
@@ -27941,20 +27941,20 @@
       "platform": "4",
       "track": "7",
       "location": [
-        null,
-        null
+        15.2939241,
+        51.1113344
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Lubań Śląski",
       "platform": "5",
       "track": "9",
       "location": [
-        null,
-        null
+        15.2941401,
+        51.1109554
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Lubicz": [
@@ -39409,20 +39409,20 @@
       "platform": "1",
       "track": "14",
       "location": [
-        null,
-        null
+        16.9129934,
+        52.4023089
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
       "platform": "1",
       "track": "16",
       "location": [
-        null,
-        null
+        16.9131973,
+        52.4022888
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
@@ -39449,20 +39449,20 @@
       "platform": "11",
       "track": "56",
       "location": [
-        null,
-        null
+        16.9107196,
+        52.4016668
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
       "platform": "11",
       "track": "58",
       "location": [
-        null,
-        null
+        16.9105253,
+        52.4016838
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
@@ -39499,10 +39499,10 @@
       "platform": "3",
       "track": "2",
       "location": [
-        null,
-        null
+        16.9122445,
+        52.4018055
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
@@ -39519,10 +39519,10 @@
       "platform": "5",
       "track": "1",
       "location": [
-        null,
-        null
+        16.9121814,
+        52.4018087
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
@@ -39539,20 +39539,20 @@
       "platform": "7",
       "track": "57",
       "location": [
-        null,
-        null
+        16.9104363,
+        52.3991405
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
       "platform": "7",
       "track": "55",
       "location": [
-        null,
-        null
+        16.9102878,
+        52.3991664
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Poznań Główny",
@@ -39569,10 +39569,10 @@
       "platform": "9",
       "track": "53",
       "location": [
-        null,
-        null
+        16.9122487,
+        52.4050432
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Poznań Junikowo": [
@@ -40149,70 +40149,70 @@
       "platform": "1",
       "track": "7",
       "location": [
-        null,
-        null
+        22.7799717,
+        49.7835055
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Przemyśl Główny",
       "platform": "1",
       "track": "3",
       "location": [
-        null,
-        null
+        22.7799777,
+        49.7835907
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Przemyśl Główny",
       "platform": "2",
       "track": "2",
       "location": [
-        null,
-        null
+        22.7799901,
+        49.783749
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Przemyśl Główny",
       "platform": "2",
       "track": "1",
       "location": [
-        null,
-        null
+        22.7799821,
+        49.7836347
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Przemyśl Główny",
       "platform": "3",
       "track": "103",
       "location": [
-        null,
-        null
+        22.7800106,
+        49.7839281
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Przemyśl Główny",
       "platform": "3",
       "track": "4",
       "location": [
-        null,
-        null
+        22.7799944,
+        49.7837948
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Przemyśl Główny",
       "platform": "4",
       "track": "101",
       "location": [
-        null,
-        null
+        22.7800105,
+        49.7839756
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Przemyśl Główny",
@@ -44919,20 +44919,20 @@
       "platform": "1",
       "track": "5",
       "location": [
-        null,
-        null
+        22.0048287,
+        50.0427601
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Rzeszów Główny",
       "platform": "1",
       "track": "3",
       "location": [
-        null,
-        null
+        22.0068827,
+        50.0429146
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Rzeszów Główny",
@@ -44959,20 +44959,20 @@
       "platform": "3",
       "track": "6",
       "location": [
-        null,
-        null
+        22.0060696,
+        50.0430471
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Rzeszów Główny",
       "platform": "3",
       "track": "8",
       "location": [
-        null,
-        null
+        22.006058,
+        50.043142
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Rzeszów Miłocin": [
@@ -48105,40 +48105,40 @@
       "platform": "2",
       "track": "2",
       "location": [
-        null,
-        null
+        22.0418231,
+        50.5914897
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Stalowa Wola Rozwadów",
       "platform": "2",
       "track": "1",
       "location": [
-        null,
-        null
+        22.0417246,
+        50.5914336
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Stalowa Wola Rozwadów",
       "platform": "3",
       "track": "5",
       "location": [
-        null,
-        null
+        22.0415731,
+        50.5913581
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Stalowa Wola Rozwadów",
       "platform": "3",
       "track": "3",
       "location": [
-        null,
-        null
+        22.0416729,
+        50.5914108
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Staniszcze Małe": [
@@ -48771,10 +48771,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        null,
-        null
+        16.1613823,
+        51.0789343
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Stary Klukom": [
