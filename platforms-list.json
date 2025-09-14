@@ -17,8 +17,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        51.9042694,
-        22.4822746
+        51.9042578,
+        22.4822646
       ],
       "exact_location": false
     }
@@ -997,8 +997,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        51.7717986,
-        22.8044181
+        51.7718584,
+        22.8042282
       ],
       "exact_location": false
     }
@@ -29979,8 +29979,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        51.7020496,
-        22.875202
+        51.7020863,
+        22.8751599
       ],
       "exact_location": false
     }
@@ -32039,7 +32039,7 @@
   "Nadolice Małe": [
     {
       "station_name": "Nadolice Małe",
-      "platform": "01",
+      "platform": "1",
       "track": "1",
       "location": [
         51.081793,
@@ -32051,7 +32051,7 @@
   "Nadolice Wielkie": [
     {
       "station_name": "Nadolice Wielkie",
-      "platform": "01",
+      "platform": "1",
       "track": "1",
       "location": [
         51.0798631,
@@ -52769,8 +52769,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        51.5063885,
-        22.6865744
+        51.5063702,
+        22.6865331
       ],
       "exact_location": false
     }
@@ -61640,6 +61640,2275 @@
       "exact_location": true
     }
   ],
+  "Zagościniec": [
+    {
+      "station_name": "Zagościniec",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.2798229,
+        52.3645343
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zagościniec",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        21.2811574,
+        52.365154
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zagrody": [
+    {
+      "station_name": "Zagrody",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.0514746,
+        22.9048847
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zagrody Kościół": [
+    {
+      "station_name": "Zagrody Kościół",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.1904136,
+        51.0783714
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zagórz": [
+    {
+      "station_name": "Zagórz",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        49.5134532,
+        22.2643414
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zagórz",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        49.5134532,
+        22.2643414
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zagórz",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        49.5134532,
+        22.2643414
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zagórz",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        49.5134532,
+        22.2643414
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zagórze Śląskie": [
+    {
+      "station_name": "Zagórze Śląskie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        16.4035574,
+        50.7537545
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zajezierce": [
+    {
+      "station_name": "Zajezierce",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.1013217,
+        23.3581024
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zajezierze koło Dęblina": [
+    {
+      "station_name": "Zajezierze koło Dęblina",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.8172146,
+        51.5420494
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zajezierze koło Dęblina",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.8172146,
+        51.5420494
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zajezierze koło Dęblina",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        21.8172983,
+        51.5420349
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zajączkowo Lubawskie": [
+    {
+      "station_name": "Zajączkowo Lubawskie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.7134026,
+        53.4441334
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zajączkowo Lubawskie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.712175,
+        53.4446195
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zaklików": [
+    {
+      "station_name": "Zaklików",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        50.7684666,
+        22.1084084
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zaklików",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.7684666,
+        22.1084084
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zaklików Miasto": [
+    {
+      "station_name": "Zaklików Miasto",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.7547831,
+        22.0933398
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zakopane": [
+    {
+      "station_name": "Zakopane",
+      "platform": "1",
+      "track": "5",
+      "location": [
+        49.3006882,
+        19.9628146
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zakopane",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        49.3006882,
+        19.9628146
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zakopane",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        49.3006882,
+        19.9628146
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zakopane",
+      "platform": "3",
+      "track": "2",
+      "location": [
+        49.3006882,
+        19.9628146
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zakopane",
+      "platform": "3",
+      "track": "4",
+      "location": [
+        49.3006882,
+        19.9628146
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zakopane",
+      "platform": "4",
+      "track": "6",
+      "location": [
+        49.3006882,
+        19.9628146
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zakrzewo Złotowskie": [
+    {
+      "station_name": "Zakrzewo Złotowskie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.1408238,
+        53.4164764
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zakrzów Kotowice": [
+    {
+      "station_name": "Zakrzów Kotowice",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.2100833,
+        51.0357185
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zakrzów-Sarnowo": [
+    {
+      "station_name": "Zakrzów-Sarnowo",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.2841308,
+        53.2827624
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zalesie Górne": [
+    {
+      "station_name": "Zalesie Górne",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.0417578,
+        52.0265113
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zalesie Górne",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        21.0418185,
+        52.0265193
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zalesie Krasieńskie": [
+    {
+      "station_name": "Zalesie Krasieńskie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.1666036,
+        51.1216774
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zalesie Krasieńskie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        23.166616,
+        51.1217139
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zamek Bulowicki": [
+    {
+      "station_name": "Zamek Bulowicki",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.880075,
+        19.263448
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zamość": [
+    {
+      "station_name": "Zamość",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.7135833,
+        23.2385958
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zamość",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        50.7135833,
+        23.2385958
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zamość Starówka": [
+    {
+      "station_name": "Zamość Starówka",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.2626942,
+        50.717038
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zamość Wschód": [
+    {
+      "station_name": "Zamość Wschód",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.2760535,
+        50.7225124
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zaosie": [
+    {
+      "station_name": "Zaosie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.9334067,
+        51.6336609
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zaosie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.9334733,
+        51.6336885
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zarośle": [
+    {
+      "station_name": "Zarośle",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.1173751,
+        53.6642244
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zarszyn": [
+    {
+      "station_name": "Zarszyn",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        49.5841665,
+        22.0195565
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zarszyn",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        49.5841665,
+        22.0195565
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zaryń": [
+    {
+      "station_name": "Zaryń",
+      "platform": "1",
+      "track": "4",
+      "location": null,
+      "exact_location": false
+    },
+    {
+      "station_name": "Zaryń",
+      "platform": "3",
+      "track": "1",
+      "location": null,
+      "exact_location": false
+    },
+    {
+      "station_name": "Zaryń",
+      "platform": "3",
+      "track": "2",
+      "location": null,
+      "exact_location": false
+    }
+  ],
+  "Zarzecze": [
+    {
+      "station_name": "Zarzecze",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.6983499,
+        50.3630606
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zarzecze",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.6983847,
+        50.3630322
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zaręba": [
+    {
+      "station_name": "Zaręba",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        51.0981222,
+        15.2195728
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zarębki": [
+    {
+      "station_name": "Zarębki",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.2724546,
+        21.7620319
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zaręby Kościelne": [
+    {
+      "station_name": "Zaręby Kościelne",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        22.1392879,
+        52.7304354
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zaręby Kościelne",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        22.1423887,
+        52.7315392
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zasieki": [
+    {
+      "station_name": "Zasieki",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        14.6692552,
+        51.7354953
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zastocze": [
+    {
+      "station_name": "Zastocze",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.3123872,
+        22.8574355
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zastów": [
+    {
+      "station_name": "Zastów",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        20.0691282,
+        50.1237563
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zastów",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.0690364,
+        50.1238112
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zastów",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        50.1237784,
+        20.0690701
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zator": [
+    {
+      "station_name": "Zator",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.4289463,
+        50.0023031
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zator",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        19.4289152,
+        50.0022035
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zator Park Rozrywki": [
+    {
+      "station_name": "Zator Park Rozrywki",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.4063077,
+        50.0053256
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zator Park Rozrywki",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.4062991,
+        50.005301
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zawada": [
+    {
+      "station_name": "Zawada",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.7159984,
+        23.1253606
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zawada",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        50.7159984,
+        23.1253606
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zawadzkie": [
+    {
+      "station_name": "Zawadzkie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        18.4732774,
+        50.6091935
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawadzkie",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.4732774,
+        50.6091935
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawadzkie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        18.4730313,
+        50.6092306
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zawadówka": [
+    {
+      "station_name": "Zawadówka",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        23.3551669,
+        51.1241373
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawadówka",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.3551255,
+        51.1240539
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zawidz": [
+    {
+      "station_name": "Zawidz",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        52.8294997,
+        19.8436701
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zawidz",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        19.8436623,
+        52.8294728
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zawidz Kościelny": [
+    {
+      "station_name": "Zawidz Kościelny",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.8780385,
+        52.8240986
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zawiercie": [
+    {
+      "station_name": "Zawiercie",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        19.4234568,
+        50.4794051
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawiercie",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        19.4230207,
+        50.4810155
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawiercie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.4232308,
+        50.481019
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawiercie",
+      "platform": "3",
+      "track": "7",
+      "location": [
+        19.4226576,
+        50.4825074
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawiercie",
+      "platform": "3",
+      "track": "9",
+      "location": [
+        19.42251,
+        50.4825016
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zawiercie Borowe Pole": [
+    {
+      "station_name": "Zawiercie Borowe Pole",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.3989734,
+        50.5107797
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zawiercie Borowe Pole",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.3990357,
+        50.5107963
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zawiercie Kądzielów": [
+    {
+      "station_name": "Zawiercie Kądzielów",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.405304,
+        50.4697703
+      ],
+      "exact_location": true
+    }
+  ],
+  "Załuż": [
+    {
+      "station_name": "Załuż",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.5293711,
+        22.3128382
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zblewo": [
+    {
+      "station_name": "Zblewo",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        18.3053895,
+        53.9427154
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zblewo",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.3053384,
+        53.9427621
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zbydniów": [
+    {
+      "station_name": "Zbydniów",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.6345402,
+        21.9213683
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zbydniów",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        50.6345402,
+        21.9213683
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zbąszynek": [
+    {
+      "station_name": "Zbąszynek",
+      "platform": "1",
+      "track": "7",
+      "location": [
+        15.8177423,
+        52.2427628
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszynek",
+      "platform": "1",
+      "track": "5",
+      "location": [
+        15.8179144,
+        52.242702
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszynek",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        15.8180445,
+        52.2426566
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszynek",
+      "platform": "2a",
+      "track": "2",
+      "location": [
+        15.8183187,
+        52.2425668
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszynek",
+      "platform": "3",
+      "track": "4",
+      "location": [
+        15.8183802,
+        52.2425461
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszynek",
+      "platform": "3",
+      "track": "6",
+      "location": [
+        15.8185624,
+        52.24248
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zbąszyń": [
+    {
+      "station_name": "Zbąszyń",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.8947628,
+        52.2595635
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszyń",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.8947597,
+        52.2594978
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszyń",
+      "platform": "3",
+      "track": "4",
+      "location": [
+        15.894759,
+        52.2594557
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zbąszyń",
+      "platform": "3",
+      "track": "6",
+      "location": [
+        15.8947614,
+        52.259364
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zbąszyń Przedmieście": [
+    {
+      "station_name": "Zbąszyń Przedmieście",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.9269882,
+        52.2568795
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zdrody Nowe": [
+    {
+      "station_name": "Zdrody Nowe",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        22.7806989,
+        52.9535058
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zdrody Nowe",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        22.7836223,
+        52.9545589
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zduny": [
+    {
+      "station_name": "Zduny",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        51.6464157,
+        17.3662662
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zduny",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        17.3662111,
+        51.6464079
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zduńska Wola": [
+    {
+      "station_name": "Zduńska Wola",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        18.9469895,
+        51.6112522
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zduńska Wola",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        18.9480492,
+        51.6113458
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zduńska Wola",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.9480446,
+        51.6114441
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zduńska Wola Karsznice": [
+    {
+      "station_name": "Zduńska Wola Karsznice",
+      "platform": "2",
+      "track": "202",
+      "location": [
+        51.5890163,
+        18.9947256
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zduńska Wola Karsznice",
+      "platform": "2",
+      "track": "201",
+      "location": [
+        51.5890163,
+        18.9947256
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zduńska Wola Karsznice",
+      "platform": "3",
+      "track": "203",
+      "location": [
+        51.5890163,
+        18.9947256
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zduńska Wola Karsznice",
+      "platform": "3",
+      "track": "205",
+      "location": [
+        51.5890163,
+        18.9947256
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zduńska Wola Południowa": [
+    {
+      "station_name": "Zduńska Wola Południowa",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        19.0055101,
+        51.5801967
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zdzieszowice": [
+    {
+      "station_name": "Zdzieszowice",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        18.1261773,
+        50.4220282
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zdzieszowice",
+      "platform": "2",
+      "track": "7",
+      "location": [
+        18.1268836,
+        50.4216426
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zdzieszowice",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.1267237,
+        50.4215667
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zebrzydowa": [
+    {
+      "station_name": "Zebrzydowa",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        15.389142,
+        51.2546644
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zebrzydowa",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        15.389148,
+        51.2547056
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zebrzydowice": [
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "1",
+      "track": "8",
+      "location": [
+        18.6233538,
+        49.8701438
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        18.6230084,
+        49.8704069
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "2",
+      "track": "6",
+      "location": [
+        18.6229766,
+        49.8703119
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "3",
+      "track": "2",
+      "location": [
+        18.6231557,
+        49.8704246
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        18.6232061,
+        49.8705169
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "4",
+      "track": "17",
+      "location": [
+        49.8704685,
+        18.6231775
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "5",
+      "track": "19",
+      "location": [
+        18.6227474,
+        49.8711002
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zebrzydowice",
+      "platform": "5",
+      "track": "23",
+      "location": [
+        49.8704685,
+        18.6231775
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zegrze Południowe": [
+    {
+      "station_name": "Zegrze Południowe",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        21.0085136,
+        52.4521947
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zegrze Południowe",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.0080132,
+        52.4517016
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zelczyna": [
+    {
+      "station_name": "Zelczyna",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.7460219,
+        49.9610715
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zelczyna",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.7460345,
+        49.961032
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zembrzyce": [
+    {
+      "station_name": "Zembrzyce",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.7749692,
+        19.5914722
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zgierz": [
+    {
+      "station_name": "Zgierz",
+      "platform": "1",
+      "track": "7",
+      "location": [
+        19.4255421,
+        51.8495568
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgierz",
+      "platform": "2",
+      "track": "5",
+      "location": [
+        19.4256166,
+        51.8495313
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgierz",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        19.4257633,
+        51.8494731
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgierz",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        19.4258223,
+        51.8494548
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgierz",
+      "platform": "3",
+      "track": "4",
+      "location": [
+        19.4259723,
+        51.8494014
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zgierz Jaracza": [
+    {
+      "station_name": "Zgierz Jaracza",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.4224654,
+        51.8638125
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zgierz Kontrewers": [
+    {
+      "station_name": "Zgierz Kontrewers",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        19.3403207,
+        51.8648234
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgierz Kontrewers",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        19.3403229,
+        51.8647786
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zgierz Północ": [
+    {
+      "station_name": "Zgierz Północ",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.3837377,
+        51.8691324
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgierz Północ",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        51.8691546,
+        19.3837488
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zgierz Rudunki": [
+    {
+      "station_name": "Zgierz Rudunki",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        51.8611801,
+        19.4374581
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zgorzelec": [
+    {
+      "station_name": "Zgorzelec",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.0029023,
+        51.1403337
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgorzelec",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.0028998,
+        51.1402908
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgorzelec",
+      "platform": "3",
+      "track": "4",
+      "location": [
+        15.0042476,
+        51.1400361
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgorzelec",
+      "platform": "4",
+      "track": "6",
+      "location": [
+        51.1401724,
+        15.0030407
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zgorzelec Miasto": [
+    {
+      "station_name": "Zgorzelec Miasto",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.0201377,
+        51.1544052
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zgorzelec Miasto",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.0200887,
+        51.1552985
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zieleń": [
+    {
+      "station_name": "Zieleń",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        18.9302447,
+        53.2159697
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zieleń",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.9302455,
+        53.2159025
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielomyśl": [
+    {
+      "station_name": "Zielomyśl",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        52.5311392,
+        15.7642913
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zielona Góra Główna": [
+    {
+      "station_name": "Zielona Góra Główna",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        15.5120398,
+        51.9473258
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielona Góra Główna",
+      "platform": "1a",
+      "track": "8",
+      "location": [
+        15.5095978,
+        51.947162
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielona Góra Główna",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        15.512026,
+        51.9474646
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielona Góra Główna",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.5120353,
+        51.9473659
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielona Góra Główna",
+      "platform": "3",
+      "track": "52",
+      "location": [
+        51.947377,
+        15.5111288
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zielona Góra Nowy Kisielin": [
+    {
+      "station_name": "Zielona Góra Nowy Kisielin",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.6264918,
+        51.9157637
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielona Góra Nowy Kisielin",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.6264558,
+        51.9157343
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielona Góra Przylep": [
+    {
+      "station_name": "Zielona Góra Przylep",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.4388418,
+        51.9778689
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielona Góra Przylep",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.4387762,
+        51.9778776
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielona Góra Stary Kisielin": [
+    {
+      "station_name": "Zielona Góra Stary Kisielin",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        15.5889251,
+        51.9372317
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielona Góra Stary Kisielin",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        15.5889726,
+        51.9372649
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielonczyn": [
+    {
+      "station_name": "Zielonczyn",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.8072109,
+        53.1510203
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielonczyn",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        17.8089042,
+        53.1509816
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielonczyn",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        17.8089067,
+        53.1509119
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielone Wzgórza": [
+    {
+      "station_name": "Zielone Wzgórza",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        52.5652259,
+        17.00857
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zielonka": [
+    {
+      "station_name": "Zielonka",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.1577784,
+        52.31168
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielonka",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        21.1577154,
+        52.3117674
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielonka",
+      "platform": "2",
+      "track": "6",
+      "location": [
+        21.1568783,
+        52.3115419
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielonka Bankowa": [
+    {
+      "station_name": "Zielonka Bankowa",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.1550505,
+        52.2905987
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zielonka Bankowa",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        21.1529663,
+        52.2923272
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielonka Pasłęcka": [
+    {
+      "station_name": "Zielonka Pasłęcka",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.7006233,
+        53.9815358
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zielonka Pomorska": [
+    {
+      "station_name": "Zielonka Pomorska",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        18.1092394,
+        53.5775237
+      ],
+      "exact_location": true
+    }
+  ],
+  "Ziemomyśl": [
+    {
+      "station_name": "Ziemomyśl",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.1671009,
+        15.3021076
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Ziemomyśl",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        53.1671009,
+        15.3021076
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zimnochy": [
+    {
+      "station_name": "Zimnochy",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.0854113,
+        52.9548429
+      ],
+      "exact_location": true
+    }
+  ],
+  "Ziębice": [
+    {
+      "station_name": "Ziębice",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.033928,
+        50.6086812
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Ziębice",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        17.0338454,
+        50.6086523
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zosinów": [
+    {
+      "station_name": "Zosinów",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.7178337,
+        52.1852167
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zosinów",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.714591,
+        52.1862345
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zubrzyk": [
+    {
+      "station_name": "Zubrzyk",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.3874729,
+        20.7538461
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zwardoń": [
+    {
+      "station_name": "Zwardoń",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        18.9781753,
+        49.5045482
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zwardoń",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.9771486,
+        49.5042793
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zwardoń",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        18.9771136,
+        49.5043688
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zwierzyn": [
+    {
+      "station_name": "Zwierzyn",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.5835329,
+        52.8364278
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zwierzyn",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.5840003,
+        52.8365453
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zwierzyniec": [
+    {
+      "station_name": "Zwierzyniec",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        52.3997487,
+        16.992445
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zygmuntowo Mazowieckie": [
+    {
+      "station_name": "Zygmuntowo Mazowieckie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        52.7275437,
+        21.5257061
+      ],
+      "exact_location": false
+    }
+  ],
+  "Zygmuntów": [
+    {
+      "station_name": "Zygmuntów",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.5710748,
+        51.4089861
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zygmuntów",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        20.5711135,
+        51.4090242
+      ],
+      "exact_location": true
+    }
+  ],
+  "Ząbki": [
+    {
+      "station_name": "Ząbki",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.1144527,
+        52.2928651
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Ząbki",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        21.1122861,
+        52.2920495
+      ],
+      "exact_location": true
+    }
+  ],
+  "Ząbkowice Śląskie": [
+    {
+      "station_name": "Ząbkowice Śląskie",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        50.5972985,
+        16.812773
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Ząbkowice Śląskie",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        50.5972985,
+        16.812773
+      ],
+      "exact_location": false
+    }
+  ],
+  "Ząbrowo": [
+    {
+      "station_name": "Ząbrowo",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.4600087,
+        53.6383355
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Ząbrowo",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.4616864,
+        53.6362586
+      ],
+      "exact_location": true
+    }
+  ],
+  "Zębice Wrocławskie": [
+    {
+      "station_name": "Zębice Wrocławskie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.1633799,
+        51.0059253
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Zębice Wrocławskie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        17.1607706,
+        51.0074048
+      ],
+      "exact_location": true
+    }
+  ],
+  "Złocieniec": [
+    {
+      "station_name": "Złocieniec",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.5278737,
+        16.0187029
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Złocieniec",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        53.5278737,
+        16.0187029
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Złocieniec",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        53.5278737,
+        16.0187029
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Złocieniec",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        53.5278737,
+        16.0187029
+      ],
+      "exact_location": false
+    }
+  ],
+  "Złojec": [
+    {
+      "station_name": "Złojec",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.1010948,
+        50.768495
+      ],
+      "exact_location": true
+    }
+  ],
+  "Złotkowo": [
+    {
+      "station_name": "Złotkowo",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        16.8306536,
+        52.5098502
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Złotkowo",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        16.8305977,
+        52.5098486
+      ],
+      "exact_location": true
+    }
+  ],
+  "Złotniki": [
+    {
+      "station_name": "Złotniki",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        16.836314,
+        52.4952391
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Złotniki",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        16.8364624,
+        52.4952737
+      ],
+      "exact_location": true
+    }
+  ],
+  "Złotniki Grzybowe": [
+    {
+      "station_name": "Złotniki Grzybowe",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        16.8437652,
+        52.4847137
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Złotniki Grzybowe",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        16.8437096,
+        52.4847003
+      ],
+      "exact_location": true
+    }
+  ],
+  "Złotniki Kujawskie": [
+    {
+      "station_name": "Złotniki Kujawskie",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        18.1481373,
+        52.9028517
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Złotniki Kujawskie",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.1475126,
+        52.9035217
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Złotniki Kujawskie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        18.1481373,
+        52.9028517
+      ],
+      "exact_location": true
+    }
+  ],
+  "Złotniki Kutnowskie": [
+    {
+      "station_name": "Złotniki Kutnowskie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.4034838,
+        52.2251604
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Złotniki Kutnowskie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.4903703,
+        52.2252903
+      ],
+      "exact_location": true
+    }
+  ],
+  "Złotów": [
+    {
+      "station_name": "Złotów",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        17.0528708,
+        53.3590208
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Złotów",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        17.0531251,
+        53.3592325
+      ],
+      "exact_location": true
+    }
+  ],
   "Ćmielów": [
     {
       "station_name": "Ćmielów",
@@ -64247,6 +66516,957 @@
         50.289123
       ],
       "exact_location": true
+    }
+  ],
+  "Żabi Róg": [
+    {
+      "station_name": "Żabi Róg",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.0175471,
+        53.8763935
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żabi Róg",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        20.0175471,
+        53.8763935
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żabi Róg",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        20.0176,
+        53.8764354
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żabiny": [
+    {
+      "station_name": "Żabiny",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.9846037,
+        53.3414253
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żabiny",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.9818056,
+        53.3426835
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żabno koło Chojnic": [
+    {
+      "station_name": "Żabno koło Chojnic",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.8543998,
+        17.7070346
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żabowo": [
+    {
+      "station_name": "Żabowo",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.7174836,
+        15.1904261
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żagań": [
+    {
+      "station_name": "Żagań",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        15.3163393,
+        51.603959
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żagań",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.3162118,
+        51.6038643
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żagań",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        15.3161239,
+        51.6038602
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żagań",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        15.3159932,
+        51.6037674
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żagań",
+      "platform": "3",
+      "track": "12",
+      "location": [
+        15.3149795,
+        51.6040684
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żagań",
+      "platform": "3",
+      "track": "14",
+      "location": [
+        15.3156775,
+        51.6035505
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żagań",
+      "platform": "5",
+      "track": "20",
+      "location": [
+        51.6037635,
+        15.3154215
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żagań",
+      "platform": "5",
+      "track": "22",
+      "location": [
+        15.3152294,
+        51.6034299
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żakowice": [
+    {
+      "station_name": "Żakowice",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.7892209,
+        51.731876
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żakowice",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.792779,
+        51.7324899
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żakowice Południowe": [
+    {
+      "station_name": "Żakowice Południowe",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.7862408,
+        51.7301172
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żakowice Południowe",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.7862543,
+        51.7301545
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żalno": [
+    {
+      "station_name": "Żalno",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.7594061,
+        53.5978431
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żalno",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        53.597648,
+        17.7596741
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żalno",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        17.7594061,
+        53.5978431
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żarki-Letnisko": [
+    {
+      "station_name": "Żarki-Letnisko",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.2729884,
+        50.6230909
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żarki-Letnisko",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.273055,
+        50.6231062
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żarnowa": [
+    {
+      "station_name": "Żarnowa",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.877528,
+        21.8190401
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żary": [
+    {
+      "station_name": "Żary",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        15.1380148,
+        51.6342243
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żary",
+      "platform": "2",
+      "track": "6",
+      "location": [
+        15.1381898,
+        51.6341466
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żary",
+      "platform": "2",
+      "track": "8",
+      "location": [
+        15.138156,
+        51.6340597
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żary",
+      "platform": "3",
+      "track": "2",
+      "location": [
+        15.1389716,
+        51.6343084
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żary",
+      "platform": "4",
+      "track": "1",
+      "location": [
+        15.13871,
+        51.6344664
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żary Kunice": [
+    {
+      "station_name": "Żary Kunice",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        15.1657204,
+        51.5993463
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żary Muzyków": [
+    {
+      "station_name": "Żary Muzyków",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        51.6415688,
+        15.1165045
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żarów": [
+    {
+      "station_name": "Żarów",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        50.9394957,
+        16.4927789
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żarów",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.9394957,
+        16.4927789
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żednia": [
+    {
+      "station_name": "Żednia",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        53.0870034,
+        23.4712341
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żegiestów": [
+    {
+      "station_name": "Żegiestów",
+      "platform": "1",
+      "track": "5",
+      "location": [
+        49.3675633,
+        20.7852637
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żegiestów",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        49.3675633,
+        20.7852637
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żegiestów-Zdrój": [
+    {
+      "station_name": "Żegiestów-Zdrój",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.3627098,
+        20.8039188
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żelistrzewo": [
+    {
+      "station_name": "Żelistrzewo",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        54.674051,
+        18.4161141
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żelisławice": [
+    {
+      "station_name": "Żelisławice",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        19.8578903,
+        50.8035314
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żelisławice",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        19.857853,
+        50.8035803
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żelisławice",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        19.8578903,
+        50.8035314
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żelisławice",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        19.8578168,
+        50.8036312
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żelisławice",
+      "platform": "3",
+      "track": "2",
+      "location": [
+        19.857853,
+        50.8035803
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żelisławie Pomorskie": [
+    {
+      "station_name": "Żelisławie Pomorskie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.5240926,
+        16.1499087
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żelisławie Pomorskie",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        53.5240926,
+        16.1499087
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żerków": [
+    {
+      "station_name": "Żerków",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.4976986,
+        52.0696731
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żerków",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        52.0698389,
+        17.4976459
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żmigród": [
+    {
+      "station_name": "Żmigród",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        16.9018851,
+        51.4751884
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żmigród",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        16.9018292,
+        51.475257
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żmigród",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        51.4753316,
+        16.9018748
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żory": [
+    {
+      "station_name": "Żory",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        18.7020541,
+        50.0532277
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żory",
+      "platform": "2",
+      "track": "5",
+      "location": [
+        18.7018998,
+        50.0531902
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żory",
+      "platform": "2",
+      "track": "9",
+      "location": [
+        18.7017764,
+        50.0531647
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żugienie": [
+    {
+      "station_name": "Żugienie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.0881196,
+        54.2592951
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żukowo Zachodnie": [
+    {
+      "station_name": "Żukowo Zachodnie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        54.3324874,
+        18.3477467
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żulin": [
+    {
+      "station_name": "Żulin",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        23.1720534,
+        51.0625385
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żurawica Osobowa": [
+    {
+      "station_name": "Żurawica Osobowa",
+      "platform": "1",
+      "track": "203",
+      "location": null,
+      "exact_location": false
+    }
+  ],
+  "Żurawica Rozrządowa": [
+    {
+      "station_name": "Żurawica Rozrządowa",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.8324018,
+        22.83728
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żurawica Rozrządowa",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        49.8324018,
+        22.83728
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żurawnica": [
+    {
+      "station_name": "Żurawnica",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        50.6422637,
+        22.9598459
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żychlin": [
+    {
+      "station_name": "Żychlin",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        19.619202,
+        52.2130743
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żychlin",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        19.6186762,
+        52.2132936
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żychlin",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        19.6186452,
+        52.2131934
+      ],
+      "exact_location": true
+    }
+  ],
+  "Życzyn": [
+    {
+      "station_name": "Życzyn",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        21.7596866,
+        51.6482238
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Życzyn",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        21.761431,
+        51.6468502
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Życzyn",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.7612789,
+        51.6467985
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żydowo": [
+    {
+      "station_name": "Żydowo",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        52.4535985,
+        17.5681124
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żydowo",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        52.4535985,
+        17.5681124
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żyrardów": [
+    {
+      "station_name": "Żyrardów",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.4492067,
+        52.0525627
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żyrardów",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        20.4494463,
+        52.0524571
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żyrardów",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        20.4493533,
+        52.0525622
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żytkowice": [
+    {
+      "station_name": "Żytkowice",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.5567294,
+        51.4830417
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żytkowice",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        21.5567394,
+        51.4829998
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żytkowice",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        51.4829988,
+        21.556545
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żywiec": [
+    {
+      "station_name": "Żywiec",
+      "platform": "1",
+      "track": "8",
+      "location": [
+        49.6791207,
+        19.1856696
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żywiec",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        49.6791207,
+        19.1856696
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żywiec",
+      "platform": "2",
+      "track": "6",
+      "location": [
+        49.6791207,
+        19.1856696
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żywiec",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        49.6791207,
+        19.1856696
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żywiec",
+      "platform": "3",
+      "track": "5",
+      "location": [
+        49.6791207,
+        19.1856696
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żywiec Sporysz": [
+    {
+      "station_name": "Żywiec Sporysz",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        49.6763068,
+        19.222331
+      ],
+      "exact_location": false
+    },
+    {
+      "station_name": "Żywiec Sporysz",
+      "platform": "1",
+      "track": "3",
+      "location": [
+        49.6763068,
+        19.222331
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żórawina": [
+    {
+      "station_name": "Żórawina",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.0495303,
+        50.9833706
+      ],
+      "exact_location": true
+    },
+    {
+      "station_name": "Żórawina",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        17.0496468,
+        50.9835166
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żółtnica": [
+    {
+      "station_name": "Żółtnica",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        16.8125875,
+        53.6952079
+      ],
+      "exact_location": true
+    }
+  ],
+  "Żółwino": [
+    {
+      "station_name": "Żółwino",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        53.2889362,
+        15.690399
+      ],
+      "exact_location": false
+    }
+  ],
+  "Żędowice": [
+    {
+      "station_name": "Żędowice",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false
+    },
+    {
+      "station_name": "Żędowice",
+      "platform": "2",
+      "track": "2",
+      "location": null,
+      "exact_location": false
     }
   ]
 }
