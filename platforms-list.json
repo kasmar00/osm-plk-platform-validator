@@ -30330,22 +30330,22 @@
     {
       "station_name": "Międzyrzec Podlaski",
       "platform": "1",
-      "track": "22",
+      "track": "2",
       "location": [
-        22.7855957,
-        51.9760347
+        22.7838636,
+        51.9759219
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Międzyrzec Podlaski",
       "platform": "2",
-      "track": "11",
+      "track": "1",
       "location": [
-        22.7855957,
-        51.9760347
+        22.7876051,
+        51.9761681
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Międzyrzec Podlaski",
@@ -45237,22 +45237,22 @@
     {
       "station_name": "Sadowne Węgrowskie",
       "platform": "1",
-      "track": "11",
+      "track": "1",
       "location": [
-        21.8580585,
-        52.6050736
+        21.8584167,
+        52.6052341
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Sadowne Węgrowskie",
       "platform": "2",
-      "track": "22",
+      "track": "2",
       "location": [
-        21.8580585,
-        52.6050736
+        21.8583736,
+        52.6052652
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Sadurki": [
@@ -47511,7 +47511,7 @@
     {
       "station_name": "Sosnowiec Główny",
       "platform": "1",
-      "track": "44",
+      "track": "4",
       "location": [
         19.1263859,
         50.27895
