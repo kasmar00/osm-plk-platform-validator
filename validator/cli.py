@@ -3,6 +3,7 @@ import itertools
 import json
 from typing import List, NamedTuple, Dict
 from .osm_download import fetch_osm_platforms, fetch_osm_stations
+import re
 
 PLK_Platform = NamedTuple(
     "PLK_Platform", [("station_name", str), ("platform", str), ("track", str)]
@@ -86,6 +87,7 @@ def compare(all_platforms: List[PLK_Platform], osm_platforms: List[OSM_Platform]
     stations_with_no_platforms = 0
     stations_with_missing_platforms = 0
     stations_with_more_platforms = 0
+    single_track_stations_with_missing_platforms = 0
     for station, platforms in dict(all_grouped).items():
         platforms = list(platforms)
         osm_platforms = list(osm_grouped.get(station, []))
@@ -97,11 +99,14 @@ def compare(all_platforms: List[PLK_Platform], osm_platforms: List[OSM_Platform]
                 stations_with_missing_platforms+=1
             else:
                 stations_with_more_platforms+=1
+            if len(platforms)==1 and len(osm_platforms)==0:
+                single_track_stations_with_missing_platforms+=1
 
     print()
     print("Stations with no platforms in OSM:", stations_with_no_platforms)
     print("Stations with missing platforms:", stations_with_missing_platforms)
     print("Stations with more platforms in OSM than PLK:", stations_with_more_platforms)
+    print("Single-track stations with missing platforms:", single_track_stations_with_missing_platforms)
 
 
 Report_Platform = NamedTuple(
@@ -114,6 +119,18 @@ Report_Platform = NamedTuple(
         ("exact_location", bool),
     ],
 )
+
+
+def match_platform(
+    plk: PLK_Platform, clean_track: str, osm_platforms: List[OSM_Platform]
+) -> OSM_Platform | None:
+    for osm in osm_platforms:
+        if plk.track == osm.track:
+            return osm
+    for osm in osm_platforms:
+        if clean_track == re.sub(r"\D", "", osm.track):
+            return osm
+    return None
 
 
 def platform_locations(
@@ -137,10 +154,14 @@ def platform_locations(
     ):
         osm_grouped[k] = list(v)
 
+    missing_platforms = 0
+    total_platforms = 0
+    missing_stations = 0
     for station, platforms in plk_grouped.items():
         osm_platforms = osm_grouped.get(station, [])
         for plk in platforms:
-            matched_osm = next((x for x in osm_platforms if x.track == plk.track), None)
+            clean_track = re.sub(r"\D", "", plk.track.split(",")[0].strip())
+            matched_osm = match_platform(plk, clean_track, osm_platforms)
             # TODO: fix when there are multiple platforms with the same track...
 
             if matched_osm is not None:
@@ -148,7 +169,7 @@ def platform_locations(
                     Report_Platform(
                         station_name=plk.station_name,
                         platform=plk.platform,
-                        track=plk.track,
+                        track=clean_track,
                         location=matched_osm.location,
                         exact_location=True,
                     )
@@ -159,11 +180,22 @@ def platform_locations(
                     Report_Platform(
                         station_name=plk.station_name,
                         platform=plk.platform,
-                        track=plk.track,
+                        track=clean_track,
                         location=osm_station.location if osm_station else None,
                         exact_location=False,
                     )
                 )
+                if not osm_station:
+                    missing_stations += 1
+                missing_platforms += 1
+            total_platforms += 1
+
+    print()
+    print("=== Platform locations matching ===")
+    print("Total platforms:", total_platforms)
+    print("Platforms with no location in OSM:", missing_platforms)
+    print("Stations with no location in OSM:", missing_stations)
+    print()
 
     return locations
 
@@ -197,10 +229,9 @@ def main() -> None:
     compare(plk_platforms, osm_platforms)
 
     locations = platform_locations(plk_platforms, osm_platforms, osm_stations)
-    print(list(locations.items())[:10])
     dump_report(locations)
 
-    print("Stats")
+    print("=== Stats ===")
     print(f"PLK has {len(plk_platforms)} platforms")
     print(f"OSM has {len(osm_platforms)} platforms")
     print(f"OSM is missing {len(plk_platforms) - len(osm_platforms)} platforms, which is {100 * (len(plk_platforms) - len(osm_platforms)) / len(plk_platforms):.2f}% of PLK platforms")

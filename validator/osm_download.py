@@ -35,7 +35,7 @@ def fetch_osm_platforms():
 
     area(id:3600049715)->.searchArea; //Poland
 
-    node["railway"="stop"](area.searchArea);
+    node["railway"="stop"]["network"!="WKD"]["operator"!="WKD"](area.searchArea);
     foreach {
     way(bn)[railway] -> .ways;
     if (ways.count(ways) > 0) {
