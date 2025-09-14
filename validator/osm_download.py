@@ -59,9 +59,9 @@ def fetch_osm_stations():
     area(id:3600049715)->.searchArea;
     // gather results
     (
-      node["railway"="station"](area.searchArea);
+      node["railway"="station"]["station"!="light_rail"](area.searchArea);
       node["railway"="halt"](area.searchArea);
-      node["disused:railway"="station"](area.searchArea);
+      node["disused:railway"="station"]["station"!="light_rail"](area.searchArea);
       node["disused:railway"="halt"](area.searchArea);
     );
     // print results
