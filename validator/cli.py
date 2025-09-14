@@ -160,7 +160,7 @@ def platform_locations(
     for station, platforms in plk_grouped.items():
         osm_platforms = osm_grouped.get(station, [])
         for plk in platforms:
-            clean_track = re.sub(r"\D", "", plk.track.split(",")[0].strip())
+            clean_track = re.sub(r"\D", "", plk.track.replace("/", ",").split(",")[0].strip())
             matched_osm = match_platform(plk, clean_track, osm_platforms)
             # TODO: fix when there are multiple platforms with the same track...
 
