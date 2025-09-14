@@ -57454,15 +57454,21 @@
       "station_name": "Wieleń",
       "platform": "1",
       "track": "2",
-      "location": null,
-      "exact_location": false
+      "location": [
+        16.1803241,
+        52.9074612
+      ],
+      "exact_location": true
     },
     {
       "station_name": "Wieleń",
       "platform": "2",
       "track": "1",
-      "location": null,
-      "exact_location": false
+      "location": [
+        16.1796604,
+        52.9073141
+      ],
+      "exact_location": true
     }
   ],
   "Wieliczka Bogucice": [
@@ -63585,8 +63591,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        16.992445,
-        52.3997487
+        22.9840181,
+        50.6094001
       ],
       "exact_location": false
     }
