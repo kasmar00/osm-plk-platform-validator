@@ -119,7 +119,7 @@ Report_Platform = NamedTuple(
 def platform_locations(
     plk_platforms: List[PLK_Platform],
     osm_platforms: List[OSM_Platform],
-    osm_stations: List[OSM_Station],
+    osm_stations: Dict[str, OSM_Station],
 ) -> Dict[str, List[Report_Platform]]:
     locations: Dict[str, List[Report_Platform]] = {}
     osm_by_station = {}
@@ -141,6 +141,7 @@ def platform_locations(
         osm_platforms = osm_grouped.get(station, [])
         for plk in platforms:
             matched_osm = next((x for x in osm_platforms if x.track == plk.track), None)
+            # TODO: fix when there are multiple platforms with the same track...
 
             if matched_osm is not None:
                 locations.setdefault(station, []).append(
@@ -153,12 +154,13 @@ def platform_locations(
                     )
                 )
             else:
+                osm_station = osm_stations.get(station, None)
                 locations.setdefault(station, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
                         platform=plk.platform,
                         track=plk.track,
-                        location=(None, None),  # TODO: Add location of station
+                        location=osm_station.location if osm_station else None,
                         exact_location=False,
                     )
                 )
