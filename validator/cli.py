@@ -176,12 +176,13 @@ def platform_locations(
                 )
             else:
                 osm_station = osm_stations.get(station, None)
+                location = list(reversed(osm_station.location)) if osm_station else None
                 locations.setdefault(station, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
                         platform=plk.platform,
                         track=clean_track,
-                        location=osm_station.location if osm_station else None,
+                        location=location,
                         exact_location=False,
                     )
                 )
