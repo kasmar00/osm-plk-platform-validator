@@ -23067,14 +23067,20 @@
       "station_name": "Kraków Kościelniki",
       "platform": "1",
       "track": "3",
-      "location": null,
+      "location": [
+        20.168929,
+        50.0873976
+      ],
       "exact_location": false
     },
     {
       "station_name": "Kraków Kościelniki",
       "platform": "2",
       "track": "2",
-      "location": null,
+      "location": [
+        20.168929,
+        50.0873976
+      ],
       "exact_location": false
     }
   ],
@@ -37613,10 +37619,7 @@
       "station_name": "Pikulice",
       "platform": "1",
       "track": "1",
-      "location": [
-        22.8125112,
-        49.7566079
-      ],
+      "location": null,
       "exact_location": false
     }
   ],
@@ -46573,10 +46576,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.4054378,
-        52.2253793
+        19.4034838,
+        52.2251604
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Sklęczki",
@@ -63877,8 +63880,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.4034838,
-        52.2251604
+        19.493721,
+        52.2248299
       ],
       "exact_location": true
     },
