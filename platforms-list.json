@@ -13397,30 +13397,21 @@
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "1",
       "track": "1",
-      "location": [
-        15.262029,
-        52.6994982
-      ],
+      "location": null,
       "exact_location": false
     },
     {
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "2",
       "track": "1",
-      "location": [
-        15.262029,
-        52.6994982
-      ],
+      "location": null,
       "exact_location": false
     },
     {
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "2",
       "track": "2",
-      "location": [
-        15.262029,
-        52.6994982
-      ],
+      "location": null,
       "exact_location": false
     }
   ],
