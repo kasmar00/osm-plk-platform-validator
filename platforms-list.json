@@ -13346,10 +13346,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        15.2805591,
-        52.689224
+        15.2805371,
+        52.6892063
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Gorzów Wielkopolski Wieprzyce": [
@@ -13357,15 +13357,21 @@
       "station_name": "Gorzów Wielkopolski Wieprzyce",
       "platform": "1",
       "track": "1",
-      "location": null,
+      "location": [
+        15.1816367,
+        52.7181491
+      ],
       "exact_location": false
     },
     {
       "station_name": "Gorzów Wielkopolski Wieprzyce",
       "platform": "2",
       "track": "2",
-      "location": null,
-      "exact_location": false
+      "location": [
+        15.1816619,
+        52.7181357
+      ],
+      "exact_location": true
     }
   ],
   "Gorzów Wielkopolski Wschodni": [
@@ -13386,10 +13392,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        15.2390927,
-        52.7226658
+        15.2390579,
+        52.7226573
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Gorzów Wielkopolski Zieleniec": [
@@ -13397,21 +13403,30 @@
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "1",
       "track": "1",
-      "location": null,
-      "exact_location": false
+      "location": [
+        15.2617127,
+        52.6997127
+      ],
+      "exact_location": true
     },
     {
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "2",
       "track": "1",
-      "location": null,
-      "exact_location": false
+      "location": [
+        15.2617127,
+        52.6997127
+      ],
+      "exact_location": true
     },
     {
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "2",
       "track": "2",
-      "location": null,
+      "location": [
+        15.262029,
+        52.6994982
+      ],
       "exact_location": false
     }
   ],
@@ -45711,8 +45726,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.0148646,
-        51.4562776
+        19.0154415,
+        51.4569519
       ],
       "exact_location": false
     },
@@ -45721,8 +45736,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        19.0148646,
-        51.4562776
+        19.0154415,
+        51.4569519
       ],
       "exact_location": false
     }
@@ -64948,8 +64963,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.619908,
-        53.0846063
+        18.6199841,
+        53.0849018
       ],
       "exact_location": false
     },
@@ -64958,8 +64973,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.619908,
-        53.0846063
+        18.6199841,
+        53.0849018
       ],
       "exact_location": false
     }
