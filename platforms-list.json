@@ -12103,10 +12103,10 @@
       "platform": "1",
       "track": "4",
       "location": [
-        18.6055111,
-        54.3817696
+        18.6050551,
+        54.3816765
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Gdańsk Wrzeszcz",
@@ -12133,8 +12133,8 @@
       "platform": "2",
       "track": "3",
       "location": [
-        18.6050551,
-        54.3816765
+        18.605394,
+        54.3819066
       ],
       "exact_location": true
     }
