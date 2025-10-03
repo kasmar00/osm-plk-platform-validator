@@ -35,3 +35,6 @@ foreach {
   }
 }
 ```
+
+## Notes
+1. Kraków Piastów officially has two tracks 2, but in fact (and in live data) it has tracks: 1, 2, 102, 102
