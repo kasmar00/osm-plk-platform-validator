@@ -23300,7 +23300,7 @@
     {
       "station_name": "Kraków Piastów",
       "platform": "2",
-      "track": "2",
+      "track": "102",
       "location": [
         20.0140653,
         50.1069685
@@ -23310,7 +23310,7 @@
     {
       "station_name": "Kraków Piastów",
       "platform": "3",
-      "track": "1",
+      "track": "101",
       "location": [
         20.0140653,
         50.1069685
