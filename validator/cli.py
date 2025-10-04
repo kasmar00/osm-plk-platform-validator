@@ -4,6 +4,7 @@ import json
 from typing import List, NamedTuple, Dict
 from .osm_download import fetch_osm_platforms, fetch_osm_stations
 import re
+from .replacement_platforms import replacement_platforms
 
 PLK_Platform = NamedTuple(
     "PLK_Platform", [("station_name", str), ("platform", str), ("track", str)]
@@ -19,7 +20,25 @@ def load_platforms_from_plk() -> List[PLK_Platform]:
         for row in rd:
             platforms.append(PLK_Platform(*row))
 
-    return platforms
+    return patch_platforms(platforms)
+
+
+def patch_platforms(platforms: List[PLK_Platform]) -> List[PLK_Platform]:
+    patched = []
+
+    used_replacements = set()
+
+    for platform in platforms:
+        replacement = replacement_platforms.get((platform.station_name, platform.platform, platform.track), None)
+        if replacement and replacement not in used_replacements:
+            patched.append(PLK_Platform(
+                platform.station_name, replacement[0], replacement[1]
+            ))
+            used_replacements.add(replacement)
+        else:
+            patched.append(platform)
+        
+    return patched
 
 
 OSM_Platform = NamedTuple(
@@ -117,6 +136,7 @@ Report_Platform = NamedTuple(
         ("track", str),
         ("location", tuple[float, float]),
         ("exact_location", bool),
+        ("single_track_platform", bool),
     ],
 )
 
@@ -164,6 +184,8 @@ def platform_locations(
             matched_osm = match_platform(plk, clean_track, osm_platforms)
             # TODO: fix when there are multiple platforms with the same track...
 
+            single_track_platform = len([platform for platform in platforms if platform.platform==plk.platform]) == 1
+
             if matched_osm is not None:
                 locations.setdefault(station, []).append(
                     Report_Platform(
@@ -172,6 +194,7 @@ def platform_locations(
                         track=clean_track,
                         location=matched_osm.location,
                         exact_location=True,
+                        single_track_platform=single_track_platform
                     )
                 )
             else:
@@ -184,6 +207,7 @@ def platform_locations(
                         track=clean_track,
                         location=location,
                         exact_location=False,
+                        single_track_platform = single_track_platform
                     )
                 )
                 if not osm_station:
@@ -211,6 +235,7 @@ def dump_report(locations: Dict[str, List[Report_Platform]]) -> None:
                         "track": p.track,
                         "location": p.location,
                         "exact_location": p.exact_location,
+                        "single_track_platform": p.single_track_platform,
                     }
                     for p in platforms
                 ]
