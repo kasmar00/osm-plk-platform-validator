@@ -23282,40 +23282,40 @@
       "platform": "1",
       "track": "1",
       "location": [
-        20.0140653,
-        50.1069685
+        20.0137183,
+        50.1070524
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Kraków Piastów",
       "platform": "2",
       "track": "2",
       "location": [
-        20.0140653,
-        50.1069685
+        20.0137136,
+        50.1070161
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Kraków Piastów",
       "platform": "2",
       "track": "102",
       "location": [
-        20.0140653,
-        50.1069685
+        20.0137091,
+        50.106939
       ],
-      "exact_location": false
+      "exact_location": true
     },
     {
       "station_name": "Kraków Piastów",
       "platform": "3",
       "track": "101",
       "location": [
-        20.0140653,
-        50.1069685
+        20.0137237,
+        50.1069081
       ],
-      "exact_location": false
+      "exact_location": true
     }
   ],
   "Kraków Podgórze": [
