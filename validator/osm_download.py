@@ -21,12 +21,19 @@ def _fetch_osm_with_cache(cache_file: str, query: str):
 
     endpoint = "https://overpass-api.de/api/interpreter"
     response = requests.post(endpoint, data="data=" + query)
-    data = response.json()
 
-    with open(cache_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    try:
+        data = response.json()
 
-    return data["elements"]
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+        return data["elements"]
+    
+    except ValueError:
+        print("Error: Overpass API returned invalid JSON or no data.")
+        print("Response text:", response.text)
+        exit(1)
 
 
 def fetch_osm_platforms():
