@@ -21644,7 +21644,10 @@
       "station_name": "Katowice Kostuchna",
       "platform": "1",
       "track": "1",
-      "location": null,
+      "location": [
+        18.9957966,
+        50.1843893
+      ],
       "exact_location": false,
       "single_track_platform": true
     }
@@ -21701,8 +21704,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.0275373,
-        50.1999668
+        19.0278932,
+        50.199714
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -57835,8 +57838,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.8853448,
-        50.5744066
+        22.8853001,
+        50.5744144
       ],
       "exact_location": false,
       "single_track_platform": true
