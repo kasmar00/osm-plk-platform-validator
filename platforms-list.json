@@ -48787,10 +48787,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9889641,
-        50.0644638
+        21.988944,
+        50.0644473
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -48798,10 +48798,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        21.9889641,
-        50.0644638
+        21.9889946,
+        50.0644668
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -48811,10 +48811,10 @@
       "platform": "1",
       "track": "35",
       "location": [
-        21.9981154,
-        50.0431231
+        21.9981222,
+        50.0431332
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -48824,10 +48824,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9683681,
-        50.0779245
+        21.9683913,
+        50.0779017
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -48835,10 +48835,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        21.9683681,
-        50.0779245
+        21.9684068,
+        50.0779354
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -48870,27 +48870,16 @@
       "platform": "2",
       "track": "1",
       "location": [
-        22.0058076,
-        50.0432134
+        22.0060682,
+        50.042929
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
       "station_name": "Rzeszów Główny",
       "platform": "2",
       "track": "2",
-      "location": [
-        22.0058076,
-        50.0432134
-      ],
-      "exact_location": false,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Rzeszów Główny",
-      "platform": "3",
-      "track": "6",
       "location": [
         22.0060696,
         50.0430471
@@ -48901,10 +48890,21 @@
     {
       "station_name": "Rzeszów Główny",
       "platform": "3",
-      "track": "8",
+      "track": "6",
       "location": [
         22.006058,
         50.043142
+      ],
+      "exact_location": true,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Rzeszów Główny",
+      "platform": "3",
+      "track": "8",
+      "location": [
+        22.0060354,
+        50.0432684
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -48916,10 +48916,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9872147,
-        50.0756228
+        21.9871793,
+        50.0756131
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -48942,10 +48942,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.0306142,
-        50.0524311
+        22.0311061,
+        50.05242
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -48953,10 +48953,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        22.0306142,
-        50.0524311
+        22.0304074,
+        50.0524444
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -48966,10 +48966,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9836467,
-        50.0271625
+        21.9836431,
+        50.0272283
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -48977,10 +48977,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        21.9836467,
-        50.0271625
+        21.983751,
+        50.027172
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -48990,10 +48990,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9923951,
-        50.0628258
+        21.9923423,
+        50.0628192
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -49003,10 +49003,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        21.9897333,
-        50.038491
+        21.9899338,
+        50.0387457
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -49014,10 +49014,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9897333,
-        50.038491
+        21.9897294,
+        50.0386208
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -49027,10 +49027,10 @@
       "platform": "1",
       "track": "44",
       "location": [
-        21.9942049,
-        50.0534458
+        21.9941926,
+        50.0536359
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -49038,10 +49038,10 @@
       "platform": "2",
       "track": "41",
       "location": [
-        21.9942049,
-        50.0534458
+        21.994055,
+        50.0527487
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -49049,10 +49049,10 @@
       "platform": "2",
       "track": "42",
       "location": [
-        21.9942049,
-        50.0534458
+        21.9942035,
+        50.0531766
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -49062,10 +49062,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.0693278,
-        50.0585326
+        22.0693306,
+        50.058515
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -49073,10 +49073,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        22.0693278,
-        50.0585326
+        22.0693159,
+        50.058553
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -49086,10 +49086,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.957168,
-        50.0059268
+        21.9574686,
+        50.0060985
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -53398,10 +53398,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.1145204,
-        50.0674241
+        22.1153243,
+        50.0676251
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -53409,10 +53409,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        22.1145204,
-        50.0674241
+        22.1153702,
+        50.067541
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
