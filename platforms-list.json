@@ -4974,10 +4974,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.1109012,
-        53.1334401
+        18.1108801,
+        53.1334619
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -5011,10 +5011,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.1578364,
-        53.1464952
+        18.1578166,
+        53.146526
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -5068,10 +5068,10 @@
       "platform": "3a",
       "track": "5",
       "location": [
-        17.991601,
-        53.1352905
+        17.9936234,
+        53.1359232
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -5090,10 +5090,10 @@
       "platform": "4a",
       "track": "9",
       "location": [
-        17.991601,
-        53.1352905
+        17.9935499,
+        53.135997
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -5173,10 +5173,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.1376313,
-        53.1408643
+        18.1375939,
+        53.140901
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -70081,7 +70081,10 @@
       "station_name": "Łaziska Średnie",
       "platform": "2",
       "track": "5",
-      "location": null,
+      "location": [
+        18.8678918,
+        50.1300173
+      ],
       "exact_location": false,
       "single_track_platform": false
     },
