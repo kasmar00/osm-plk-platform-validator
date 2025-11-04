@@ -51859,10 +51859,10 @@
       "platform": "1",
       "track": "4",
       "location": [
-        19.1263859,
-        50.27895
+        19.1264623,
+        50.2788528
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
