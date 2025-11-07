@@ -1266,16 +1266,22 @@
       "station_name": "Biała Pilska",
       "platform": "1",
       "track": "2",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        16.5175801,
+        53.0614472
+      ],
+      "exact_location": true,
       "single_track_platform": true
     },
     {
       "station_name": "Biała Pilska",
       "platform": "2",
       "track": "1",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        16.5165453,
+        53.0611238
+      ],
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -17441,10 +17447,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        23.9089671,
-        50.7971297
+        23.9085075,
+        50.7966817
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -17463,10 +17469,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        23.9089671,
-        50.7971297
+        23.9085075,
+        50.7966817
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -47994,10 +48000,10 @@
       "platform": "1",
       "track": "5",
       "location": [
-        18.547546,
-        50.0889081
+        18.5472563,
+        50.0889428
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -48160,10 +48166,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.4971621,
-        50.0562133
+        18.4971472,
+        50.0561569
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -48171,10 +48177,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.4971621,
-        50.0562133
+        18.4971812,
+        50.0561236
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -52269,10 +52275,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        22.0788926,
-        50.5449264
+        22.078924,
+        50.5449764
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -52280,10 +52286,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.0788926,
-        50.5449264
+        22.0788077,
+        50.5449414
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -67678,10 +67684,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        23.2385958,
-        50.7135833
+        23.239164,
+        50.7135556
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
