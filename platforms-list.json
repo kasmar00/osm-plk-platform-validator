@@ -25029,10 +25029,10 @@
     {
       "station_name": "Kraków Bronowice",
       "platform": "4",
-      "track": "2",
+      "track": "2118",
       "location": [
-        19.8926145,
-        50.0830061
+        19.8922343,
+        50.0826174
       ],
       "exact_location": true,
       "single_track_platform": true
