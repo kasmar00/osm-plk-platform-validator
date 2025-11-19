@@ -25383,8 +25383,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.8974758,
-        49.9880448
+        19.8974736,
+        49.9880468
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -43659,8 +43659,8 @@
       "platform": "1",
       "track": "7",
       "location": [
-        22.7799717,
-        49.7835055
+        22.7799763,
+        49.7835054
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -68662,8 +68662,8 @@
       "platform": "4",
       "track": "17",
       "location": [
-        18.6231775,
-        49.8704685
+        18.6216353,
+        49.8715401
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -68684,8 +68684,8 @@
       "platform": "5",
       "track": "23",
       "location": [
-        18.6231775,
-        49.8704685
+        18.6216353,
+        49.8715401
       ],
       "exact_location": false,
       "single_track_platform": false
