@@ -215,8 +215,8 @@ Biesal	1	1
 Biesal	2	4
 Biesal	2	2
 Biesowice	1	1
-Biłgoraj	1	2
 Biłgoraj	1	1
+Biłgoraj	1	2
 Biniew	1	1
 Biniew	2	2
 Bińcze	1	1
@@ -448,7 +448,7 @@ Bydgoszcz Bielawy	2	2
 Bydgoszcz Błonie	1	1
 Bydgoszcz Błonie	2	2
 Bydgoszcz Brdyujście	1	1
-Bydgoszcz Fordon	1	1
+Bydgoszcz Fordon	2	1
 Bydgoszcz Główna	1	6
 Bydgoszcz Główna	2	4
 Bydgoszcz Główna	2	2
@@ -458,8 +458,8 @@ Bydgoszcz Główna	4	11
 Bydgoszcz Główna	4a	9
 Bydgoszcz Główna	5	12
 Bydgoszcz Główna	5	21
-Bydgoszcz Leśna	1	2
-Bydgoszcz Leśna	2	1
+Bydgoszcz Leśna	1	1
+Bydgoszcz Leśna	2	2
 Bydgoszcz Łęgnowo	1	2
 Bydgoszcz Łęgnowo	2	2
 Bydgoszcz Łęgnowo	2	4
@@ -485,7 +485,7 @@ Bytom	1	1b
 Bytom	2	2c
 Bytom	2	4a
 Bytom	3	6
-Bytom	3	8b
+Bytom	3	6b
 Bytom Karb	1	1a
 Bytom Karb	2	2
 Bytom Odrzański	1	1
@@ -576,7 +576,6 @@ Chojnów	1	2
 Chojnów	1	4
 Chojnów	2	3
 Chojnów	2	1
-Chomranice	1	1
 Chorzele	1	1
 Chorzele	1	3
 Chorzelów	1	1
@@ -592,7 +591,7 @@ Chorzów Batory	2	3
 Chorzów Miasto	1	2b
 Chorzów Miasto	1	1b
 Chorzów Stary	1	1
-Chorzów Stary	1	2c
+Chorzów Stary	1	2
 Chorzów Uniwersytet	1	1a
 Chorzów Uniwersytet	1	2a
 Choszczno	1	1
@@ -920,7 +919,6 @@ Dobieszyn	2	2
 Dobino Wałeckie	1	1
 Doboszowice	1	1
 Doboszowice	2	2
-Dobra koło Limanowej	1	1
 Dobre Miasto	1	1
 Dobre Miasto	1	2
 Dobrocin	1	1
@@ -1047,11 +1045,11 @@ Elbląg	3	1
 Elbląg	3	3
 Ełk	1	4
 Ełk	1	6
-Ełk	2	
-Ełk	2	5
-Ełk	3	B1
+Ełk	2	2b
+Ełk	2	1
+Ełk	3	3
 Ełk	3	5
-Ełk Szyba Wschód	1	
+Ełk Szyba Wschód	1	1
 Ełk Szyba Zachód	1	1
 Fałkowo	1	1
 Fałkowo	2	2
@@ -1322,12 +1320,13 @@ Górzyca	1	1
 Górzyca	2	2
 Górzyca Reska	1	1
 Górzyniec	1	1
+Grabik	1	1
 Grabiny	1	1
 Grabiny	2	2
 Grabniak	1	1
 Grabniak	2	2
 Grabowno Wielkie	1	1
-Grabowno Wielkie	2	1
+Grabowno Wielkie	2	2
 Grabowo	1	1
 Grabowo	1	2
 Grabów nad Pilicą	1	1
@@ -1365,8 +1364,8 @@ Grodzisk Mazowiecki	2	3
 Grodzisk Wielkopolski	1	1
 Grodzisk Wielkopolski	2	3
 Grodzisk Wielkopolski	2	5
-Grodzisko Dolne	2	1
-Grodzisko Dolne	2	2
+Grodzisko Dolne	1	1
+Grodzisko Dolne	1	2
 Grodziszcze Mazowieckie	1	1
 Grodziszcze Mazowieckie	2	2
 Grom	1	1
@@ -1639,7 +1638,6 @@ Jedlicze	2	1
 Jedlicze	2	3
 Jedlicze koło Zgierza	1	1
 Jedlicze Męcinka	1	1
-Jedlina-Zdrój	1	
 Jedlina-Zdrój	1	1
 Jedlina-Zdrój	2	3
 Jedlina-Zdrój	2	5
@@ -1805,7 +1803,6 @@ Karwice	1	3
 Karwice	2	1
 Karzec	2	2
 Karzec	3	1
-Kasina Wielka	1	1
 Katowice	1	7
 Katowice	1	9
 Katowice	2	1
@@ -1920,7 +1917,6 @@ Klepacze	1	1
 Klepacze	2	2
 Kleszczele	1	1
 Klewki	1	1
-Klęczany	1	1
 Klępnica	1	1
 Klimontów	1	1
 Klimontów	2	2
@@ -1939,7 +1935,6 @@ Kłodawa	1	3
 Kłodawa	1	1
 Kłodawa	2	2
 Kłodawa	2	4
-Kłodzko Główne	5	102
 Kłodzko Główne	1	1
 Kłodzko Główne	1	5
 Kłodzko Główne	2	5
@@ -1947,6 +1942,7 @@ Kłodzko Główne	2	9
 Kłodzko Główne	3	6
 Kłodzko Główne	3	2
 Kłodzko Główne	4	101
+Kłodzko Główne	5	102
 Kłodzko Książek	1	1
 Kłodzko Miasto	1	2
 Kłodzko Miasto	1	1
@@ -1975,8 +1971,8 @@ Kobylec	1	1
 Kobylin	1	4
 Kobylin	2	2
 Kobylin	3	1
-Kobylnica	1x	1
-Kobylnica	1x	2
+Kobylnica	1	1
+Kobylnica	1	2
 Kobylnica Słupska	1	1
 Kobyłka	1	3W
 Kobyłka	1	4W
@@ -2065,9 +2061,9 @@ Kornatowo	1	1
 Kornelin	1	1
 Kornelin	2	2
 Kornica	1	1
-Korsze	1	1k
+Korsze	1	105
 Korsze	2	107
-Korsze	2	107
+Korsze	2	111
 Korsze	4	2, 2a
 Korsze	4	1
 Korwinów	1	1
@@ -2095,10 +2091,10 @@ Kostrzyn	5	4r
 Kostrzyn Wielkopolski	1	3
 Kostrzyn Wielkopolski	2	4
 Kostrzyn Wielkopolski	2	2
-Koszalin	1	1
 Koszalin	1	2
 Koszalin	2	5
 Koszalin	2	3
+Koszalin	1	1
 Koszalin Politechnika	1	1
 Koszalin Wschodni	1	1
 Koszewnica	1	1
@@ -2488,8 +2484,6 @@ Ligota Toszecka	1	1
 Ligota Toszecka	2	2
 Ligowiec	1	1
 Ligowiec	2	2
-Limanowa	1	3
-Limanowa	1	1
 Linowo	1	1
 Lipa	1	1
 Lipa	1	2
@@ -2692,7 +2686,6 @@ Luzino	2	3
 Łopuchowo Osiedle	1	1
 Łosiów	1	1
 Łosiów	2	2
-Łososina Górna	1	1
 Łososiowice	1	1
 Łososiowice	2	2
 Łowczów	1	3
@@ -2834,15 +2827,13 @@ Małkinia	1	1
 Małkinia	1	3
 Małkinia	2	2
 Małkinia	2	4
-Małogoszcz	1	2
 Małogoszcz	1	1
+Małogoszcz	1	2
 Małomice	1	1
 Małomice	2	2
 Małowice Wołowskie	1	1
 Małowice Wołowskie	2	2
 Mańkowice	1	1
-Marcinkowice	1	3
-Marcinkowice	1	1
 Marcinkowo	1	1
 Marcinkowo	1	3
 Marcinków	1	1
@@ -2872,8 +2863,6 @@ Mełno	2	1
 Metan	1	2
 Metan	2	1
 Męcikał	1	1
-Męcina	1	1
-Męcina Podgórze	1	1
 Męcka Wola	1	1
 Męcka Wola	2	2
 Miały	1	2
@@ -3072,9 +3061,6 @@ Mrzezino	1	2
 Mrzezino	1	1
 Mszalnica	1	1
 Mszalnica	2	2
-Mszana Dolna	1	1
-Mszana Dolna	1	2
-Mszana Dolna Marki	1	1
 Mścice	1	1
 Mścice	1	3a
 Munina	1	1
@@ -3259,13 +3245,11 @@ Nowy Sącz	2	1
 Nowy Sącz	2	2
 Nowy Sącz Biegonice	1	2
 Nowy Sącz Biegonice	1	1
-Nowy Sącz Chełmiec	1	1
 Nowy Sącz Dąbrówka	1	1
 Nowy Sącz Gorzków	1	1
 Nowy Sącz Gorzków	2	2
 Nowy Sącz Jamnica	1	2
 Nowy Sącz Jamnica	2	1
-Nowy Sącz Miasto	1	1
 Nowy Solec	1	1
 Nowy Świętów	1	2płn
 Nowy Świętów	2	1płn
@@ -3333,6 +3317,8 @@ Oleśnica	4	2
 Oleśnica	4	4
 Oleśnica Rataje	1	1
 Oleśnica Rataje	2	1
+Olkusz	1	1
+Olkusz	1	2
 Olkusz	2	4a
 Olpuch	1	1
 Olpuch Wdzydze	1	1
@@ -3341,23 +3327,23 @@ Olszanka	1	1
 Olszewka	1	1
 Olsztyn Dajtki	1	1
 Olsztyn Dajtki	2	2
-Olsztyn Główny	1	5c
+Olsztyn Główny	1	7
 Olsztyn Główny	1	5
 Olsztyn Główny	2	3
 Olsztyn Główny	2	1
-Olsztyn Główny	3	2a
-Olsztyn Główny	3	1
-Olsztyn Główny	4	4
+Olsztyn Główny	3	2
+Olsztyn Główny	3	4
+Olsztyn Główny	4	6
 Olsztyn Główny	4	8
-Olsztyn Gutkowo	1	1a-c
-Olsztyn Gutkowo	2	1a-c
-Olsztyn Gutkowo	2	3b
+Olsztyn Gutkowo	1	2
+Olsztyn Gutkowo	2	1
+Olsztyn Gutkowo	2	3
 Olsztyn Jezioro Ukiel	1	1
 Olsztyn Likusy	1	1
 Olsztyn Likusy	1	3
 Olsztyn Redykajny	1	1
-Olsztyn Śródmieście	1	3a
-Olsztyn Śródmieście	2	4a
+Olsztyn Śródmieście	1	1
+Olsztyn Śródmieście	2	1
 Olsztyn Zachodni	1	1
 Olsztyn Zachodni	2	2
 Olsztyn Zachodni	2	1
@@ -3421,7 +3407,7 @@ Orzesze Jaśkowice	1	2
 Orzesze Jaśkowice	1	4
 Orzesze Jaśkowice	2	1
 Orzesze Jaśkowice	2	2
-Orzesze Miasto	1	
+Orzesze Miasto	1	1
 Orzeszkowo	1	1
 Orzeszków	1	1
 Orzeszków	2	2
@@ -3612,7 +3598,6 @@ Piechowice	1	1
 Piechowice	2	3
 Piechowice Dolne	1	1
 Pieczyska	1	1
-Piekiełko	1	1
 Piekoszów	1	1
 Piekoszów	2	2
 Piekoszów Łaziska	2	1
@@ -3699,9 +3684,9 @@ Płock Radziwie	2	3
 Płock Radziwie	2	1
 Płock Trzepowo	1	3
 Płock Trzepowo	1	1
-Płońsk	2	1
 Płońsk	1	3
 Płońsk	2	3
+Płońsk	2	1
 Płoty	1	2
 Płoty	2	1
 Płoty	2	2
@@ -3961,11 +3946,8 @@ Pyskowice	2	3
 Pyskowice	3	4
 Pyskowice	3	2
 Pyzówka	1	1
-Raba Niżna	1	1
 Raba Wyżna	1	3
 Raba Wyżna	1	1
-Rabka Zaryte	1	3
-Rabka Zaryte	1	1
 Rabka-Zdrój	1	1
 Racewo	1	1
 Raciąż	1	2
@@ -4003,8 +3985,6 @@ Radom Główny	3	8
 Radom Główny	3	10
 Radom Gołębiów	1	1
 Radom Gołębiów	1	2
-Radom Południowy	1	1
-Radom Południowy	2	2
 Radom Potkanów	1	1
 Radom Północny	1	1
 Radom Północny	1	2
@@ -4238,10 +4218,7 @@ Rychnowo Wielkie	2	1
 Ryczów	1	1
 Ryczów	1	2
 Rydułtowy	1	4
-Rydułtowy	2	4
 Rydułtowy	2	2
-Rydułtowy	3	2
-Rydułtowy	3	1
 Rydzyna	1	1
 Rydzyna	2	2
 Ryjewo	1	3
@@ -4479,7 +4456,6 @@ Skoroszyce	1	1
 Skowarcz	1	3
 Skowarcz	2	2
 Skórka	1	1
-Skrzydlna	1	1
 Skrzynki	1	3
 Skrzynki	2	1
 Skrzynki	2	3
@@ -4523,12 +4499,10 @@ Słupca	1	1
 Słupca	2	2
 Słupia	1	1
 Słupia	2	2
-Słupsk	1	8
-Słupsk	1	1
-Słupsk	2	3
-Słupsk	3	9
+Słupsk	3	3
+Słupsk	3	5
+Słupsk	4	7
 Słupsk Północny	1	1
-Smardy	1	1
 Smardy	2	2
 Smardzew	1	1
 Smardzów Wrocławski	1	1
@@ -4586,11 +4560,12 @@ Sosnowiec Dańdówka	2	1
 Sosnowiec Dańdówka	2	2
 Sosnowiec Główny	1	4/4a
 Sosnowiec Główny	2	2
-Sosnowiec Główny	2	1
 Sosnowiec Jęzor Południowy	1	1
 Sosnowiec Jęzor Południowy	2	2
 Sosnowiec Kazimierz	2	1
 Sosnowiec Kazimierz	3	5
+Sosnowiec Maczki	1	1
+Sosnowiec Maczki	2	2
 Sosnowiec Południowy	1	2
 Sosnowiec Południowy	1	1
 Sosnowiec Porąbka	1	1
@@ -4671,6 +4646,9 @@ Stare Olesno	1	2
 Stare Olesno	2	1
 Stare Pole	1	2
 Stare Pole	2	1
+Stargard	1	5
+Stargard	2	1
+Stargard	2	3
 Stargard	3	2
 Stargard	3	6a,6xx
 Starkowo	1	1
@@ -4865,6 +4843,7 @@ Szczawne Kulaszne	3	3
 Szczawno - Ciemnice	1	1
 Szczebrzeszyn	1	1
 Szczecin Dąbie	1	3
+Szczecin Dąbie	2	1
 Szczecin Dąbie	2	2
 Szczecin Dąbie	3	8
 Szczecin Dunikowo	1	1
@@ -4891,6 +4870,7 @@ Szczecin Trzebusz	2	2
 Szczecin Załom	1	2
 Szczecin Załom	2	1
 Szczecin Zdroje	1	1
+Szczecin Zdroje	2	2
 Szczecin Zdroje	2	4
 Szczecin Zdunowo	1	1
 Szczecin Zdunowo	2	2
@@ -5134,6 +5114,8 @@ Torzym	1	1
 Torzym	2	2
 Toszek	1	1
 Toszek	2	2
+Trablice	1	1
+Trablice	2	2
 Trakiszki	1	3
 Trakiszki	2	4
 Trakiszki	2	1
@@ -5168,6 +5150,8 @@ Trzebinia	2	2
 Trzebinia	3	7
 Trzebinia	3	11
 Trzebiszewo	2	1
+Trzeciewnica	1	1
+Trzeciewnica	2	2
 Trzemeszno	1	1
 Trzemeszno	2	2
 Tuchola	1	3
@@ -5234,8 +5218,6 @@ Tychy Zachodnie	1	1
 Tychy Zachodnie	2	2
 Tychy Żwaków	1	2
 Tychy Żwaków	2	1
-Tymbark	1	2
-Tymbark	1	1
 Tymień	1	1
 Ubocze	1	1
 Uherce	1	1
@@ -5440,6 +5422,8 @@ Warszawa Wschodnia	6	20
 Warszawa Wschodnia	6	22
 Warszawa Wschodnia	7	23
 Warszawa Wschodnia	7	21
+Warszawa Zachodnia	2	20
+Warszawa Zachodnia	2	22
 Warszawa Zachodnia	3	23
 Warszawa Zachodnia	3	21
 Warszawa Zachodnia	4	8
@@ -5454,8 +5438,6 @@ Warszawa Zachodnia	8	7
 Warszawa Zachodnia	8	9
 Warszawa Zachodnia	9	1
 Warszawa Zachodnia	9	2
-Warszawa Zachodnia	2	20
-Warszawa Zachodnia	2	22
 Warszawa Zachodnia peron 9	9	1
 Warszawa Zachodnia peron 9	9	2
 Warszawa Zacisze Wilno	1	1
@@ -5946,7 +5928,6 @@ Zawadówka	1	1
 Zawadzkie	1	1
 Zawadzkie	2	1
 Zawadzkie	2	2
-Zawidz	1	3
 Zawidz	2	1
 Zawidz Kościelny	1	1
 Zawiercie	1	4
@@ -6135,8 +6116,6 @@ Zygmuntów	2	2
 Żelistrzewo	1	1
 Żerków	1	1
 Żerków	2	2
-Żędowice	1	1
-Żędowice	2	2
 Żmigród	1	1
 Żmigród	2	2
 Żmigród	2	4
