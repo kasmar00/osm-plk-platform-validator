@@ -45437,6 +45437,30 @@
       "single_track_platform": true
     }
   ],
+  "Radom Południowy": [
+    {
+      "station_name": "Radom Południowy",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.1018059,
+        51.3495782
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Radom Południowy",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        21.1001469,
+        51.3493189
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
   "Radom Północny": [
     {
       "station_name": "Radom Północny",
