@@ -21620,8 +21620,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.9952708,
-        50.1843871
+        18.9952926,
+        50.1843876
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -21679,8 +21679,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.0276909,
-        50.1998622
+        19.0275476,
+        50.1999983
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -21764,8 +21764,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.9795799,
-        50.177536
+        18.9796859,
+        50.1778435
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -45442,22 +45442,16 @@
       "station_name": "Radom Południowy",
       "platform": "1",
       "track": "1",
-      "location": [
-        21.1018059,
-        51.3495782
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     },
     {
       "station_name": "Radom Południowy",
       "platform": "2",
       "track": "2",
-      "location": [
-        21.1001469,
-        51.3493189
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -58162,16 +58156,22 @@
       "station_name": "Trablice",
       "platform": "1",
       "track": "1",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        21.1018059,
+        51.3495782
+      ],
+      "exact_location": true,
       "single_track_platform": true
     },
     {
       "station_name": "Trablice",
       "platform": "2",
       "track": "2",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        21.1001469,
+        51.3493189
+      ],
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
