@@ -7806,7 +7806,10 @@
       "station_name": "Ciechocinek",
       "platform": "1",
       "track": "1",
-      "location": null,
+      "location": [
+        18.7883637,
+        52.8813047
+      ],
       "exact_location": false,
       "single_track_platform": true
     },
@@ -7814,7 +7817,10 @@
       "station_name": "Ciechocinek",
       "platform": "2",
       "track": "1",
-      "location": null,
+      "location": [
+        18.7883637,
+        52.8813047
+      ],
       "exact_location": false,
       "single_track_platform": false
     },
@@ -7822,7 +7828,10 @@
       "station_name": "Ciechocinek",
       "platform": "2",
       "track": "2",
-      "location": null,
+      "location": [
+        18.7883637,
+        52.8813047
+      ],
       "exact_location": false,
       "single_track_platform": false
     }
@@ -21692,8 +21701,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.9906631,
-        50.2180526
+        18.9911532,
+        50.218328
       ],
       "exact_location": false,
       "single_track_platform": true
