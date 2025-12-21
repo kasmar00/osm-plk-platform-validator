@@ -142,7 +142,7 @@ Białośliwie	2	4
 Białuń	1	1
 Białuń	1	2
 Biały Bór	1	2
-Biały Bór	1	1
+Biały Bór	2	2
 Biały Bór	2	1
 Biały Dunajec	1	2
 Biały Dunajec	2	3
@@ -829,7 +829,7 @@ Daleszewo	2	2
 Dalęcino	1	1
 Dalęcino	2	1
 Dalęcino	2	2
-Damnica	1	1
+Damnica	2	2
 Damnica	2	4
 Daniszyn	1	1
 Daniszyn	2	2
@@ -1166,6 +1166,7 @@ Gliwice Kuźnica	2	2
 Gliwice Łabędy	1	2
 Gliwice Łabędy	1	1
 Gliwice Łabędy	2	2 Płn
+Gliwice Łabędy	3	1Płn
 Głębokie Międzyrzeckie	1	1
 Głogów	1	16
 Głogów	1	18
@@ -1540,6 +1541,7 @@ Jankowa	1	1
 Jankowa Żagańska	1	1
 Jankowa Żagańska	2	2
 Jankowa Żagańska	4	3
+Jankowa Żagańska	5	5
 Jankowce	1	1
 Jankowo Dolne	1	1
 Jankowo Dolne	2	2
@@ -1874,8 +1876,9 @@ Kępno	3	2
 Kępno	4	1
 Kęszyce	1	1
 Kęszyce	2	2
-Kętrzyn	1	1
-Kętrzyn	2	6
+Kętrzyn	1	3
+Kętrzyn	1	5
+Kętrzyn	2	1
 Kętrzyn	2	2
 Kęty	1	1
 Kęty	1	2
@@ -2091,10 +2094,10 @@ Kostrzyn	5	4r
 Kostrzyn Wielkopolski	1	3
 Kostrzyn Wielkopolski	2	4
 Kostrzyn Wielkopolski	2	2
+Koszalin	1	1
 Koszalin	1	2
 Koszalin	2	5
 Koszalin	2	3
-Koszalin	1	1
 Koszalin Politechnika	1	1
 Koszalin Wschodni	1	1
 Koszewnica	1	1
@@ -2129,10 +2132,8 @@ Koziebrody	1	1
 Koziołek	1	1
 Kozłowo	1	1
 Kozłowo	2	3
-Kozłów	1	6
-Kozłów	1	4
-Kozłów	2	2
-Kozłów	2	1
+Kozłów	2	5
+Kozłów	2	3
 Kozuby	1	1
 Kozuby	1	2
 Kozy	1	1
@@ -2205,6 +2206,7 @@ Kraków Piastów	1	1
 Kraków Piastów	2	2
 Kraków Piastów	2	2
 Kraków Piastów	3	1
+Kraków Płaszów	1	7
 Kraków Płaszów	2	1
 Kraków Płaszów	2	3
 Kraków Płaszów	3	2
@@ -2457,6 +2459,7 @@ Leszno Górne	2	2
 Leszno Grzybowo	1	2
 Leszno Grzybowo	2	1
 Leśnice	1	1
+Leśnice	2	1
 Leśniczówka	1	1
 Letnica	1	1
 Lewickie	1	3
@@ -2484,6 +2487,7 @@ Ligota Toszecka	1	1
 Ligota Toszecka	2	2
 Ligowiec	1	1
 Ligowiec	2	2
+Linkowo	1	1
 Linowo	1	1
 Lipa	1	1
 Lipa	1	2
@@ -2541,7 +2545,6 @@ Lubanie	1	1
 Lubanie	2	2
 Lubań Śląski	1	3
 Lubań Śląski	2	1
-Lubań Śląski	3	3
 Lubań Śląski	3	5
 Lubań Śląski	4	7
 Lubań Śląski	5	9
@@ -2648,8 +2651,8 @@ Luzino	2	3
 Łąck	1	4
 Łąck	2	2
 Łąck	2	4
-Łączna	1	1
 Łączna	1	2
+Łączna	2	4
 Łąg	1	2
 Łąg	2	1
 Łąg Południowy	1	1
@@ -2844,6 +2847,7 @@ Marciszów	2	5
 Marciszów	3	2
 Marciszów	3	1
 Markuszowa	1	1
+Martiany	1	1
 Marzenin	1	2
 Marzenin	2	1
 Masłońskie Natalin	1	1
@@ -2989,6 +2993,8 @@ Mława Miasto	1	1
 Mława Miasto	2	2
 Młodów	1	1
 Młyńsko	1	1
+Mnichów	1	1
+Mnichów	2	2
 Modlin	1	1
 Modlin	2	2
 Modlin	2	4
@@ -3199,7 +3205,6 @@ Nowa Sucha	2	2
 Nowa Wieś Cierpkie	1	1
 Nowa Wieś Ełcka	1	1
 Nowa Wieś Kościelna	1	1
-Nowa Wieś Legnicka	1	1
 Nowa Wieś Lęborska	1	1
 Nowa Wieś Wielka	1	1
 Nowa Wieś Wielka	1	2
@@ -3238,6 +3243,7 @@ Nowy Jarosław	1	1
 Nowy Las	1	1
 Nowy Las	2	2
 Nowy Łupków	1	1
+Nowy Młyn	1	1
 Nowy Nurzec	1	1
 Nowy Nurzec	2	2
 Nowy Sącz	1	3
@@ -3441,6 +3447,7 @@ Ostrowite koło Jabłonowa	2	1
 Ostrowy	1	1
 Ostrowy	1	2
 Ostróda	1	1
+Ostróda	1	2
 Ostróda	2	3
 Ostrów koło Radymna	1	1
 Ostrów koło Radymna	2	2
@@ -3734,8 +3741,8 @@ Podzamcze	2	2
 Pogorzel Warszawska	1	1
 Pogorzel Warszawska	2	2
 Pogorzel Wielka	1	1
-Pogorzelice	1	2
-Pogorzelice	2	4
+Pogorzelice	1	1
+Pogorzelice	2	2
 Pogwizdów	1	1
 Pokrzywnica	2	2
 Polanica-Zdrój	1	1
@@ -3948,6 +3955,8 @@ Pyskowice	3	2
 Pyzówka	1	1
 Raba Wyżna	1	3
 Raba Wyżna	1	1
+Rabka Zaryte	1	2a
+Rabka Zaryte	1	1
 Rabka-Zdrój	1	1
 Racewo	1	1
 Raciąż	1	2
@@ -4560,6 +4569,8 @@ Sosnowiec Dańdówka	2	1
 Sosnowiec Dańdówka	2	2
 Sosnowiec Główny	1	4/4a
 Sosnowiec Główny	2	2
+Sosnowiec Główny	3	1
+Sosnowiec Główny	3	3
 Sosnowiec Jęzor Południowy	1	1
 Sosnowiec Jęzor Południowy	2	2
 Sosnowiec Kazimierz	2	1
@@ -4683,6 +4694,8 @@ Stefanowo	2	1
 Steknica	1	1
 Sterkowiec	1	1
 Sterkowiec	2	2
+Sterławki Małe	1	1
+Sterławki Wielkie	1	1
 Sterławki Wielkie	1	2
 Stęszew	1	1
 Stęszew	1	2
@@ -5074,6 +5087,7 @@ Tłuszcz	3	4
 Tłuszcz	3	2
 Tłuszcz	4	8
 Tłuszcz	4	10
+Tołkiny	1	1
 Tołkiny	1	3
 Tomaszów Bolesławiecki	1	1
 Tomaszów Bolesławiecki	2	2
@@ -5563,6 +5577,7 @@ Wiktorowo	1	1
 Wiktorowo	2	2
 Wilczyska	1	3
 Wilczyska	2	1
+Wilkasy Niegocin	2	1
 Wilkołaz	1	3
 Wilkołaz	2	3
 Wilkołaz	2	1
@@ -5859,8 +5874,8 @@ Zaczernie	1	1
 Zaczernie	2	3
 Zagajnik	1	2
 Zagajnik	2	1
-Zagnańsk	2	1
 Zagnańsk	2	2
+Zagnańsk	3	4
 Zagościniec	1	1
 Zagościniec	2	2
 Zagórz	1	4
@@ -6154,5 +6169,3 @@ Zygmuntów	2	2
 Żywiec	3	5
 Żywiec Sporysz	1	1
 Żywiec Sporysz	1	3
-Radom Południowy	1	1
-Radom Południowy	2	2
