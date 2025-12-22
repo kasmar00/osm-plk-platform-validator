@@ -1520,15 +1520,15 @@
         53.8866155
       ],
       "exact_location": true,
-      "single_track_platform": false
+      "single_track_platform": true
     },
     {
       "station_name": "Biały Bór",
-      "platform": "1",
-      "track": "1",
+      "platform": "2",
+      "track": "2",
       "location": [
-        16.8554422,
-        53.886793
+        16.8553104,
+        53.8866155
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -1542,7 +1542,7 @@
         53.886793
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
     }
   ],
   "Biały Dunajec": [
@@ -1789,8 +1789,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        23.1030007,
-        53.1154655
+        23.1024712,
+        53.1154728
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -7547,8 +7547,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        17.524928,
-        52.2831746
+        17.5249294,
+        52.2831736
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -7558,10 +7558,10 @@
       "platform": "2",
       "track": "1",
       "location": [
-        17.5250498,
-        52.2832372
+        17.5250879,
+        52.2832462
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -9884,14 +9884,14 @@
   "Damnica": [
     {
       "station_name": "Damnica",
-      "platform": "1",
-      "track": "1",
+      "platform": "2",
+      "track": "2",
       "location": [
         17.2732956,
         54.4976028
       ],
       "exact_location": false,
-      "single_track_platform": true
+      "single_track_platform": false
     },
     {
       "station_name": "Damnica",
@@ -9902,7 +9902,7 @@
         54.4976028
       ],
       "exact_location": false,
-      "single_track_platform": true
+      "single_track_platform": false
     }
   ],
   "Daniszyn": [
@@ -13746,6 +13746,17 @@
       "location": [
         18.6213185,
         50.3405484
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Gliwice Łabędy",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        18.6226456,
+        50.3405388
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -18395,6 +18406,17 @@
       "location": [
         15.1811077,
         51.5673087
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Jankowa Żagańska",
+      "platform": "5",
+      "track": "5",
+      "location": [
+        15.181196,
+        51.5673113
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -23862,6 +23884,17 @@
     {
       "station_name": "Koszalin",
       "platform": "1",
+      "track": "1",
+      "location": [
+        16.169802,
+        54.1908657
+      ],
+      "exact_location": true,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Koszalin",
+      "platform": "1",
       "track": "2",
       "location": [
         16.1699874,
@@ -23888,17 +23921,6 @@
       "location": [
         16.1697381,
         54.1908716
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Koszalin",
-      "platform": "1",
-      "track": "1",
-      "location": [
-        16.169802,
-        54.1908657
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -24343,22 +24365,11 @@
   "Kozłów": [
     {
       "station_name": "Kozłów",
-      "platform": "1",
-      "track": "6",
+      "platform": "2",
+      "track": "5",
       "location": [
-        20.0126338,
-        50.4751107
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Kozłów",
-      "platform": "1",
-      "track": "4",
-      "location": [
-        20.0124966,
-        50.4751454
+        20.0120448,
+        50.4752452
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -24366,21 +24377,10 @@
     {
       "station_name": "Kozłów",
       "platform": "2",
-      "track": "2",
+      "track": "3",
       "location": [
-        20.012415,
-        50.4751745
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Kozłów",
-      "platform": "2",
-      "track": "1",
-      "location": [
-        20.0122732,
-        50.4752088
+        20.0121881,
+        50.4752112
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25012,8 +25012,8 @@
       "platform": "1",
       "track": "3",
       "location": [
-        19.9478415,
-        50.0577847
+        19.9478369,
+        50.0577846
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -25023,8 +25023,8 @@
       "platform": "2",
       "track": "4",
       "location": [
-        19.9480224,
-        50.0577919
+        19.9480151,
+        50.05779
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -25036,8 +25036,8 @@
       "platform": "1",
       "track": "9",
       "location": [
-        19.9472813,
-        50.0683277
+        19.9472812,
+        50.0684137
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25047,8 +25047,8 @@
       "platform": "1",
       "track": "11",
       "location": [
-        19.9470131,
-        50.0683234
+        19.9470097,
+        50.0684092
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25058,8 +25058,8 @@
       "platform": "2",
       "track": "5",
       "location": [
-        19.9474386,
-        50.0683303
+        19.9474352,
+        50.0684164
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25069,8 +25069,8 @@
       "platform": "2",
       "track": "3",
       "location": [
-        19.9476812,
-        50.0683343
+        19.9476794,
+        50.0684205
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25080,8 +25080,8 @@
       "platform": "3",
       "track": "1",
       "location": [
-        19.9477687,
-        50.0683357
+        19.9477651,
+        50.0684222
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25091,8 +25091,8 @@
       "platform": "3",
       "track": "2",
       "location": [
-        19.948011,
-        50.0683397
+        19.9480074,
+        50.0684255
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25102,8 +25102,8 @@
       "platform": "4",
       "track": "4",
       "location": [
-        19.9480988,
-        50.0683411
+        19.9480954,
+        50.0684276
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25113,8 +25113,8 @@
       "platform": "4",
       "track": "6",
       "location": [
-        19.9483412,
-        50.0683451
+        19.9483376,
+        50.0684318
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25124,8 +25124,8 @@
       "platform": "5",
       "track": "10",
       "location": [
-        19.9484955,
-        50.0683476
+        19.948492,
+        50.0684344
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25135,8 +25135,8 @@
       "platform": "5",
       "track": "12",
       "location": [
-        19.9487388,
-        50.0683516
+        19.9487353,
+        50.0684384
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -25500,6 +25500,17 @@
   "Kraków Płaszów": [
     {
       "station_name": "Kraków Płaszów",
+      "platform": "1",
+      "track": "7",
+      "location": [
+        19.9747852,
+        50.0350214
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Kraków Płaszów",
       "platform": "2",
       "track": "1",
       "location": [
@@ -25750,8 +25761,8 @@
       "platform": "1",
       "track": "303",
       "location": [
-        19.9177384,
-        50.0818124
+        19.9176784,
+        50.0818126
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -27010,8 +27021,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.4936782,
-        52.2459526
+        17.4936449,
+        52.245915
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -27021,8 +27032,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.4936446,
-        52.2460094
+        17.4935985,
+        52.2459568
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -28021,23 +28032,34 @@
     {
       "station_name": "Kętrzyn",
       "platform": "1",
+      "track": "3",
+      "location": [
+        21.3875229,
+        54.072377
+      ],
+      "exact_location": true,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Kętrzyn",
+      "platform": "1",
+      "track": "5",
+      "location": [
+        21.3875539,
+        54.0724681
+      ],
+      "exact_location": true,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Kętrzyn",
+      "platform": "2",
       "track": "1",
       "location": [
         21.3875086,
         54.0723351
       ],
       "exact_location": true,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Kętrzyn",
-      "platform": "2",
-      "track": "6",
-      "location": [
-        21.387517,
-        54.0723561
-      ],
-      "exact_location": false,
       "single_track_platform": false
     },
     {
@@ -29386,6 +29408,17 @@
       ],
       "exact_location": false,
       "single_track_platform": true
+    },
+    {
+      "station_name": "Leśnice",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        17.6691043,
+        54.5141212
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "Leśniczówka": [
@@ -29518,6 +29551,19 @@
       "location": [
         17.0383596,
         52.4354097
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
+  "Linkowo": [
+    {
+      "station_name": "Linkowo",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.2651766,
+        54.0906589
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -30303,24 +30349,13 @@
     {
       "station_name": "Lubań Śląski",
       "platform": "3",
-      "track": "3",
-      "location": [
-        15.293248,
-        51.1112506
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Lubań Śląski",
-      "platform": "3",
       "track": "5",
       "location": [
         15.2935413,
         51.1113578
       ],
       "exact_location": false,
-      "single_track_platform": false
+      "single_track_platform": true
     },
     {
       "station_name": "Lubań Śląski",
@@ -31629,6 +31664,19 @@
       "single_track_platform": true
     }
   ],
+  "Martiany": [
+    {
+      "station_name": "Martiany",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.5159423,
+        54.0268155
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "Marzenin": [
     {
       "station_name": "Marzenin",
@@ -32632,10 +32680,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        15.1078653,
-        51.0951475
+        15.1078618,
+        51.0951205
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -33279,10 +33327,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.4767463,
-        52.2086017
+        17.4768316,
+        52.2088374
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -33290,8 +33338,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.4767139,
-        52.2087159
+        17.4767174,
+        52.2088403
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -33410,6 +33458,24 @@
         53.9137444
       ],
       "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
+  "Mnichów": [
+    {
+      "station_name": "Mnichów",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Mnichów",
+      "platform": "2",
+      "track": "2",
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -36013,19 +36079,6 @@
       "single_track_platform": true
     }
   ],
-  "Nowa Wieś Legnicka": [
-    {
-      "station_name": "Nowa Wieś Legnicka",
-      "platform": "1",
-      "track": "1",
-      "location": [
-        16.1892302,
-        51.176207
-      ],
-      "exact_location": false,
-      "single_track_platform": true
-    }
-  ],
   "Nowa Wieś Lęborska": [
     {
       "station_name": "Nowa Wieś Lęborska",
@@ -36466,6 +36519,19 @@
         50.3621132
       ],
       "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "Nowy Młyn": [
+    {
+      "station_name": "Nowy Młyn",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.3243472,
+        54.0675014
+      ],
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -38394,8 +38460,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.4778476,
-        52.1274972
+        17.4778211,
+        52.1282855
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -38405,10 +38471,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.4777998,
-        52.1274118
+        17.4778174,
+        52.1255415
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -38948,7 +39014,18 @@
         53.6993389
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Ostróda",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        19.9493089,
+        53.6994552
+      ],
+      "exact_location": true,
+      "single_track_platform": false
     },
     {
       "station_name": "Ostróda",
@@ -42055,7 +42132,7 @@
     {
       "station_name": "Pogorzelice",
       "platform": "1",
-      "track": "2",
+      "track": "1",
       "location": [
         17.6419604,
         54.5039354
@@ -42066,7 +42143,7 @@
     {
       "station_name": "Pogorzelice",
       "platform": "2",
-      "track": "4",
+      "track": "2",
       "location": [
         17.6419604,
         54.5039354
@@ -44994,6 +45071,30 @@
       "single_track_platform": false
     }
   ],
+  "Rabka Zaryte": [
+    {
+      "station_name": "Rabka Zaryte",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        19.9905143,
+        49.6268585
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Rabka Zaryte",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.9905143,
+        49.6268585
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    }
+  ],
   "Rabka-Zdrój": [
     {
       "station_name": "Rabka-Zdrój",
@@ -45310,8 +45411,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.4995489,
-        52.0331654
+        17.4995194,
+        52.0335424
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -45321,10 +45422,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.4994974,
-        52.0331675
+        17.4994295,
+        52.0335423
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -45443,24 +45544,6 @@
         51.3530347
       ],
       "exact_location": true,
-      "single_track_platform": true
-    }
-  ],
-  "Radom Południowy": [
-    {
-      "station_name": "Radom Południowy",
-      "platform": "1",
-      "track": "1",
-      "location": null,
-      "exact_location": false,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Radom Południowy",
-      "platform": "2",
-      "track": "2",
-      "location": null,
-      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -45842,10 +45925,7 @@
       "station_name": "Radzyń Podlaski",
       "platform": "2",
       "track": "2",
-      "location": [
-        22.6688263,
-        51.8271136
-      ],
+      "location": null,
       "exact_location": false,
       "single_track_platform": false
     },
@@ -45853,10 +45933,7 @@
       "station_name": "Radzyń Podlaski",
       "platform": "2",
       "track": "1",
-      "location": [
-        22.6688263,
-        51.8271136
-      ],
+      "location": null,
       "exact_location": false,
       "single_track_platform": false
     }
@@ -51639,6 +51716,28 @@
       ],
       "exact_location": true,
       "single_track_platform": true
+    },
+    {
+      "station_name": "Sosnowiec Główny",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        19.1263282,
+        50.278995
+      ],
+      "exact_location": true,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Sosnowiec Główny",
+      "platform": "3",
+      "track": "3",
+      "location": [
+        19.1263859,
+        50.27895
+      ],
+      "exact_location": false,
+      "single_track_platform": false
     }
   ],
   "Sosnowiec Jęzor Południowy": [
@@ -53080,7 +53179,31 @@
       "single_track_platform": true
     }
   ],
+  "Sterławki Małe": [
+    {
+      "station_name": "Sterławki Małe",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.6490634,
+        54.0113315
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "Sterławki Wielkie": [
+    {
+      "station_name": "Sterławki Wielkie",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.5821207,
+        54.0157843
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    },
     {
       "station_name": "Sterławki Wielkie",
       "platform": "1",
@@ -53090,7 +53213,7 @@
         54.0157843
       ],
       "exact_location": false,
-      "single_track_platform": true
+      "single_track_platform": false
     }
   ],
   "Stobno": [
@@ -58142,13 +58265,24 @@
     {
       "station_name": "Tołkiny",
       "platform": "1",
+      "track": "1",
+      "location": [
+        21.2358293,
+        54.116876
+      ],
+      "exact_location": true,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Tołkiny",
+      "platform": "1",
       "track": "3",
       "location": [
         21.2359794,
         54.1169131
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
     }
   ],
   "Trablice": [
@@ -63215,6 +63349,19 @@
       "single_track_platform": true
     }
   ],
+  "Wilkasy Niegocin": [
+    {
+      "station_name": "Wilkasy Niegocin",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.7379982,
+        54.0195735
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "Wilkoszewice": [
     {
       "station_name": "Wilkoszewice",
@@ -65549,8 +65696,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        17.5555349,
-        52.3275821
+        17.5555336,
+        52.3275823
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -65560,8 +65707,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.5553782,
-        52.3275889
+        17.5553772,
+        52.327589
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -65571,7 +65718,7 @@
       "platform": "2",
       "track": "5",
       "location": [
-        17.5552439,
+        17.5552415,
         52.3275948
       ],
       "exact_location": true,
@@ -65582,8 +65729,8 @@
       "platform": "2",
       "track": "7",
       "location": [
-        17.5550894,
-        52.3275969
+        17.5550882,
+        52.3275974
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -67120,24 +67267,24 @@
     {
       "station_name": "Zagnańsk",
       "platform": "2",
-      "track": "1",
-      "location": [
-        20.6650877,
-        50.9742601
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Zagnańsk",
-      "platform": "2",
       "track": "2",
       "location": [
         20.6650543,
         50.97417
       ],
       "exact_location": true,
-      "single_track_platform": false
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Zagnańsk",
+      "platform": "3",
+      "track": "4",
+      "location": [
+        20.6634975,
+        50.9744474
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "Zagościniec": [
@@ -71469,24 +71616,24 @@
     {
       "station_name": "Łączna",
       "platform": "1",
-      "track": "1",
-      "location": [
-        20.7984357,
-        50.9917204
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Łączna",
-      "platform": "1",
       "track": "2",
       "location": [
         20.7984892,
         50.9916283
       ],
       "exact_location": true,
-      "single_track_platform": false
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Łączna",
+      "platform": "2",
+      "track": "4",
+      "location": [
+        20.7984417,
+        50.9916624
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "Łąg": [
