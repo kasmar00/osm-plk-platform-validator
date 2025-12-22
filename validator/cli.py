@@ -7,7 +7,13 @@ import re
 from .replacement_platforms import replacement_platforms
 
 PLK_Platform = NamedTuple(
-    "PLK_Platform", [("station_name", str), ("platform", str), ("track", str)]
+    "PLK_Platform",
+    [
+        ("operator", str),
+        ("station_name", str),
+        ("platform", str),
+        ("track", str),
+    ],
 )
 
 
@@ -17,6 +23,11 @@ def load_platforms_from_plk() -> List[PLK_Platform]:
     with open(path, "r", encoding="utf-8") as f:
         rd = csv.reader(f, delimiter="\t", quotechar='"')
         next(rd)  # skip header
+        for row in rd:
+            platforms.append(PLK_Platform("PLK", *row))
+
+    with open("platforms-others.tsv") as f:
+        rd = csv.reader(f, delimiter="\t", quotechar='"')
         for row in rd:
             platforms.append(PLK_Platform(*row))
 
@@ -31,13 +42,18 @@ def patch_platforms(platforms: List[PLK_Platform]) -> List[PLK_Platform]:
     for platform in platforms:
         replacement = replacement_platforms.get((platform.station_name, platform.platform, platform.track), None)
         if replacement and replacement not in used_replacements:
-            patched.append(PLK_Platform(
-                platform.station_name, replacement[0], replacement[1]
-            ))
+            patched.append(
+                PLK_Platform(
+                    platform.operator,
+                    platform.station_name,
+                    replacement[0],
+                    replacement[1],
+                )
+            )
             used_replacements.add(replacement)
         else:
             patched.append(platform)
-        
+
     return patched
 
 
@@ -132,11 +148,13 @@ Report_Platform = NamedTuple(
     "Report_Platform",
     [
         ("station_name", str),
+        ("operator", str),
         ("platform", str),
         ("track", str),
         ("location", tuple[float, float]),
         ("exact_location", bool),
         ("single_track_platform", bool),
+        ("global_id", str),
     ],
 )
 
@@ -159,7 +177,6 @@ def platform_locations(
     osm_stations: Dict[str, OSM_Station],
 ) -> Dict[str, List[Report_Platform]]:
     locations: Dict[str, List[Report_Platform]] = {}
-    osm_by_station = {}
 
     plk_grouped: Dict[str, List[PLK_Platform]] = {}
     for k, v in itertools.groupby(
@@ -185,16 +202,21 @@ def platform_locations(
             # TODO: fix when there are multiple platforms with the same track...
 
             single_track_platform = len([platform for platform in platforms if platform.platform==plk.platform]) == 1
+            global_id = f"{plk.platform}_{clean_track}"  # TODO: add station id
+            # TODO: add station locations
+            # TODO: match by operators
 
             if matched_osm is not None:
                 locations.setdefault(station, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
+                        operator=plk.operator,
                         platform=plk.platform,
                         track=clean_track,
                         location=matched_osm.location,
                         exact_location=True,
-                        single_track_platform=single_track_platform
+                        single_track_platform=single_track_platform,
+                        global_id=global_id,
                     )
                 )
             else:
@@ -203,11 +225,13 @@ def platform_locations(
                 locations.setdefault(station, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
+                        operator=plk.operator,
                         platform=plk.platform,
                         track=clean_track,
                         location=location,
                         exact_location=False,
-                        single_track_platform = single_track_platform
+                        single_track_platform=single_track_platform,
+                        global_id=global_id,
                     )
                 )
                 if not osm_station:
@@ -231,6 +255,7 @@ def dump_report(locations: Dict[str, List[Report_Platform]]) -> None:
                 station: [
                     {
                         "station_name": p.station_name,
+                        "operator": p.operator,
                         "platform": p.platform,
                         "track": p.track,
                         "location": p.location,
