@@ -45934,16 +45934,22 @@
       "station_name": "Radzyń Podlaski",
       "platform": "2",
       "track": "2",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        22.6683535,
+        51.827375
+      ],
+      "exact_location": true,
       "single_track_platform": false
     },
     {
       "station_name": "Radzyń Podlaski",
       "platform": "2",
       "track": "1",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        22.6682787,
+        51.8272949
+      ],
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
