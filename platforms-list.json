@@ -7881,8 +7881,8 @@
       "platform": "1",
       "track": "4",
       "location": [
-        17.9649038,
-        52.2725021
+        17.9648398,
+        52.2725049
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -7892,8 +7892,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        17.9649153,
-        52.2726046
+        17.9648563,
+        52.2726076
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -7903,8 +7903,8 @@
       "platform": "2",
       "track": "1",
       "location": [
-        17.9669781,
-        52.27253
+        17.9671312,
+        52.2725184
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -7914,8 +7914,8 @@
       "platform": "2",
       "track": "3",
       "location": [
-        17.966992,
-        52.272628
+        17.9671471,
+        52.2726211
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -7927,8 +7927,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.0104584,
-        52.2700268
+        18.0108496,
+        52.2700049
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -7938,8 +7938,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.0086029,
-        52.270094
+        18.008218,
+        52.2701134
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -16213,8 +16213,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.645633,
-        52.3321483
+        17.6451763,
+        52.3322153
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -16224,8 +16224,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.6418802,
-        52.3326673
+        17.6423609,
+        52.3325949
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -21948,8 +21948,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.1516229,
-        52.2497707
+        18.151971,
+        52.2497208
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -21960,7 +21960,7 @@
       "track": "2",
       "location": [
         18.1501183,
-        52.2499315
+        52.2499319
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -23327,8 +23327,8 @@
       "platform": "1",
       "track": "4",
       "location": [
-        18.2531954,
-        52.2310979
+        18.2527166,
+        52.2311761
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -23338,8 +23338,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        18.2532572,
-        52.231215
+        18.2527675,
+        52.2312935
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -23349,8 +23349,8 @@
       "platform": "2",
       "track": "1",
       "location": [
-        18.2532743,
-        52.2312557
+        18.2527853,
+        52.2313343
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -23360,8 +23360,8 @@
       "platform": "2",
       "track": "3",
       "location": [
-        18.2533186,
-        52.231374
+        18.2528363,
+        52.231452
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -23373,8 +23373,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.2218682,
-        52.2368793
+        18.2215333,
+        52.2369755
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -23384,8 +23384,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.2218407,
-        52.2368419
+        18.2215061,
+        52.2369412
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -33466,16 +33466,22 @@
       "station_name": "Mnichów",
       "platform": "1",
       "track": "1",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        20.3331566,
+        50.7075926
+      ],
+      "exact_location": true,
       "single_track_platform": true
     },
     {
       "station_name": "Mnichów",
       "platform": "2",
       "track": "2",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        20.3340543,
+        50.7081893
+      ],
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -39270,8 +39276,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.6917192,
-        52.3253071
+        17.6919721,
+        52.3252678
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -39281,8 +39287,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.6917106,
-        52.3252709
+        17.6919578,
+        52.3252329
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -44266,8 +44272,11 @@
       "station_name": "Ptaszkowo",
       "platform": "1",
       "track": "1",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        16.441371,
+        52.2292116
+      ],
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -52060,8 +52069,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.0921331,
-        52.2575854
+        18.0925317,
+        52.2575326
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -52071,8 +52080,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.0899033,
-        52.2578402
+        18.0897192,
+        52.2578655
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -53490,8 +53499,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.8058723,
-        52.3106911
+        17.8062505,
+        52.3106099
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -53501,8 +53510,8 @@
       "platform": "1",
       "track": "3",
       "location": [
-        17.805933,
-        52.3107868
+        17.8063051,
+        52.3107076
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -53512,8 +53521,8 @@
       "platform": "2",
       "track": "4",
       "location": [
-        17.8057968,
-        52.3105558
+        17.806172,
+        52.3104719
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -53523,8 +53532,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.8058479,
-        52.3106525
+        17.8062274,
+        52.31057
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -57028,8 +57037,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.8527912,
-        52.2867056
+        17.8528453,
+        52.2866471
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -57039,8 +57048,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.8514217,
-        52.2879923
+        17.8513071,
+        52.2881057
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -66213,8 +66222,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.7552656,
-        52.3216094
+        17.7547847,
+        52.3216331
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -66224,8 +66233,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        17.7515172,
-        52.3217616
+        17.7519924,
+        52.3217379
       ],
       "exact_location": true,
       "single_track_platform": true
