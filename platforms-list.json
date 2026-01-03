@@ -25148,7 +25148,7 @@
       "platform": "1",
       "track": "3",
       "location": [
-        20.1686706,
+        20.168666,
         50.0875844
       ],
       "exact_location": true,
@@ -68123,8 +68123,8 @@
       "platform": "1",
       "track": "4",
       "location": [
-        19.4234568,
-        50.4794051
+        19.4234558,
+        50.4794053
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -68134,8 +68134,8 @@
       "platform": "2",
       "track": "1",
       "location": [
-        19.4230207,
-        50.4810155
+        19.4230389,
+        50.4808125
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -68145,8 +68145,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        19.4232308,
-        50.481019
+        19.4232498,
+        50.4808207
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -68156,8 +68156,8 @@
       "platform": "3",
       "track": "7",
       "location": [
-        19.4226576,
-        50.4825074
+        19.4226754,
+        50.4823037
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -68167,8 +68167,8 @@
       "platform": "3",
       "track": "9",
       "location": [
-        19.42251,
-        50.4825016
+        19.422529,
+        50.4822979
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -68180,8 +68180,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.3989734,
-        50.5107797
+        19.39897,
+        50.5107782
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -68191,8 +68191,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        19.3990357,
-        50.5107963
+        19.3990342,
+        50.5107953
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -68204,10 +68204,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.405304,
-        50.4697703
+        19.4052976,
+        50.4697302
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
