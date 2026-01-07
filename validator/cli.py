@@ -204,6 +204,7 @@ def platform_locations(
             single_track_platform = len([platform for platform in platforms if platform.platform==plk.platform]) == 1
             global_id = f"{plk.platform}_{clean_track}"  # TODO: add station id
             # TODO: add station locations
+            # TODO: change keys to slugs
             # TODO: match by operators
 
             if matched_osm is not None:
