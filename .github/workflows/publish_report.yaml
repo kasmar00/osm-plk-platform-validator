@@ -16,7 +16,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        run: make publish
+        run: |
+          set -e
+          attempts=0
+          max_attempts=3
+
+          until make publish; do
+            attempts=$((attempts + 1))
+            if [ "$attempts" -ge "$max_attempts" ]; then
+              echo "Publish failed after $attempts attempts."
+              exit 1
+            fi
+            echo "Publish failed. Retrying ($attempts/$max_attempts)..."
+            sleep 5
+          done
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
