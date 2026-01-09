@@ -6728,10 +6728,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        14.4443258,
-        52.9633511
+        14.4439217,
+        52.9638355
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -6739,10 +6739,10 @@
       "platform": "2",
       "track": "1",
       "location": [
-        14.4443258,
-        52.9633511
+        14.4439269,
+        52.9639749
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -6750,10 +6750,10 @@
       "platform": "2",
       "track": "5",
       "location": [
-        14.4443258,
-        52.9633511
+        14.4434548,
+        52.9648861
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -12176,10 +12176,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.4041528,
-        50.0539304
+        21.4041605,
+        50.0539148
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -12187,10 +12187,10 @@
       "platform": "1",
       "track": "3",
       "location": [
-        21.4041528,
-        50.0539304
+        21.4042616,
+        50.0538143
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -12198,10 +12198,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        21.4041528,
-        50.0539304
+        21.4041215,
+        50.0539423
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -12209,10 +12209,10 @@
       "platform": "2",
       "track": "4",
       "location": [
-        21.4041528,
-        50.0539304
+        21.4040215,
+        50.0540456
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -56768,10 +56768,10 @@
       "platform": "1",
       "track": "9",
       "location": [
-        16.6696333,
-        54.3556672
+        16.6693953,
+        54.3558922
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -56779,10 +56779,10 @@
       "platform": "2",
       "track": "5",
       "location": [
-        16.6696333,
-        54.3556672
+        16.6677393,
+        54.3556597
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -56790,10 +56790,10 @@
       "platform": "2",
       "track": "3",
       "location": [
-        16.6696333,
-        54.3556672
+        16.6677622,
+        54.3555386
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -56801,10 +56801,10 @@
       "platform": "3",
       "track": "1",
       "location": [
-        16.6696333,
-        54.3556672
+        16.6677711,
+        54.3555017
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -62315,10 +62315,10 @@
       "platform": "2",
       "track": "3",
       "location": [
-        16.4842762,
-        53.2751302
+        16.4843258,
+        53.2750007
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -62326,10 +62326,10 @@
       "platform": "2",
       "track": "1",
       "location": [
-        16.4842762,
-        53.2751302
+        16.4841984,
+        53.2749843
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -62337,10 +62337,10 @@
       "platform": "3",
       "track": "5",
       "location": [
-        16.4842762,
-        53.2751302
+        16.4843934,
+        53.2750106
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
