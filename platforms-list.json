@@ -14502,11 +14502,8 @@
       "station_name": "Gorzów Wielkopolski",
       "platform": "1",
       "track": "2",
-      "location": [
-        15.2286477,
-        52.727607
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": false
     },
     {
@@ -14524,22 +14521,16 @@
       "station_name": "Gorzów Wielkopolski",
       "platform": "2",
       "track": "4",
-      "location": [
-        15.2286555,
-        52.7275702
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     },
     {
       "station_name": "Gorzów Wielkopolski",
       "platform": "4",
       "track": "51",
-      "location": [
-        15.2284444,
-        52.7267242
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": false
     },
     {
@@ -14572,10 +14563,7 @@
       "station_name": "Gorzów Wielkopolski Wieprzyce",
       "platform": "1",
       "track": "1",
-      "location": [
-        15.1816367,
-        52.7181491
-      ],
+      "location": null,
       "exact_location": false,
       "single_track_platform": true
     },
@@ -14583,11 +14571,8 @@
       "station_name": "Gorzów Wielkopolski Wieprzyce",
       "platform": "2",
       "track": "2",
-      "location": [
-        15.1816619,
-        52.7181357
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -14596,11 +14581,8 @@
       "station_name": "Gorzów Wielkopolski Wschodni",
       "platform": "1",
       "track": "102",
-      "location": [
-        15.2492181,
-        52.7317951
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -14609,11 +14591,8 @@
       "station_name": "Gorzów Wielkopolski Zamoście",
       "platform": "1",
       "track": "1",
-      "location": [
-        15.2390579,
-        52.7226573
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -14622,33 +14601,24 @@
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "1",
       "track": "1",
-      "location": [
-        15.2617127,
-        52.6997127
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     },
     {
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "2",
       "track": "1",
-      "location": [
-        15.2617127,
-        52.6997127
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": false
     },
     {
       "station_name": "Gorzów Wielkopolski Zieleniec",
       "platform": "2",
       "track": "2",
-      "location": [
-        15.2616113,
-        52.6996957
-      ],
-      "exact_location": true,
+      "location": null,
+      "exact_location": false,
       "single_track_platform": false
     }
   ],
