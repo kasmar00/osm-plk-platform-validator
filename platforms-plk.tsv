@@ -101,7 +101,6 @@ Bełżec	3	1
 Bełżec	3	2
 Bełżec Drugi	1	1
 Berejów	1	1
-Berezów	1	1
 Berezów	2	2
 Besko	1	1
 Bezwola	1	1
@@ -179,12 +178,12 @@ Bieliny Opoczyńskie	2	2
 Bielsk Podlaski	1	5
 Bielsk Podlaski	2	2
 Bielsk Podlaski	2	1
-Bielsko-Biała Główna	1	1
-Bielsko-Biała Główna	1a	3
 Bielsko-Biała Główna	2	4
 Bielsko-Biała Główna	2	2
 Bielsko-Biała Główna	3	12
 Bielsko-Biała Główna	3	8
+Bielsko-Biała Główna	1	1
+Bielsko-Biała Główna	1a	3
 Bielsko-Biała Komorowice	1	1
 Bielsko-Biała Komorowice	1	2
 Bielsko-Biała Leszczyny	1	1
@@ -404,8 +403,8 @@ Brzoza Toruńska	2	2
 Brzozowica	1	1
 Brzozowica	2	2
 Brzozowiec Gorzowski	1	1
-Brzóstowa	1	1
-Brzóstowa	2	2
+Brzóstowa	1	
+Brzóstowa	2	
 Brzustów	1	1
 Buchałów	1	1
 Budachów	1	1
@@ -993,7 +992,6 @@ Drzewce	2	2
 Drzewica	1	1
 Drzewica	1	2
 Drzewica	2	3
-Drzewica	2	1
 Drzonowo	2	1
 Drzycim	1	1
 Drzymałowo	1	1
@@ -1165,7 +1163,6 @@ Gliwice Kuźnica	1	1
 Gliwice Kuźnica	2	2
 Gliwice Łabędy	1	2
 Gliwice Łabędy	1	1
-Gliwice Łabędy	2	2 Płn
 Gliwice Łabędy	3	1Płn
 Głębokie Międzyrzeckie	1	1
 Głogów	1	16
@@ -1541,7 +1538,6 @@ Jankowa	1	1
 Jankowa Żagańska	1	1
 Jankowa Żagańska	2	2
 Jankowa Żagańska	4	3
-Jankowa Żagańska	5	5
 Jankowce	1	1
 Jankowo Dolne	1	1
 Jankowo Dolne	2	2
@@ -1695,8 +1691,8 @@ Jesionka	2	2
 Jesionowiec	1	1
 Jezierzany	1	1
 Jezierzany	2	2
-Jezierzyce Słupskie	1	3
-Jezierzyce Słupskie	1	1
+Jezierzyce Słupskie	2	3
+Jezierzyce Słupskie	2	1
 Jeziorki Wałeckie	1	1
 Jeżewo	1	1
 Jeżówka	1	2
@@ -1712,6 +1708,7 @@ Józefin	1	1
 Józefin	2	2
 Józefów	1	1
 Józefów	1	2
+Józefów	2	1
 Józefów Roztoczański	1	1
 Jugowice	1	1
 Julianka	1	4
@@ -1922,7 +1919,6 @@ Kleszczele	1	1
 Klewki	1	1
 Klępnica	1	1
 Klimontów	1	1
-Klimontów	2	2
 Kliniska	1	2
 Kliniska	2	1a
 Kluczbork	1	1płd
@@ -2888,6 +2884,7 @@ Michalczew	1	1
 Michalczew	2	2
 Michalin	1	1
 Michalin	1	2
+Michalin	2	1
 Michałów-Reginów	1	1
 Miechów	1	2
 Miechów	1	1
@@ -2981,7 +2978,6 @@ Mińsk Mazowiecki Anielina	1	1
 Mińsk Mazowiecki Anielina	2	2
 Mirków	1	1
 Mirków	2	2
-Mirosław Ujski	1	1
 Misie	1	1
 Misie	2	2
 Mleczewo	1	1
@@ -3498,6 +3494,7 @@ Otwock Śródborów	1	1
 Otwock Śródborów	2	2
 Otwock Świder	1	1
 Otwock Świder	1	2
+Otwock Świder	2	1
 Owińska	1	1
 Ozimek	1	1
 Ozimek	1	2
@@ -3955,8 +3952,8 @@ Pyskowice	3	2
 Pyzówka	1	1
 Raba Wyżna	1	3
 Raba Wyżna	1	1
-Rabka Zaryte	1	2a
 Rabka Zaryte	1	1
+Rabka Zaryte	1	2
 Rabka-Zdrój	1	1
 Racewo	1	1
 Raciąż	1	2
@@ -4310,7 +4307,6 @@ Sadurki	2	4
 Samborowo	1	2
 Samborowo	1	1
 Samostrzel	1	1
-Samostrzel	2	1
 Samostrzel	2	2
 Sandomierz	1	3
 Sandomierz	1	1a
@@ -4402,6 +4398,7 @@ Sierpów	1	1
 Siewierz	1	1
 Siewierz	1	3
 Silno	1	2
+Silno	1	1
 Silnowo	1	1
 Silnowo	2	1
 Sińczyca	1	1
@@ -4567,8 +4564,6 @@ Sosnowe	2	2
 Sosnowiec Dańdówka	1	5
 Sosnowiec Dańdówka	2	1
 Sosnowiec Dańdówka	2	2
-Sosnowiec Główny	1	4/4a
-Sosnowiec Główny	2	2
 Sosnowiec Główny	3	1
 Sosnowiec Główny	3	3
 Sosnowiec Jęzor Południowy	1	1
@@ -4758,6 +4753,7 @@ Strzyżów Zachodni	1	1
 Strzyżyna	1	1
 Strzyżyna	2	2
 Strzyżyno Słupskie	1	1
+Studniska	1	1
 Studzianka	1	1
 Studzianki Nowe	1	1
 Studzianki Nowe	2	2
@@ -5097,6 +5093,7 @@ Tomaszów Mazowiecki	2	1
 Tomaszów Mazowiecki Białobrzegi	1	1
 Tomaszówek	1	1
 Topola-Osiedle	1	1
+Topola-Osiedle	2	1
 Topola-Osiedle	2	3
 Toporów	1	3
 Toporów	1	1
@@ -5338,6 +5335,8 @@ Warszawa Dawidy	2	2
 Warszawa Falenica	1	2
 Warszawa Falenica	2	3a
 Warszawa Falenica	2	1
+Warszawa Falenica	3	5
+Warszawa Falenica	3	3b
 Warszawa Gdańska	2	3
 Warszawa Gdańska	2	5
 Warszawa Gdańska	3	1B
@@ -5363,6 +5362,7 @@ Warszawa Lotnisko Chopina	1	1L
 Warszawa Lotnisko Chopina	1	2L
 Warszawa Miedzeszyn	1	1F
 Warszawa Miedzeszyn	1	2F
+Warszawa Miedzeszyn	2	1F
 Warszawa Międzylesie	1	1F
 Warszawa Międzylesie	1	2F
 Warszawa Młynów	1	1
@@ -5410,6 +5410,8 @@ Warszawa Ursus Północny	1	1
 Warszawa Ursus Północny	2	2
 Warszawa Wawer	1	1
 Warszawa Wawer	1	2
+Warszawa Wawer	2	3
+Warszawa Wawer	3	4,6
 Warszawa Wesoła	1	1
 Warszawa Wesoła	2	2
 Warszawa Wileńska	1	1
@@ -5485,7 +5487,7 @@ Wąsosz Konecki	1	1
 Wejherowo	1	2
 Wejherowo	2	1
 Wejherowo	3	3
-Wejherowo	3	7x
+Wejherowo	3	7
 Wejherowo Śmiechowo	1	1
 Wejherowo Śmiechowo	2	2
 Wejherowo-Nanice	1	1
