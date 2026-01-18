@@ -1046,17 +1046,6 @@
   "Berezów": [
     {
       "station_name": "Berezów",
-      "platform": "1",
-      "track": "1",
-      "location": [
-        20.8361068,
-        51.0237002
-      ],
-      "exact_location": true,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Berezów",
       "platform": "2",
       "track": "2",
       "location": [
@@ -1965,28 +1954,6 @@
   "Bielsko-Biała Główna": [
     {
       "station_name": "Bielsko-Biała Główna",
-      "platform": "1",
-      "track": "1",
-      "location": [
-        19.0451617,
-        49.8298222
-      ],
-      "exact_location": true,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Bielsko-Biała Główna",
-      "platform": "1a",
-      "track": "3",
-      "location": [
-        19.0447767,
-        49.8315302
-      ],
-      "exact_location": true,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Bielsko-Biała Główna",
       "platform": "2",
       "track": "4",
       "location": [
@@ -2028,6 +1995,28 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Bielsko-Biała Główna",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.0451617,
+        49.8298222
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Bielsko-Biała Główna",
+      "platform": "1a",
+      "track": "3",
+      "location": [
+        19.0447767,
+        49.8315302
+      ],
+      "exact_location": true,
+      "single_track_platform": true
     }
   ],
   "Bielsko-Biała Komorowice": [
@@ -4491,23 +4480,23 @@
     {
       "station_name": "Brzóstowa",
       "platform": "1",
-      "track": "1",
+      "track": "",
       "location": [
-        21.4828795,
-        50.8983707
+        21.4831591,
+        50.8983094
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
       "station_name": "Brzóstowa",
       "platform": "2",
-      "track": "2",
+      "track": "",
       "location": [
-        21.4828795,
-        50.8983707
+        21.4831591,
+        50.8983094
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -10975,18 +10964,7 @@
         51.4368803
       ],
       "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Drzewica",
-      "platform": "2",
-      "track": "1",
-      "location": [
-        20.4656542,
-        51.4369452
-      ],
-      "exact_location": true,
-      "single_track_platform": false
+      "single_track_platform": true
     }
   ],
   "Drzeńsko": [
@@ -13738,17 +13716,6 @@
       ],
       "exact_location": true,
       "single_track_platform": false
-    },
-    {
-      "station_name": "Gliwice Łabędy",
-      "platform": "2",
-      "track": "2",
-      "location": [
-        18.6213185,
-        50.3405484
-      ],
-      "exact_location": true,
-      "single_track_platform": true
     },
     {
       "station_name": "Gliwice Łabędy",
@@ -18409,17 +18376,6 @@
       ],
       "exact_location": true,
       "single_track_platform": true
-    },
-    {
-      "station_name": "Jankowa Żagańska",
-      "platform": "5",
-      "track": "5",
-      "location": [
-        15.181196,
-        51.5673113
-      ],
-      "exact_location": true,
-      "single_track_platform": true
     }
   ],
   "Jankowce": [
@@ -20241,7 +20197,7 @@
   "Jezierzyce Słupskie": [
     {
       "station_name": "Jezierzyce Słupskie",
-      "platform": "1",
+      "platform": "2",
       "track": "3",
       "location": [
         17.1218427,
@@ -20252,7 +20208,7 @@
     },
     {
       "station_name": "Jezierzyce Słupskie",
-      "platform": "1",
+      "platform": "2",
       "track": "1",
       "location": [
         17.1218427,
@@ -20517,6 +20473,17 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Józefów",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.2364674,
+        52.1361439
+      ],
+      "exact_location": true,
+      "single_track_platform": true
     }
   ],
   "Józefów Roztoczański": [
@@ -22101,8 +22068,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        20.6184082,
-        50.8748528
+        20.6184061,
+        50.8748531
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -22454,17 +22421,6 @@
       "location": [
         20.0299716,
         50.525121
-      ],
-      "exact_location": true,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Klimontów",
-      "platform": "2",
-      "track": "2",
-      "location": [
-        20.0300286,
-        50.525107
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -32262,6 +32218,17 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Michalin",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.2249583,
+        52.1477153
+      ],
+      "exact_location": true,
+      "single_track_platform": true
     }
   ],
   "Michałów-Reginów": [
@@ -32941,16 +32908,6 @@
         51.1654515
       ],
       "exact_location": true,
-      "single_track_platform": true
-    }
-  ],
-  "Mirosław Ujski": [
-    {
-      "station_name": "Mirosław Ujski",
-      "platform": "1",
-      "track": "1",
-      "location": null,
-      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -39460,6 +39417,17 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Otwock Świder",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.2521075,
+        52.1204155
+      ],
+      "exact_location": true,
+      "single_track_platform": true
     }
   ],
   "Otłoczyn": [
@@ -41446,10 +41414,10 @@
       "platform": "4",
       "track": "16",
       "location": [
-        16.7448031,
-        53.1430744
+        16.7462824,
+        53.1424049
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -45084,7 +45052,7 @@
     {
       "station_name": "Rabka Zaryte",
       "platform": "1",
-      "track": "2",
+      "track": "1",
       "location": [
         19.9905143,
         49.6268585
@@ -45095,7 +45063,7 @@
     {
       "station_name": "Rabka Zaryte",
       "platform": "1",
-      "track": "1",
+      "track": "2",
       "location": [
         19.9905143,
         49.6268585
@@ -49349,24 +49317,13 @@
     {
       "station_name": "Samostrzel",
       "platform": "2",
-      "track": "1",
-      "location": [
-        17.4351781,
-        53.1278352
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Samostrzel",
-      "platform": "2",
       "track": "2",
       "location": [
         17.4342061,
         53.1277211
       ],
       "exact_location": true,
-      "single_track_platform": false
+      "single_track_platform": true
     }
   ],
   "Sandomierz": [
@@ -50204,7 +50161,18 @@
         53.6441216
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Silno",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.6930388,
+        53.6444597
+      ],
+      "exact_location": true,
+      "single_track_platform": false
     }
   ],
   "Silnowo": [
@@ -51710,28 +51678,6 @@
     }
   ],
   "Sosnowiec Główny": [
-    {
-      "station_name": "Sosnowiec Główny",
-      "platform": "1",
-      "track": "4",
-      "location": [
-        19.1264623,
-        50.2788528
-      ],
-      "exact_location": true,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Sosnowiec Główny",
-      "platform": "2",
-      "track": "2",
-      "location": [
-        19.1264252,
-        50.2788915
-      ],
-      "exact_location": true,
-      "single_track_platform": true
-    },
     {
       "station_name": "Sosnowiec Główny",
       "platform": "3",
@@ -53933,6 +53879,19 @@
       "location": [
         16.361873,
         53.2436787
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "Studniska": [
+    {
+      "station_name": "Studniska",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        15.0858107,
+        51.1096078
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -57917,13 +57876,24 @@
     {
       "station_name": "Topola-Osiedle",
       "platform": "2",
+      "track": "1",
+      "location": [
+        17.7613043,
+        51.6125498
+      ],
+      "exact_location": true,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Topola-Osiedle",
+      "platform": "2",
       "track": "3",
       "location": [
         17.7616124,
         51.6127533
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
     }
   ],
   "Toporów": [
@@ -60660,6 +60630,28 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Warszawa Falenica",
+      "platform": "3",
+      "track": "5",
+      "location": [
+        21.2106772,
+        52.1620483
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Warszawa Falenica",
+      "platform": "3",
+      "track": "3",
+      "location": [
+        21.2106772,
+        52.1620483
+      ],
+      "exact_location": false,
+      "single_track_platform": false
     }
   ],
   "Warszawa Gdańska": [
@@ -60817,10 +60809,10 @@
     {
       "station_name": "Warszawa Główna",
       "platform": "1",
-      "track": "2",
+      "track": "1",
       "location": [
-        20.9850716,
-        52.2249959
+        20.9850238,
+        52.2250845
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -60953,6 +60945,17 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Warszawa Miedzeszyn",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.2006772,
+        52.1720813
+      ],
+      "exact_location": true,
+      "single_track_platform": true
     }
   ],
   "Warszawa Międzylesie": [
@@ -61468,6 +61471,28 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Warszawa Wawer",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        21.1496097,
+        52.2233538
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Warszawa Wawer",
+      "platform": "3",
+      "track": "4",
+      "location": [
+        21.1496097,
+        52.2233538
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "Warszawa Wesoła": [
