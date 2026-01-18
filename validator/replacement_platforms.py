@@ -5,4 +5,5 @@ replacement_platforms = {
     ("Kraków Bronowice", "4", "2"): ("4", "2-L118"),
     ("Świnoujście Warszów", "2", "1"): ("2", "2"),
     ("Wysoka Kamieńska", "1", "9"): ("1", "7"),
+    ("Warszawa Główna", "1", "2"): ("1", "1"),
 }
