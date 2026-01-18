@@ -2,8 +2,10 @@ import csv
 import itertools
 import json
 from typing import List, NamedTuple, Dict
-from .osm_download import fetch_osm_platforms, fetch_osm_stations
 import re
+
+from .slug import slug
+from .osm_download import fetch_osm_platforms, fetch_osm_stations
 from .replacement_platforms import replacement_platforms
 
 PLK_Platform = NamedTuple(
@@ -136,6 +138,9 @@ def compare(all_platforms: List[PLK_Platform], osm_platforms: List[OSM_Platform]
                 stations_with_more_platforms+=1
             if len(platforms)==1 and len(osm_platforms)==0:
                 single_track_stations_with_missing_platforms+=1
+        tracks = {a.track for a in platforms}
+        if len(tracks) != len(platforms):
+            print(f"Station {station} has duplicate track {tracks}")
 
     print()
     print("Stations with no platforms in OSM:", stations_with_no_platforms)
@@ -196,6 +201,7 @@ def platform_locations(
     missing_stations = 0
     for station, platforms in plk_grouped.items():
         osm_platforms = osm_grouped.get(station, [])
+        station_slug = slug(station)
         for plk in platforms:
             clean_track = re.sub(r"\D", "", plk.track.replace("/", ",").split(",")[0].strip())
             matched_osm = match_platform(plk, clean_track, osm_platforms)
@@ -204,11 +210,10 @@ def platform_locations(
             single_track_platform = len([platform for platform in platforms if platform.platform==plk.platform]) == 1
             global_id = f"{plk.platform}_{clean_track}"  # TODO: add station id
             # TODO: add station locations
-            # TODO: change keys to slugs
             # TODO: match by operators
 
             if matched_osm is not None:
-                locations.setdefault(station, []).append(
+                locations.setdefault(station_slug, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
                         operator=plk.operator,
@@ -223,7 +228,7 @@ def platform_locations(
             else:
                 osm_station = osm_stations.get(station, None)
                 location = list(reversed(osm_station.location)) if osm_station else None
-                locations.setdefault(station, []).append(
+                locations.setdefault(station_slug, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
                         operator=plk.operator,
