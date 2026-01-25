@@ -6,4 +6,5 @@ replacement_platforms = {
     ("Świnoujście Warszów", "2", "1"): ("2", "2"),
     ("Wysoka Kamieńska", "1", "9"): ("1", "7"),
     ("Warszawa Główna", "1", "2"): ("1", "1"),
+    ("Gdynia Karwiny", "2", "12"): ("2", "102"),
 }

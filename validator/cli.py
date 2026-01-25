@@ -2,12 +2,20 @@ import csv
 import itertools
 import json
 from typing import List, NamedTuple, Dict
-from .osm_download import fetch_osm_platforms, fetch_osm_stations
 import re
+
+from .slug import slug
+from .osm_download import fetch_osm_platforms, fetch_osm_stations
 from .replacement_platforms import replacement_platforms
 
 PLK_Platform = NamedTuple(
-    "PLK_Platform", [("station_name", str), ("platform", str), ("track", str)]
+    "PLK_Platform",
+    [
+        ("operator", str),
+        ("station_name", str),
+        ("platform", str),
+        ("track", str),
+    ],
 )
 
 
@@ -17,6 +25,11 @@ def load_platforms_from_plk() -> List[PLK_Platform]:
     with open(path, "r", encoding="utf-8") as f:
         rd = csv.reader(f, delimiter="\t", quotechar='"')
         next(rd)  # skip header
+        for row in rd:
+            platforms.append(PLK_Platform("PLK", *row))
+
+    with open("platforms-others.tsv") as f:
+        rd = csv.reader(f, delimiter="\t", quotechar='"')
         for row in rd:
             platforms.append(PLK_Platform(*row))
 
@@ -31,13 +44,18 @@ def patch_platforms(platforms: List[PLK_Platform]) -> List[PLK_Platform]:
     for platform in platforms:
         replacement = replacement_platforms.get((platform.station_name, platform.platform, platform.track), None)
         if replacement and replacement not in used_replacements:
-            patched.append(PLK_Platform(
-                platform.station_name, replacement[0], replacement[1]
-            ))
+            patched.append(
+                PLK_Platform(
+                    platform.operator,
+                    platform.station_name,
+                    replacement[0],
+                    replacement[1],
+                )
+            )
             used_replacements.add(replacement)
         else:
             patched.append(platform)
-        
+
     return patched
 
 
@@ -120,6 +138,9 @@ def compare(all_platforms: List[PLK_Platform], osm_platforms: List[OSM_Platform]
                 stations_with_more_platforms+=1
             if len(platforms)==1 and len(osm_platforms)==0:
                 single_track_stations_with_missing_platforms+=1
+        tracks = {a.track for a in platforms}
+        if len(tracks) != len(platforms):
+            print(f"Station {station} has duplicate track {tracks}")
 
     print()
     print("Stations with no platforms in OSM:", stations_with_no_platforms)
@@ -132,11 +153,13 @@ Report_Platform = NamedTuple(
     "Report_Platform",
     [
         ("station_name", str),
+        ("operator", str),
         ("platform", str),
         ("track", str),
         ("location", tuple[float, float]),
         ("exact_location", bool),
         ("single_track_platform", bool),
+        ("global_id", str),
     ],
 )
 
@@ -159,7 +182,6 @@ def platform_locations(
     osm_stations: Dict[str, OSM_Station],
 ) -> Dict[str, List[Report_Platform]]:
     locations: Dict[str, List[Report_Platform]] = {}
-    osm_by_station = {}
 
     plk_grouped: Dict[str, List[PLK_Platform]] = {}
     for k, v in itertools.groupby(
@@ -179,35 +201,43 @@ def platform_locations(
     missing_stations = 0
     for station, platforms in plk_grouped.items():
         osm_platforms = osm_grouped.get(station, [])
+        station_slug = slug(station)
         for plk in platforms:
             clean_track = re.sub(r"\D", "", plk.track.replace("/", ",").split(",")[0].strip())
             matched_osm = match_platform(plk, clean_track, osm_platforms)
             # TODO: fix when there are multiple platforms with the same track...
 
             single_track_platform = len([platform for platform in platforms if platform.platform==plk.platform]) == 1
+            global_id = f"{plk.platform}_{clean_track}"  # TODO: add station id
+            # TODO: add station locations
+            # TODO: match by operators
 
             if matched_osm is not None:
-                locations.setdefault(station, []).append(
+                locations.setdefault(station_slug, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
+                        operator=plk.operator,
                         platform=plk.platform,
                         track=clean_track,
                         location=matched_osm.location,
                         exact_location=True,
-                        single_track_platform=single_track_platform
+                        single_track_platform=single_track_platform,
+                        global_id=global_id,
                     )
                 )
             else:
                 osm_station = osm_stations.get(station, None)
                 location = list(reversed(osm_station.location)) if osm_station else None
-                locations.setdefault(station, []).append(
+                locations.setdefault(station_slug, []).append(
                     Report_Platform(
                         station_name=plk.station_name,
+                        operator=plk.operator,
                         platform=plk.platform,
                         track=clean_track,
                         location=location,
                         exact_location=False,
-                        single_track_platform = single_track_platform
+                        single_track_platform=single_track_platform,
+                        global_id=global_id,
                     )
                 )
                 if not osm_station:
@@ -231,6 +261,7 @@ def dump_report(locations: Dict[str, List[Report_Platform]]) -> None:
                 station: [
                     {
                         "station_name": p.station_name,
+                        "operator": p.operator,
                         "platform": p.platform,
                         "track": p.track,
                         "location": p.location,
