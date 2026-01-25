@@ -42,8 +42,12 @@ def patch_platforms(platforms: List[PLK_Platform]) -> List[PLK_Platform]:
     used_replacements = set()
 
     for platform in platforms:
-        replacement = replacement_platforms.get((platform.station_name, platform.platform, platform.track), None)
-        if replacement and replacement not in used_replacements:
+        replacements_key = (platform.station_name, platform.platform, platform.track)
+        replacement = replacement_platforms.get(replacements_key, None)
+        if platform.station_name == "Kraków Piastów":
+            print(f"Original platform: {replacements_key}, patch platform: {replacement}, used_replacements: {used_replacements}")
+        if replacement and replacements_key not in used_replacements:
+            print("About to patch")
             patched.append(
                 PLK_Platform(
                     platform.operator,
@@ -52,7 +56,7 @@ def patch_platforms(platforms: List[PLK_Platform]) -> List[PLK_Platform]:
                     replacement[1],
                 )
             )
-            used_replacements.add(replacement)
+            used_replacements.add(replacements_key)
         else:
             patched.append(platform)
 
