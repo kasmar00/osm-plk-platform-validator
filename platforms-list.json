@@ -28420,10 +28420,10 @@
       "station_name": "Kraków Piastów",
       "operator": "PLK",
       "platform": "2",
-      "track": "2",
+      "track": "102",
       "location": [
-        20.0137136,
-        50.1070161
+        20.0137091,
+        50.106939
       ],
       "exact_location": true,
       "single_track_platform": false
