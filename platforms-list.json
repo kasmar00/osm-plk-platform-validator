@@ -68670,27 +68670,27 @@
       "single_track_platform": false
     },
     {
-      "station_name": "Warszawa Zachodnia",
+      "station_name": "Warszawa Zachodnia peron 9",
       "operator": "PLK",
       "platform": "9",
       "track": "1",
       "location": [
-        20.9651423,
-        52.220421
+        20.961427,
+        52.2220348
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": false
     },
     {
-      "station_name": "Warszawa Zachodnia",
+      "station_name": "Warszawa Zachodnia peron 9",
       "operator": "PLK",
       "platform": "9",
       "track": "2",
       "location": [
-        20.9652081,
-        52.2203039
+        20.961427,
+        52.2220348
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": false
     }
   ],
