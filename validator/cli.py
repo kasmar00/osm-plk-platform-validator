@@ -44,10 +44,7 @@ def patch_platforms(platforms: List[PLK_Platform]) -> List[PLK_Platform]:
     for platform in platforms:
         replacements_key = (platform.station_name, platform.platform, platform.track)
         replacement = replacement_platforms.get(replacements_key, None)
-        if platform.station_name == "Kraków Piastów":
-            print(f"Original platform: {replacements_key}, patch platform: {replacement}, used_replacements: {used_replacements}")
         if replacement and replacements_key not in used_replacements:
-            print("About to patch")
             patched.append(
                 PLK_Platform(
                     platform.operator,
@@ -255,6 +252,17 @@ def platform_locations(
     print("Platforms with no location in OSM:", missing_platforms)
     print("Stations with no location in OSM:", missing_stations)
     print()
+
+    return fix_warsaw_west(locations)
+
+def fix_warsaw_west(locations: Dict[str, List[Report_Platform]]) -> Dict[str, List[Report_Platform]]:
+    nine = locations["warszawa-zachodnia-peron-9"]
+    base = locations["warszawa-zachodnia"]
+
+    base_filtered = [x for x in base if x.platform!="9"]
+    base_filtered.extend(nine)
+
+    locations["warszawa-zachodnia"] = base_filtered
 
     return locations
 
