@@ -193,7 +193,7 @@ def platform_locations(
     osm_grouped: Dict[str, List[OSM_Platform]] = {}
     for k, v in itertools.groupby(
         sorted(osm_platforms, key=lambda x: x.station_name),
-        key=lambda x: x.station_name,
+        key=lambda x: slug(x.station_name),
     ):
         osm_grouped[k] = list(v)
 
@@ -201,8 +201,8 @@ def platform_locations(
     total_platforms = 0
     missing_stations = 0
     for station, platforms in plk_grouped.items():
-        osm_platforms = osm_grouped.get(station, [])
         station_slug = slug(station)
+        osm_platforms = osm_grouped.get(station_slug, [])
         for plk in platforms:
             clean_track = re.sub(r"\D", "", plk.track.replace("/", ",").split(",")[0].strip())
             matched_osm = match_platform(plk, clean_track, osm_platforms)
