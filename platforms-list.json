@@ -54649,8 +54649,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.2843925,
-        51.2862503
+        22.284719,
+        51.2860476
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -54661,8 +54661,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        22.2844439,
-        51.2862819
+        22.2847685,
+        51.28608
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -54673,8 +54673,8 @@
       "platform": "2",
       "track": "4",
       "location": [
-        22.2844076,
-        51.2862759
+        22.284403,
+        51.2862738
       ],
       "exact_location": false,
       "single_track_platform": false
@@ -55895,8 +55895,8 @@
       "platform": "1",
       "track": "3",
       "location": [
-        20.8818947,
-        51.1162711
+        20.8818981,
+        51.1162712
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -55907,8 +55907,8 @@
       "platform": "1a",
       "track": "7",
       "location": [
-        20.8784272,
-        51.1149682
+        20.8784258,
+        51.1149695
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -55919,7 +55919,7 @@
       "platform": "2",
       "track": "1",
       "location": [
-        20.8819354,
+        20.8819378,
         51.116231
       ],
       "exact_location": true,
@@ -55931,8 +55931,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        20.8820759,
-        51.1161598
+        20.8820744,
+        51.1161588
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -55943,8 +55943,8 @@
       "platform": "3",
       "track": "6",
       "location": [
-        20.8821514,
-        51.1160752
+        20.8821519,
+        51.1160742
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -79958,8 +79958,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        16.3328462,
-        50.8602184
+        16.332853,
+        50.8602279
       ],
       "exact_location": true,
       "single_track_platform": true
