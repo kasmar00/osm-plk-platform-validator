@@ -53306,10 +53306,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.5861389,
-        50.0965044
+        18.5861428,
+        50.096531
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -53318,10 +53318,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.5861389,
-        50.0965044
+        18.5861356,
+        50.0964856
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
