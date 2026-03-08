@@ -48617,10 +48617,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.505303,
-        50.0670608
+        22.5061159,
+        50.066884
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
