@@ -56303,8 +56303,11 @@
       "operator": "PLK",
       "platform": "2",
       "track": "2",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        21.8477539,
+        51.5411468
+      ],
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
