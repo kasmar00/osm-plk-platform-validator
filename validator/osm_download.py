@@ -19,7 +19,8 @@ def _fetch_osm_with_cache(cache_file: str, query: str):
 
     print(f"Fetching OSM data from Overpass API for {cache_file}")
 
-    endpoint = "https://overpass-api.de/api/interpreter"
+    # endpoint = "https://overpass-api.de/api/interpreter"
+    endpoint = "https://overpass.private.coffee/api/interpreter"
     response = requests.post(endpoint, data="data=" + query)
 
     try:
@@ -67,7 +68,7 @@ def fetch_osm_stations():
     // gather results
     (
       node["railway"="station"]["station"!="light_rail"]["operator"!="MPK Poznań"]["station"!="subway"](area.searchArea);
-      node["railway"="halt"]["network"!="DSDiK"](area.searchArea);
+      node["railway"="halt"]["operator:short"!="DSDiK"](area.searchArea);
       node["disused:railway"="station"]["station"!="light_rail"](area.searchArea);
       node["disused:railway"="halt"](area.searchArea);
     );
