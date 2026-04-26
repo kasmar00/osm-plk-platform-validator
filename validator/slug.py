@@ -17,5 +17,5 @@ TRANSLATION_TABLE = str.maketrans(
 
 
 def slug(s: str) -> str:
-    text = s.translate(TRANSLATION_TABLE)
-    return re.sub(r"[ -]+", "-", re.sub(r"[^\x00-\x7F]+", "", text)).lower()
+    text = s.translate(TRANSLATION_TABLE).replace("(", "").replace(")", "")
+    return re.sub(r"[ \-\(\)]+", "-", re.sub(r"[^\x00-\x7F]+", "", text)).lower()
