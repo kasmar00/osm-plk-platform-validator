@@ -3,6 +3,11 @@ import time
 import requests
 import os
 
+import urllib.parse
+
+
+import logging
+
 
 def _should_load_from_cache(file) -> bool:
     return os.path.exists(file) and (
@@ -19,9 +24,16 @@ def _fetch_osm_with_cache(cache_file: str, query: str):
 
     print(f"Fetching OSM data from Overpass API for {cache_file}")
 
-    # endpoint = "https://overpass-api.de/api/interpreter"
-    endpoint = "https://overpass.private.coffee/api/interpreter"
-    response = requests.post(endpoint, data="data=" + query)
+    endpoint = "https://overpass-api.de/api/interpreter"
+    response = requests.post(
+        endpoint,
+        data={"data": query},
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Accept": "*/*",
+            "User-Agent": "curl/7.81.0",
+        },
+    )
 
     try:
         data = response.json()
@@ -30,7 +42,7 @@ def _fetch_osm_with_cache(cache_file: str, query: str):
             json.dump(data, f, ensure_ascii=False, indent=2)
 
         return data["elements"]
-    
+
     except ValueError:
         print("Error: Overpass API returned invalid JSON or no data.")
         print("Response text:", response.text)
