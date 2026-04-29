@@ -19730,10 +19730,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        23.5760254,
-        50.2983736
+        23.5760184,
+        50.2983327
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -19742,10 +19742,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        23.5760254,
-        50.2983736
+        23.5760335,
+        50.2984145
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
