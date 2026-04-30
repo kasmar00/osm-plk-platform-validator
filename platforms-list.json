@@ -33919,10 +33919,10 @@
       "platform": "1",
       "track": "3",
       "location": [
-        16.1934358,
-        51.3957796
+        16.1936932,
+        51.3960357
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
