@@ -76798,10 +76798,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.9840735,
-        50.6094158
+        22.9840234,
+        50.6094016
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
