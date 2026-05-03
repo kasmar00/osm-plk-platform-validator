@@ -24228,10 +24228,10 @@
       "platform": "2",
       "track": "3",
       "location": [
-        19.0170993,
-        50.2577698
+        19.0171456,
+        50.2576071
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": false
     },
     {
