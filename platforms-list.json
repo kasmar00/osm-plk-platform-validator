@@ -63622,10 +63622,10 @@
       "platform": "2",
       "track": "4",
       "location": [
-        20.923944,
-        50.006477
+        20.9239433,
+        50.0064054
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
