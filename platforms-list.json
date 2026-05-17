@@ -24252,18 +24252,6 @@
       "platform": "3",
       "track": "2",
       "location": [
-        19.017123,
-        50.2575873
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Katowice",
-      "operator": "PLK",
-      "platform": "4",
-      "track": "10",
-      "location": [
         19.0170426,
         50.2572484
       ],
@@ -24274,12 +24262,24 @@
       "station_name": "Katowice",
       "operator": "PLK",
       "platform": "4",
+      "track": "10",
+      "location": [
+        19.0171456,
+        50.2576071
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Katowice",
+      "operator": "PLK",
+      "platform": "4",
       "track": "8",
       "location": [
-        19.017078,
-        50.2573798
+        19.0171456,
+        50.2576071
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": false
     },
     {
@@ -41177,10 +41177,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        16.8202939,
-        52.6457754
+        16.8204642,
+        52.6465603
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -45488,7 +45488,10 @@
       "operator": "PLK",
       "platform": "1",
       "track": "1",
-      "location": null,
+      "location": [
+        22.8125125,
+        49.756609
+      ],
       "exact_location": false,
       "single_track_platform": true
     }
