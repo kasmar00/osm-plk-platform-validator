@@ -63187,10 +63187,10 @@
       "platform": "3",
       "track": "5",
       "location": [
-        17.0163242,
-        54.4678168
+        17.0159953,
+        54.4675631
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
