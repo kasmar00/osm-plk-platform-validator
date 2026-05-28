@@ -28537,10 +28537,10 @@
       "platform": "1",
       "track": "7",
       "location": [
-        19.9747852,
-        50.0350214
+        19.9725741,
+        50.0362972
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
