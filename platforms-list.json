@@ -2117,6 +2117,30 @@
     {
       "station_name": "Bielsko-Biała Główna",
       "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        19.0451617,
+        49.8298222
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Bielsko-Biała Główna",
+      "operator": "PLK",
+      "platform": "1a",
+      "track": "3",
+      "location": [
+        19.0447767,
+        49.8315302
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Bielsko-Biała Główna",
+      "operator": "PLK",
       "platform": "2",
       "track": "4",
       "location": [
@@ -2161,30 +2185,6 @@
       ],
       "exact_location": true,
       "single_track_platform": false
-    },
-    {
-      "station_name": "Bielsko-Biała Główna",
-      "operator": "PLK",
-      "platform": "1",
-      "track": "1",
-      "location": [
-        19.0451617,
-        49.8298222
-      ],
-      "exact_location": true,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Bielsko-Biała Główna",
-      "operator": "PLK",
-      "platform": "1a",
-      "track": "3",
-      "location": [
-        19.0447767,
-        49.8315302
-      ],
-      "exact_location": true,
-      "single_track_platform": true
     }
   ],
   "bielsko-biala-komorowice": [
@@ -2776,8 +2776,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.7328489,
-        50.5515661
+        22.731835,
+        50.5514264
       ],
       "exact_location": false,
       "single_track_platform": false
@@ -2788,8 +2788,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        22.7328489,
-        50.5515661
+        22.731835,
+        50.5514264
       ],
       "exact_location": false,
       "single_track_platform": false
@@ -4197,6 +4197,17 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    }
+  ],
+  "brodnica-poludniowa": [
+    {
+      "station_name": "Brodnica Południowa",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "brody-ilzeckie": [
@@ -7080,17 +7091,6 @@
         53.0008154
       ],
       "exact_location": true,
-      "single_track_platform": true
-    }
-  ],
-  "chmielow": [
-    {
-      "station_name": "Chmielów",
-      "operator": "PLK",
-      "platform": "1",
-      "track": "2",
-      "location": null,
-      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -19005,6 +19005,26 @@
       "single_track_platform": true
     }
   ],
+  "glogow-krzepow": [
+    {
+      "station_name": "Głogów Krzepów",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Głogów Krzepów",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "2",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": false
+    }
+  ],
   "glogow-malopolski": [
     {
       "station_name": "Głogów Małopolski",
@@ -24377,6 +24397,30 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Katowice Ligota",
+      "operator": "PLK",
+      "platform": "3",
+      "track": "10",
+      "location": [
+        18.9778134,
+        50.2260023
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Katowice Ligota",
+      "operator": "PLK",
+      "platform": "3",
+      "track": "8",
+      "location": [
+        18.9778134,
+        50.2260023
+      ],
+      "exact_location": false,
+      "single_track_platform": false
     }
   ],
   "katowice-murcki": [
@@ -26081,6 +26125,17 @@
       "single_track_platform": true
     }
   ],
+  "konarzyce": [
+    {
+      "station_name": "Konarzyce",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "koniecpol": [
     {
       "station_name": "Koniecpol",
@@ -26658,8 +26713,8 @@
       "platform": "2",
       "track": "3",
       "location": [
-        14.647946,
-        52.5930487
+        14.6477006,
+        52.5917356
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -27190,6 +27245,17 @@
         52.8021092
       ],
       "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
+  "koziki": [
+    {
+      "station_name": "Koziki",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -35112,6 +35178,32 @@
       "single_track_platform": true
     }
   ],
+  "marcinkowice": [
+    {
+      "station_name": "Marcinkowice",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.660796,
+        49.6711454
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Marcinkowice",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        20.660796,
+        49.6711454
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "marcinkowo": [
     {
       "station_name": "Marcinkowo",
@@ -36755,6 +36847,26 @@
         52.0638196
       ],
       "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
+  "miedzyborz": [
+    {
+      "station_name": "Międzybórz",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Międzybórz",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "3",
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -40696,6 +40808,20 @@
       "single_track_platform": false
     }
   ],
+  "nowy-sacz-chelmiec": [
+    {
+      "station_name": "Nowy Sącz Chełmiec",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.6770662,
+        49.6306594
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "nowy-sacz-dabrowka": [
     {
       "station_name": "Nowy Sącz Dąbrówka",
@@ -40757,6 +40883,20 @@
       "location": [
         20.7432764,
         49.5874811
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "nowy-sacz-miasto": [
+    {
+      "station_name": "Nowy Sącz Miasto",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        20.6911093,
+        49.6201435
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -46806,25 +46946,25 @@
       "station_name": "Pogorzelice",
       "operator": "PLK",
       "platform": "1",
-      "track": "1",
-      "location": [
-        17.6419604,
-        54.5039354
-      ],
-      "exact_location": false,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Pogorzelice",
-      "operator": "PLK",
-      "platform": "2",
       "track": "2",
       "location": [
         17.6419604,
         54.5039354
       ],
       "exact_location": false,
-      "single_track_platform": true
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Pogorzelice",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "4",
+      "location": [
+        17.6419604,
+        54.5039354
+      ],
+      "exact_location": false,
+      "single_track_platform": false
     }
   ],
   "pogwizdow": [
@@ -53671,7 +53811,19 @@
         53.0686147
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Rypin",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        19.4276249,
+        53.0685895
+      ],
+      "exact_location": false,
+      "single_track_platform": false
     }
   ],
   "rytel": [
@@ -55104,6 +55256,18 @@
       ],
       "exact_location": true,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Siedlce",
+      "operator": "PLK",
+      "platform": "4",
+      "track": "5",
+      "location": [
+        22.2719159,
+        52.1617935
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "siedlce-wschodnie": [
@@ -56576,6 +56740,18 @@
     {
       "station_name": "Smardy",
       "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        18.1445636,
+        50.9922003
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Smardy",
+      "operator": "PLK",
       "platform": "2",
       "track": "2",
       "location": [
@@ -57180,6 +57356,31 @@
         17.4659719,
         51.1639849
       ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "somonino": [
+    {
+      "station_name": "Somonino",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.1927229,
+        54.2694405
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "somonino-bernardyno": [
+    {
+      "station_name": "Somonino Bernardyno",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
       "exact_location": false,
       "single_track_platform": true
     }
@@ -61510,7 +61711,19 @@
         53.6939178
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Szczecinek",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "9",
+      "location": [
+        16.7055139,
+        53.6938225
+      ],
+      "exact_location": false,
+      "single_track_platform": false
     },
     {
       "station_name": "Szczecinek",
@@ -61692,6 +61905,18 @@
         53.9669113
       ],
       "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Szczepki",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        22.9846128,
+        53.9668901
+      ],
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -62918,6 +63143,18 @@
       ],
       "exact_location": true,
       "single_track_platform": true
+    },
+    {
+      "station_name": "Słomniki",
+      "operator": "PLK",
+      "platform": "3",
+      "track": "3",
+      "location": [
+        20.063701,
+        50.24943
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "slomniki-miasto": [
@@ -63355,13 +63592,46 @@
       "station_name": "Tarnobrzeg",
       "operator": "PLK",
       "platform": "2",
-      "track": "2",
+      "track": "3",
       "location": [
         21.6961934,
         50.5678165
       ],
       "exact_location": false,
       "single_track_platform": false
+    }
+  ],
+  "tarnobrzeg-ocice": [
+    {
+      "station_name": "Tarnobrzeg Ocice",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "tarnobrzeg-olszynka": [
+    {
+      "station_name": "Tarnobrzeg Olszynka",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "tarnobrzeg-sobow": [
+    {
+      "station_name": "Tarnobrzeg Sobów",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "tarnowiec": [
@@ -67774,6 +68044,18 @@
       ],
       "exact_location": false,
       "single_track_platform": false
+    },
+    {
+      "station_name": "Warszawa Radość",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.1912226,
+        52.1816089
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "warszawa-rakowiec": [
@@ -68141,7 +68423,7 @@
       "station_name": "Warszawa Wawer",
       "operator": "PLK",
       "platform": "3",
-      "track": "4",
+      "track": "6",
       "location": [
         21.1496097,
         52.2233538
@@ -75222,6 +75504,18 @@
       ],
       "exact_location": false,
       "single_track_platform": true
+    },
+    {
+      "station_name": "Zastów",
+      "operator": "PLK",
+      "platform": "3",
+      "track": "3",
+      "location": [
+        20.0690701,
+        50.1237784
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "zator": [
@@ -77792,6 +78086,26 @@
       "single_track_platform": true
     }
   ],
+  "omza": [
+    {
+      "station_name": "Łomża",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Łomża",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "opatki": [
     {
       "station_name": "Łopatki",
@@ -77979,10 +78293,10 @@
       "station_name": "Łowicz Główny",
       "operator": "PLK",
       "platform": "2",
-      "track": "8",
+      "track": "6",
       "location": [
-        19.9554163,
-        52.1046347
+        19.9555519,
+        52.1047032
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -77991,10 +78305,10 @@
       "station_name": "Łowicz Główny",
       "operator": "PLK",
       "platform": "2",
-      "track": "6",
+      "track": "8",
       "location": [
-        19.9555519,
-        52.1047032
+        19.9554163,
+        52.1046347
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -79650,6 +79964,17 @@
       ],
       "exact_location": false,
       "single_track_platform": false
+    }
+  ],
+  "niadowo-stara-stacja": [
+    {
+      "station_name": "Śniadowo - Stara Stacja",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "roda-wielkopolska": [
