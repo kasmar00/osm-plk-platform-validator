@@ -17,7 +17,7 @@ Antoniów	1	1
 Antoniówka	1	1
 Antoniówka	2	2
 Arcelin	1	1
-Augustów	1	4
+Augustów	1	4a
 Augustów	2	2
 Augustów	2	1
 Augustów Port	1	1
@@ -178,12 +178,12 @@ Bieliny Opoczyńskie	2	2
 Bielsk Podlaski	1	5
 Bielsk Podlaski	2	2
 Bielsk Podlaski	2	1
+Bielsko-Biała Główna	1	1
+Bielsko-Biała Główna	1a	3
 Bielsko-Biała Główna	2	4
 Bielsko-Biała Główna	2	2
 Bielsko-Biała Główna	3	12
 Bielsko-Biała Główna	3	8
-Bielsko-Biała Główna	1	1
-Bielsko-Biała Główna	1a	3
 Bielsko-Biała Komorowice	1	1
 Bielsko-Biała Komorowice	1	2
 Bielsko-Biała Leszczyny	1	1
@@ -354,6 +354,7 @@ Bratoszewice	1	1
 Brodnica	1	1
 Brodnica	2	5
 Brodnica	2	3
+Brodnica Południowa	1	1
 Brody Iłżeckie	1	1
 Brody Iłżeckie	2	2
 Brody Warszawskie	1	1
@@ -544,7 +545,6 @@ Chludowo	1	1
 Chludowo	2	2
 Chmielniki Bydgoskie	1	1
 Chmielniki Bydgoskie	2	2
-Chmielów	1	2
 Chmielów Zagumnie	1	1
 Chocicza	1	1
 Chocicza	2	2
@@ -1174,6 +1174,8 @@ Głogów	4	5
 Głogów	4	7
 Głogów Huta	1	1
 Głogów Huta	2	2
+Głogów Krzepów	1	1
+Głogów Krzepów	1	2
 Głogów Małopolski	1	1
 Głogów Małopolski	1	2
 Głogów Małopolski Niwa	1	1
@@ -1818,6 +1820,8 @@ Katowice Ligota	1	3
 Katowice Ligota	1	5
 Katowice Ligota	2	1
 Katowice Ligota	2	2
+Katowice Ligota	3	10
+Katowice Ligota	3	8
 Katowice Murcki	1	1
 Katowice Ochojec	1	1
 Katowice Piotrowice	1	1
@@ -2027,6 +2031,7 @@ Komorowo Żuławskie	2	2
 Komorów Podmurynia	1	1
 Komprachcice	1	1
 Komprachcice	2	2
+Konarzyce	1	1
 Koniecpol	1	5
 Koniecpol	2	1
 Koniecpol	2	2
@@ -2082,7 +2087,7 @@ Kostomłoty	2	2
 Kostów	1	1
 Kostów	1	2
 Kostrzyn	1	2a
-Kostrzyn	2	3c.
+Kostrzyn	2	3c
 Kostrzyn	2	1a
 Kostrzyn	3	1r
 Kostrzyn	3a	3r
@@ -2125,6 +2130,7 @@ Kowalów	1	1
 Kowalów	2	2
 Kozia Góra	1	1
 Koziebrody	1	1
+Koziki	1	1
 Koziołek	1	1
 Kozłowo	1	1
 Kozłowo	2	3
@@ -2163,12 +2169,12 @@ Kraków Bronowice	3	7c
 Kraków Bronowice	4	2
 Kraków Główny	1	9
 Kraków Główny	1	11
-Kraków Główny	2	5x
+Kraków Główny	2	5
 Kraków Główny	2	3
 Kraków Główny	3	1
 Kraków Główny	3	2
 Kraków Główny	4	4
-Kraków Główny	4	8
+Kraków Główny	4	6
 Kraków Główny	5	10
 Kraków Główny	5	12
 Kraków Grzegórzki	1	3
@@ -2679,6 +2685,8 @@ Luzino	2	3
 Łodygowice	1	1
 Łodygowice Górne	1	1
 Łomnica-Zdrój	1	1
+Łomża	1	1
+Łomża	2	1,2
 Łopatki	1	1
 Łopatki	2	2
 Łopuchowo	1	1
@@ -2693,8 +2701,8 @@ Luzino	2	3
 Łowczówek Pleśna	1	1
 Łowicz Główny	1	1
 Łowicz Główny	1	2
-Łowicz Główny	2	8
 Łowicz Główny	2	6
+Łowicz Główny	2	8
 Łowicz Przedmieście	1	3
 Łowicz Przedmieście	2	1
 Łowicz Przedmieście	2	3,7
@@ -2833,6 +2841,8 @@ Małomice	2	2
 Małowice Wołowskie	1	1
 Małowice Wołowskie	2	2
 Mańkowice	1	1
+Marcinkowice	1	1
+Marcinkowice	2	2
 Marcinkowo	1	1
 Marcinkowo	1	3
 Marcinków	1	1
@@ -2912,6 +2922,8 @@ Mietków	1	2
 Mietków	2	1
 Międzyborów	1	1
 Międzyborów	2	2
+Międzybórz	1	1
+Międzybórz	2	3
 Międzybórz Sycowski	1	1
 Międzybórz Sycowski	2	3
 Międzylesie	1	2
@@ -3247,11 +3259,13 @@ Nowy Sącz	2	1
 Nowy Sącz	2	2
 Nowy Sącz Biegonice	1	2
 Nowy Sącz Biegonice	1	1
+Nowy Sącz Chełmiec	1	1
 Nowy Sącz Dąbrówka	1	1
 Nowy Sącz Gorzków	1	1
 Nowy Sącz Gorzków	2	2
 Nowy Sącz Jamnica	1	2
 Nowy Sącz Jamnica	2	1
+Nowy Sącz Miasto	1	1
 Nowy Solec	1	1
 Nowy Świętów	1	2płn
 Nowy Świętów	2	1płn
@@ -3738,8 +3752,8 @@ Podzamcze	2	2
 Pogorzel Warszawska	1	1
 Pogorzel Warszawska	2	2
 Pogorzel Wielka	1	1
-Pogorzelice	1	1
-Pogorzelice	2	2
+Pogorzelice	1	2
+Pogorzelice	1	4
 Pogwizdów	1	1
 Pokrzywnica	2	2
 Polanica-Zdrój	1	1
@@ -4237,6 +4251,7 @@ Rynarcice	1	1
 Rynkowo Wiadukt	1	1
 Rynkowo Wiadukt	2	2
 Rypin	2	1
+Rypin	2	3
 Rytel	1	1
 Rytel	2	3
 Rytel Wieś	1	1
@@ -4358,6 +4373,7 @@ Siedlce	2	4A
 Siedlce	2	2a
 Siedlce	3	1a
 Siedlce	3	3
+Siedlce	4	5a
 Siedlce Łaskie	1	1
 Siedlce Łaskie	2	2
 Siedlce Wschodnie	1	1
@@ -4486,6 +4502,7 @@ Słomianka	1	1
 Słomniki	1	2
 Słomniki	1	1
 Słomniki	2	4
+Słomniki	3	3
 Słomniki Miasto	1	1
 Słomniki Miasto	2	2
 Słone	1	1
@@ -4509,6 +4526,7 @@ Słupsk	3	3
 Słupsk	3	5
 Słupsk	4	7
 Słupsk Północny	1	1
+Smardy	1	1
 Smardy	2	2
 Smardzew	1	1
 Smardzów Wrocławski	1	1
@@ -4557,6 +4575,8 @@ Solec Wielkopolski	2	2
 Solniki Wielkie	1	2
 Solniki Wielkie	2	1
 Sołtyków	1	1
+Somonino	2	1
+Somonino Bernardyno	1	1
 Sopot	2	2
 Sopot	2	1
 Sosnowe	1	1
@@ -4656,7 +4676,7 @@ Stargard	1	5
 Stargard	2	1
 Stargard	2	3
 Stargard	3	2
-Stargard	3	6a,6xx
+Stargard	3	6a
 Starkowo	1	1
 Starogard Gdański	1	2
 Starogard Gdański	1	1
@@ -4886,6 +4906,7 @@ Szczecin Zdunowo	2	2
 Szczecin Żydowce	1	1
 Szczecin Żydowce	2	2
 Szczecinek	1	7
+Szczecinek	1	9
 Szczecinek	2	5
 Szczecinek	2	1
 Szczecinek	3	2
@@ -4900,6 +4921,7 @@ Szczepanowice	1	1
 Szczepanowice	2	2
 Szczepanów	1	1
 Szczepki	1	1
+Szczepki	2	3
 Szczukowskie Górki	1	1
 Szczukowskie Górki	2	2
 Szczutowo	2	1
@@ -4971,6 +4993,7 @@ Szymocice	2	2
 Śliwiczki	1	1
 Śniadowo	1	2
 Śniadowo	1	1
+Śniadowo - Stara Stacja	1	1
 Środa Śląska	1	1
 Środa Śląska	2	2
 Środa Wielkopolska	1	1
@@ -5029,7 +5052,10 @@ Targowiska	3	1
 Tarło	1	1
 Tarnawa Dolna	1	1
 Tarnobrzeg	2	1
-Tarnobrzeg	2	2
+Tarnobrzeg	2	3
+Tarnobrzeg Ocice	1	1
+Tarnobrzeg Olszynka	1	1
+Tarnobrzeg Sobów	1	1
 Tarnowiec	3	1
 Tarnowiec	3	3
 Tarnowiec Brzeski	1	1
@@ -5344,7 +5370,7 @@ Warszawa Gdańska	3	2B
 Warszawa Gdańska	4	4
 Warszawa Gdańska	4	6
 Warszawa Gdańska	5	10
-Warszawa Główna	1	2
+Warszawa Główna	1	1
 Warszawa Główna	1	3
 Warszawa Główna	2	4
 Warszawa Główna	2	2
@@ -5385,6 +5411,7 @@ Warszawa Praga	1	1e
 Warszawa Praga	1	2e
 Warszawa Radość	1	1F
 Warszawa Radość	1	2F
+Warszawa Radość	2	1F
 Warszawa Rakowiec	1	1
 Warszawa Rakowiec	2	2
 Warszawa Rembertów	1	3
@@ -5411,7 +5438,7 @@ Warszawa Ursus Północny	2	2
 Warszawa Wawer	1	1
 Warszawa Wawer	1	2
 Warszawa Wawer	2	3
-Warszawa Wawer	3	4,6
+Warszawa Wawer	3	6
 Warszawa Wesoła	1	1
 Warszawa Wesoła	2	2
 Warszawa Wileńska	1	1
@@ -5934,6 +5961,7 @@ Zastocze	1	1
 Zastów	1	2
 Zastów	1	1
 Zastów	2	4
+Zastów	3	3
 Zator	1	1
 Zator	1	2
 Zator Park Rozrywki	1	1
@@ -6098,7 +6126,7 @@ Zygmuntów	2	2
 Żagań	2	4
 Żagań	3	12
 Żagań	3	14
-Żagań	5	20
+Żagań	5	20x
 Żagań	5	22
 Żakowice	1	1
 Żakowice	2	2
