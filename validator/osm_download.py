@@ -83,6 +83,8 @@ def fetch_osm_stations():
       node["railway"="halt"]["operator:short"!="DSDiK"](area.searchArea);
       node["disused:railway"="station"]["station"!="light_rail"](area.searchArea);
       node["disused:railway"="halt"](area.searchArea);
+      node["construction:railway"="station"](area.searchArea);
+      node["construction:railway"="halt"](area.searchArea);
     );
     // print results
     out geom;
