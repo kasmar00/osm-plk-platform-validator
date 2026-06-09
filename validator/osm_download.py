@@ -38,6 +38,10 @@ def _fetch_osm_with_cache(cache_file: str, query: str):
     try:
         data = response.json()
 
+        if data.get("remarks") is not None:
+            print("Overpass API returned remarks:", data["remarks"])
+            exit(1)
+
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -51,11 +55,14 @@ def _fetch_osm_with_cache(cache_file: str, query: str):
 
 def fetch_osm_platforms():
     query = """
-    [out:json];
+    [out:json][timeout:1800];
 
     area(id:3600049715)->.searchArea; //Poland
 
+    (
     node["railway"="stop"]["network"!="WKD"]["operator"!="WKD"]["operator"!="MPK Poznań"]["network"!="DSDiK"]["subway"!="yes"](area.searchArea);
+    node["public_transport"="stop_position"]["train"="yes"]["operator"!="WKD"]["operator"!="MPK Poznań"]["network"!="DSDiK"](area.searchArea);
+    );
     foreach {
     way(bn)[railway] -> .ways;
     if (ways.count(ways) > 0) {
