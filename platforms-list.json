@@ -77636,10 +77636,10 @@
       "platform": "2",
       "track": "3",
       "location": [
-        22.8835129,
-        52.9899169
+        22.8836727,
+        52.9898114
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
