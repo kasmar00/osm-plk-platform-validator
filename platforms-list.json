@@ -8213,8 +8213,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        18.8090809,
-        49.8928645
+        18.8090548,
+        49.8929501
       ],
       "exact_location": false,
       "single_track_platform": false
@@ -8237,8 +8237,8 @@
       "platform": "2",
       "track": "9",
       "location": [
-        18.8090809,
-        49.8928645
+        18.8090548,
+        49.8929501
       ],
       "exact_location": false,
       "single_track_platform": false
@@ -8249,8 +8249,8 @@
       "platform": "2",
       "track": "7",
       "location": [
-        18.8090809,
-        49.8928645
+        18.8090548,
+        49.8929501
       ],
       "exact_location": false,
       "single_track_platform": false
@@ -14418,7 +14418,7 @@
     {
       "station_name": "Gdańsk Oliwa",
       "operator": "SKMT",
-      "platform": "1",
+      "platform": "2",
       "track": "501",
       "location": [
         18.5721924,
@@ -14430,7 +14430,7 @@
     {
       "station_name": "Gdańsk Oliwa",
       "operator": "SKMT",
-      "platform": "1",
+      "platform": "2",
       "track": "502",
       "location": [
         18.5719845,
@@ -34923,10 +34923,10 @@
       "platform": "3",
       "track": "5",
       "location": [
-        18.0292442,
-        53.2136336
+        18.0294586,
+        53.2145607
       ],
-      "exact_location": true,
+      "exact_location": false,
       "single_track_platform": false
     },
     {
