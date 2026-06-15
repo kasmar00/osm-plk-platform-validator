@@ -64,7 +64,7 @@ OSM_Platform = NamedTuple(
     "OSM_Platform",
     [
         ("station_name", str),
-        # ("platform", str), #TODO: not yet tracking platform refs, only track refs
+        ("platform", str),
         ("track", str),
         ("location", tuple[float, float]),
     ],
@@ -75,10 +75,15 @@ def load_platforms_from_osm() -> List[OSM_Platform]:
     platforms = []
     data = fetch_osm_platforms()
     for element in data:
+        if (local_ref := element["tags"].get("local_ref", "")) and "/" in local_ref:
+            platform, track = local_ref_to_platform(local_ref)
+        else:
+            platform, track = None, element["tags"].get("_track_ref", "")
         platforms.append(
             OSM_Platform(
                 station_name=element["tags"].get("name", ""),
-                track=element["tags"].get("_track_ref", ""),
+                platform=platform,
+                track=track,
                 location=tuple(element["geometry"]["coordinates"]),
             )
         )
@@ -169,13 +174,43 @@ def match_platform(
     plk: PLK_Platform, clean_track: str, osm_platforms: List[OSM_Platform]
 ) -> OSM_Platform | None:
     for osm in osm_platforms:
-        if plk.track == osm.track:
-            return osm
+        if osm.platform:
+            if plk.track == osm.track and plk.platform == osm.platform:
+                return osm
+        else:
+            if plk.track == osm.track:
+                return osm
     for osm in osm_platforms:
-        if clean_track == re.sub(r"\D", "", osm.track):
+        if clean_track == re.sub(r"\D", "", osm.track) and plk.platform == osm.platform:
             return osm
     return None
 
+ROMAN_TO_ARABIC = {
+    "I": "1",
+    "II": "2",
+    "III": "3",
+    "IV": "4",
+    "V": "5",
+    "VI": "6",
+    "VII": "7",
+    "VIII": "8",
+    "IX": "9",
+    "X": "10",
+}
+
+
+def local_ref_to_platform(local_ref: str):
+    if "/" not in local_ref:
+        return None, None
+    platform, track = local_ref.split("/")
+    suffix = ""
+    if (last_char:= platform[-1]) not in "IVX":
+        platform = platform.replace(last_char, "")
+        suffix = last_char
+    if platform in ROMAN_TO_ARABIC:
+        platform = ROMAN_TO_ARABIC[platform]
+    platform += suffix
+    return platform, track
 
 def platform_locations(
     plk_platforms: List[PLK_Platform],
