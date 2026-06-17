@@ -181,8 +181,12 @@ def match_platform(
             if plk.track == osm.track:
                 return osm
     for osm in osm_platforms:
-        if clean_track == re.sub(r"\D", "", osm.track) and plk.platform == osm.platform:
-            return osm
+        if osm.platform:
+            if clean_track == re.sub(r"\D", "", osm.track) and plk.platform == osm.platform:
+                return osm
+        else:
+            if clean_track == re.sub(r"\D", "", osm.track):
+                return osm
     return None
 
 ROMAN_TO_ARABIC = {
