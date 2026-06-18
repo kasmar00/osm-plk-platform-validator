@@ -78103,10 +78103,10 @@
       "station_name": "Łomża",
       "operator": "PLK",
       "platform": "2",
-      "track": "1",
+      "track": "4",
       "location": [
-        22.0643253,
-        53.1717504
+        22.0641914,
+        53.1717944
       ],
       "exact_location": true,
       "single_track_platform": true
