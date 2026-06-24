@@ -59830,10 +59830,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        17.3737792,
-        54.4909319
+        17.3732195,
+        54.4910182
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
