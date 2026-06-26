@@ -59338,10 +59338,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.6690954,
-        49.8336147
+        19.6697918,
+        49.8335613
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
