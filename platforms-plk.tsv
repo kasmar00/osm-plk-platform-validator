@@ -45,6 +45,7 @@ Balin	1	1
 Balin	2	2
 Balinka	1	1
 Bańska Niżna	1	1
+Baranów Sandomierski	1	1
 Baranówka	1	2
 Baranówka	1	1
 Barchów	1	1
@@ -118,7 +119,6 @@ Biadki	1	1
 Biadki	1	2
 Biadoliny	1	1
 Biadoliny	2	2
-Biała	1	1
 Biała Pilska	1	2
 Biała Pilska	2	1
 Biała Piska	1	1
@@ -466,6 +466,7 @@ Bydgoszcz Łęgnowo	2	4
 Bydgoszcz Osowa Góra	1	1
 Bydgoszcz Osowa Góra	2	2
 Bydgoszcz Politechnika	1	1
+Bydgoszcz Stary Fordon 	1	1
 Bydgoszcz Wschód	1	201
 Bydgoszcz Wschód	2	202
 Bydgoszcz Wschód	2	204
@@ -874,6 +875,7 @@ Dąbrowa Oleśnicka	1	2
 Dąbrowa Oleśnicka	2	1
 Dąbrowa-Łazy	1	1
 Dąbrowa-Łazy	2	2
+Dąbrowica Małopolska	1	1
 Dąbrowice Skierniewickie	1	1
 Dąbrowice Skierniewickie	2	2
 Dąbrowy	1	1
@@ -1693,6 +1695,7 @@ Jesionka	2	2
 Jesionowiec	1	1
 Jezierzany	1	1
 Jezierzany	2	2
+Jezierzyce Słupskie	1	1
 Jezierzyce Słupskie	2	3
 Jezierzyce Słupskie	2	1
 Jeziorki Wałeckie	1	1
@@ -2686,7 +2689,7 @@ Luzino	2	3
 Łodygowice Górne	1	1
 Łomnica-Zdrój	1	1
 Łomża	1	1
-Łomża	2	1,2
+Łomża	2	4
 Łopatki	1	1
 Łopatki	2	2
 Łopuchowo	1	1
@@ -2864,7 +2867,6 @@ Maziły	1	1
 Mąkoszyce	1	1
 Mąkoszyce	2	2
 Medyka	1	57
-Medyka	2	107S
 Medyka Rozrządowa	1	1
 Medyka Towarowa	1	1
 Mełno	1	1
@@ -3296,7 +3298,8 @@ Oborniki Śląskie	1	2
 Oborniki Wielkopolskie	1	4
 Oborniki Wielkopolskie	2	1
 Oborniki Wielkopolskie	2	2
-Oborniki Wielkopolskie Miasto	1	1
+Oborniki Wielkopolskie Miasto	1	2
+Oborniki Wielkopolskie Miasto	2	1
 Oborzyska Stare	1	1
 Oborzyska Stare	2	2
 Obra Stara	1	1
@@ -3325,12 +3328,12 @@ Olesno Śląskie	1	2
 Olesno Śląskie	2	1
 Oleszyce	1	2
 Oleszyce	1	1
-Oleśnica	2	5
-Oleśnica	2	7
-Oleśnica	3	3
-Oleśnica	3	1
-Oleśnica	4	2
-Oleśnica	4	4
+Oleśnica	1	5
+Oleśnica	1	7
+Oleśnica	2	3
+Oleśnica	2	1
+Oleśnica	3	2
+Oleśnica	3	4
 Oleśnica Rataje	1	1
 Oleśnica Rataje	2	1
 Olkusz	1	1
@@ -4005,6 +4008,9 @@ Radom Główny	3	8
 Radom Główny	3	10
 Radom Gołębiów	1	1
 Radom Gołębiów	1	2
+Radom Południowy	1	2
+Radom Południowy	2	1
+Radom Południowy	3	1
 Radom Potkanów	1	1
 Radom Północny	1	1
 Radom Północny	1	2
@@ -4522,9 +4528,10 @@ Słupca	1	1
 Słupca	2	2
 Słupia	1	1
 Słupia	2	2
+Słupsk	2	1
 Słupsk	3	3
 Słupsk	3	5
-Słupsk	4	7
+Słupsk	4	9
 Słupsk Północny	1	1
 Smardy	1	1
 Smardy	2	2
@@ -4575,7 +4582,7 @@ Solec Wielkopolski	2	2
 Solniki Wielkie	1	2
 Solniki Wielkie	2	1
 Sołtyków	1	1
-Somonino	2	1
+Somonino	1	1
 Somonino Bernardyno	1	1
 Sopot	2	2
 Sopot	2	1
@@ -4676,7 +4683,7 @@ Stargard	1	5
 Stargard	2	1
 Stargard	2	3
 Stargard	3	2
-Stargard	3	6a
+Stargard	3	6
 Starkowo	1	1
 Starogard Gdański	1	2
 Starogard Gdański	1	1
@@ -5056,6 +5063,7 @@ Tarnobrzeg	2	3
 Tarnobrzeg Ocice	1	1
 Tarnobrzeg Olszynka	1	1
 Tarnobrzeg Sobów	1	1
+Tarnobrzeg Wielowieś	2	1
 Tarnowiec	3	1
 Tarnowiec	3	3
 Tarnowiec Brzeski	1	1
@@ -5133,6 +5141,7 @@ Toruń Główny	1	2
 Toruń Główny	1	4
 Toruń Główny	2	1
 Toruń Główny	3	5
+Toruń Główny	3	3
 Toruń Główny	4	7
 Toruń Główny	4	9
 Toruń Katarzynka	1	1
