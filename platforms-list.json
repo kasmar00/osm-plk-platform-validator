@@ -589,6 +589,20 @@
       "single_track_platform": true
     }
   ],
+  "baranow-sandomierski": [
+    {
+      "station_name": "Baranów Sandomierski",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.559659,
+        50.4725453
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "baranowka": [
     {
       "station_name": "Baranówka",
@@ -1336,20 +1350,6 @@
         50.0038224
       ],
       "exact_location": true,
-      "single_track_platform": true
-    }
-  ],
-  "biala": [
-    {
-      "station_name": "Biała",
-      "operator": "PLK",
-      "platform": "1",
-      "track": "1",
-      "location": [
-        18.4243353,
-        51.2630871
-      ],
-      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -5637,6 +5637,17 @@
         53.140901
       ],
       "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
+  "bydgoszcz-stary-fordon-": [
+    {
+      "station_name": "Bydgoszcz Stary Fordon ",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -12989,6 +13000,20 @@
         52.839509
       ],
       "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
+  "dabrowica-malopolska": [
+    {
+      "station_name": "Dąbrowica Małopolska",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.6228536,
+        50.4865776
+      ],
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -22778,6 +22803,18 @@
     }
   ],
   "jezierzyce-slupskie": [
+    {
+      "station_name": "Jezierzyce Słupskie",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        17.1218449,
+        54.50431
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
     {
       "station_name": "Jezierzyce Słupskie",
       "operator": "PLK",
@@ -35666,18 +35703,6 @@
       ],
       "exact_location": false,
       "single_track_platform": true
-    },
-    {
-      "station_name": "Medyka",
-      "operator": "PLK",
-      "platform": "2",
-      "track": "107",
-      "location": [
-        22.9398209,
-        49.8026712
-      ],
-      "exact_location": false,
-      "single_track_platform": true
     }
   ],
   "medyka-rozrzadowa": [
@@ -41321,6 +41346,18 @@
       "station_name": "Oborniki Wielkopolskie Miasto",
       "operator": "PLK",
       "platform": "1",
+      "track": "2",
+      "location": [
+        16.8202508,
+        52.6457772
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Oborniki Wielkopolskie Miasto",
+      "operator": "PLK",
+      "platform": "2",
       "track": "1",
       "location": [
         16.8204642,
@@ -41754,7 +41791,7 @@
     {
       "station_name": "Oleśnica",
       "operator": "PLK",
-      "platform": "2",
+      "platform": "1",
       "track": "5",
       "location": [
         17.3858241,
@@ -41766,7 +41803,7 @@
     {
       "station_name": "Oleśnica",
       "operator": "PLK",
-      "platform": "2",
+      "platform": "1",
       "track": "7",
       "location": [
         17.3858812,
@@ -41778,7 +41815,7 @@
     {
       "station_name": "Oleśnica",
       "operator": "PLK",
-      "platform": "3",
+      "platform": "2",
       "track": "3",
       "location": [
         17.3858017,
@@ -41790,7 +41827,7 @@
     {
       "station_name": "Oleśnica",
       "operator": "PLK",
-      "platform": "3",
+      "platform": "2",
       "track": "1",
       "location": [
         17.3857336,
@@ -41802,7 +41839,7 @@
     {
       "station_name": "Oleśnica",
       "operator": "PLK",
-      "platform": "4",
+      "platform": "3",
       "track": "2",
       "location": [
         17.3857138,
@@ -41814,7 +41851,7 @@
     {
       "station_name": "Oleśnica",
       "operator": "PLK",
-      "platform": "4",
+      "platform": "3",
       "track": "4",
       "location": [
         17.3856475,
@@ -50687,6 +50724,44 @@
       "single_track_platform": true
     }
   ],
+  "radom-poludniowy": [
+    {
+      "station_name": "Radom Południowy",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "2",
+      "location": [
+        21.136991,
+        51.3633539
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Radom Południowy",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        21.1365893,
+        51.3634385
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Radom Południowy",
+      "operator": "PLK",
+      "platform": "3",
+      "track": "1",
+      "location": [
+        21.1365893,
+        51.3634385
+      ],
+      "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
   "radom-polnocny": [
     {
       "station_name": "Radom Północny",
@@ -57361,7 +57436,7 @@
     {
       "station_name": "Somonino",
       "operator": "PLK",
-      "platform": "2",
+      "platform": "1",
       "track": "1",
       "location": [
         18.1928533,
@@ -63409,6 +63484,18 @@
     {
       "station_name": "Słupsk",
       "operator": "PLK",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        17.0164523,
+        54.4682207
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Słupsk",
+      "operator": "PLK",
       "platform": "3",
       "track": "3",
       "location": [
@@ -63434,7 +63521,7 @@
       "station_name": "Słupsk",
       "operator": "PLK",
       "platform": "4",
-      "track": "7",
+      "track": "9",
       "location": [
         17.0164523,
         54.4682207
@@ -63628,6 +63715,17 @@
       "station_name": "Tarnobrzeg Sobów",
       "operator": "PLK",
       "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "tarnobrzeg-wielowies": [
+    {
+      "station_name": "Tarnobrzeg Wielowieś",
+      "operator": "PLK",
+      "platform": "2",
       "track": "1",
       "location": null,
       "exact_location": false,
@@ -64511,7 +64609,19 @@
         53.0003933
       ],
       "exact_location": true,
-      "single_track_platform": true
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Toruń Główny",
+      "operator": "PLK",
+      "platform": "3",
+      "track": "3",
+      "location": [
+        18.6162521,
+        53.0006438
+      ],
+      "exact_location": true,
+      "single_track_platform": false
     },
     {
       "station_name": "Toruń Główny",
