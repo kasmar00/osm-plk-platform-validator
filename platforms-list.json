@@ -29817,8 +29817,8 @@
       "platform": "1",
       "track": "4",
       "location": [
-        19.6344961,
-        50.1309723
+        19.6344958,
+        50.1309739
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -29829,8 +29829,8 @@
       "platform": "2",
       "track": "1",
       "location": [
-        19.6369166,
-        50.1306778
+        19.6371725,
+        50.1306678
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -29841,8 +29841,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        19.6369136,
-        50.1308026
+        19.637187,
+        50.1307931
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -29853,8 +29853,8 @@
       "platform": "3",
       "track": "3",
       "location": [
-        19.6356772,
-        50.1306881
+        19.6360348,
+        50.1306724
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -29865,8 +29865,8 @@
       "platform": "3",
       "track": "5",
       "location": [
-        19.6356669,
-        50.1305821
+        19.6360233,
+        50.1305726
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -35698,8 +35698,8 @@
       "platform": "1",
       "track": "57",
       "location": [
-        22.9417277,
-        49.8033612
+        22.9461328,
+        49.8044993
       ],
       "exact_location": false,
       "single_track_platform": true
@@ -41360,10 +41360,10 @@
       "platform": "2",
       "track": "1",
       "location": [
-        16.8204642,
-        52.6465603
+        16.8202939,
+        52.6457754
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -63663,8 +63663,8 @@
       "platform": "2",
       "track": "1",
       "location": [
-        21.6959582,
-        50.5676201
+        21.6971456,
+        50.5689877
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -63675,8 +63675,8 @@
       "platform": "2",
       "track": "3",
       "location": [
-        21.6962571,
-        50.5680767
+        21.6970203,
+        50.5690294
       ],
       "exact_location": true,
       "single_track_platform": false
