@@ -28588,8 +28588,11 @@
       "operator": "PLK",
       "platform": "2",
       "track": "1",
-      "location": null,
-      "exact_location": false,
+      "location": [
+        19.9592724,
+        50.0409139
+      ],
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -75947,8 +75950,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9213683,
-        50.6345402
+        21.9337475,
+        50.6304929
       ],
       "exact_location": false,
       "single_track_platform": false
@@ -75959,8 +75962,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        21.9213683,
-        50.6345402
+        21.9337475,
+        50.6304929
       ],
       "exact_location": false,
       "single_track_platform": false
