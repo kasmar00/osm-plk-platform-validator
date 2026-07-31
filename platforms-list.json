@@ -11285,10 +11285,10 @@
       "station_name": "Dolice",
       "operator": "PLK",
       "platform": "1",
-      "track": "2",
+      "track": "3",
       "location": [
-        15.2089434,
-        53.1991086
+        15.2090463,
+        53.1992478
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -29793,26 +29793,6 @@
       "single_track_platform": false
     }
   ],
-  "krzepow": [
-    {
-      "station_name": "Krzepów",
-      "operator": "PLK",
-      "platform": "1",
-      "track": "1",
-      "location": null,
-      "exact_location": false,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Krzepów",
-      "operator": "PLK",
-      "platform": "1",
-      "track": "2",
-      "location": null,
-      "exact_location": false,
-      "single_track_platform": false
-    }
-  ],
   "krzeszowice": [
     {
       "station_name": "Krzeszowice",
@@ -44772,6 +44752,18 @@
       ],
       "exact_location": true,
       "single_track_platform": true
+    },
+    {
+      "station_name": "Parkowo",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        16.9146256,
+        52.7079283
+      ],
+      "exact_location": false,
+      "single_track_platform": true
     }
   ],
   "parlin": [
@@ -50895,6 +50887,32 @@
       "single_track_platform": true
     }
   ],
+  "radostowice": [
+    {
+      "station_name": "Radostowice",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.890047,
+        50.0203471
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Radostowice",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "2",
+      "location": [
+        18.890047,
+        50.0203471
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    }
+  ],
   "radun": [
     {
       "station_name": "Raduń",
@@ -51796,10 +51814,10 @@
       "station_name": "Reptowo",
       "operator": "PLK",
       "platform": "2",
-      "track": "3",
+      "track": "4",
       "location": [
-        14.8643137,
-        53.3724708
+        14.8642295,
+        53.3721918
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -55331,18 +55349,6 @@
       ],
       "exact_location": true,
       "single_track_platform": false
-    },
-    {
-      "station_name": "Siedlce",
-      "operator": "PLK",
-      "platform": "4",
-      "track": "5",
-      "location": [
-        22.2719159,
-        52.1617935
-      ],
-      "exact_location": false,
-      "single_track_platform": true
     }
   ],
   "siedlce-wschodnie": [
@@ -56576,6 +56582,17 @@
         51.3858779
       ],
       "exact_location": true,
+      "single_track_platform": true
+    }
+  ],
+  "skopanie": [
+    {
+      "station_name": "Skopanie",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": null,
+      "exact_location": false,
       "single_track_platform": true
     }
   ],
@@ -60735,6 +60752,60 @@
       "single_track_platform": true
     }
   ],
+  "suszec": [
+    {
+      "station_name": "Suszec",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "3",
+      "location": [
+        18.7923607,
+        50.0350047
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    },
+    {
+      "station_name": "Suszec",
+      "operator": "PLK",
+      "platform": "2",
+      "track": "1",
+      "location": [
+        18.7923607,
+        50.0350047
+      ],
+      "exact_location": false,
+      "single_track_platform": false
+    }
+  ],
+  "suszec-kopalnia": [
+    {
+      "station_name": "Suszec Kopalnia",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        18.7739119,
+        50.0395838
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
+  "suszec-rudziczka": [
+    {
+      "station_name": "Suszec Rudziczka",
+      "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        18.7540209,
+        50.0455731
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    }
+  ],
   "suszka": [
     {
       "station_name": "Suszka",
@@ -63731,6 +63802,18 @@
     {
       "station_name": "Tarnobrzeg Wielowieś",
       "operator": "PLK",
+      "platform": "1",
+      "track": "1",
+      "location": [
+        21.7585061,
+        50.6252025
+      ],
+      "exact_location": false,
+      "single_track_platform": true
+    },
+    {
+      "station_name": "Tarnobrzeg Wielowieś",
+      "operator": "PLK",
       "platform": "2",
       "track": "1",
       "location": [
@@ -64448,25 +64531,13 @@
       "station_name": "Topola-Osiedle",
       "operator": "PLK",
       "platform": "2",
-      "track": "1",
-      "location": [
-        17.7613043,
-        51.6125498
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Topola-Osiedle",
-      "operator": "PLK",
-      "platform": "2",
       "track": "3",
       "location": [
         17.7616124,
         51.6127533
       ],
       "exact_location": true,
-      "single_track_platform": false
+      "single_track_platform": true
     }
   ],
   "toporow": [
@@ -66238,7 +66309,7 @@
       "station_name": "Tychy Żwaków",
       "operator": "PLK",
       "platform": "1",
-      "track": "2",
+      "track": "1",
       "location": [
         18.9531674,
         50.1100675
@@ -66250,7 +66321,7 @@
       "station_name": "Tychy Żwaków",
       "operator": "PLK",
       "platform": "2",
-      "track": "1",
+      "track": "2",
       "location": [
         18.9531674,
         50.1100675
@@ -70087,26 +70158,6 @@
       ],
       "exact_location": true,
       "single_track_platform": false
-    }
-  ],
-  "wielowies": [
-    {
-      "station_name": "Wielowieś",
-      "operator": "PLK",
-      "platform": "1",
-      "track": "1",
-      "location": null,
-      "exact_location": false,
-      "single_track_platform": true
-    },
-    {
-      "station_name": "Wielowieś",
-      "operator": "PLK",
-      "platform": "2",
-      "track": "1",
-      "location": null,
-      "exact_location": false,
-      "single_track_platform": true
     }
   ],
   "wielun": [
@@ -75055,25 +75106,13 @@
       "station_name": "Zajezierze koło Dęblina",
       "operator": "PLK",
       "platform": "2",
-      "track": "1",
-      "location": [
-        21.8172146,
-        51.5420494
-      ],
-      "exact_location": true,
-      "single_track_platform": false
-    },
-    {
-      "station_name": "Zajezierze koło Dęblina",
-      "operator": "PLK",
-      "platform": "2",
       "track": "2",
       "location": [
         21.8172983,
         51.5420349
       ],
       "exact_location": true,
-      "single_track_platform": false
+      "single_track_platform": true
     }
   ],
   "zajaczkowo-lubawskie": [
