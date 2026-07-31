@@ -1,7 +1,7 @@
 Name	Platform No.	Track No.
 Adamowo	1	1
 Aleksandrów	1	1
-Aleksandrów Kujawski	1	1,11
+Aleksandrów Kujawski	1	1
 Aleksandrów Kujawski	1	2
 Aleksandrów Kujawski	2	5
 Andrychów	1	2
@@ -897,7 +897,7 @@ Dębica	2	2
 Dębica	2	4
 Dębica Wschodnia	1	1
 Dębica Wschodnia	2	2
-Dęblin	1	5
+Dęblin	1	5c
 Dęblin	2	1b
 Dęblin	2	3a
 Dęblin	3	4b,4c
@@ -943,7 +943,7 @@ Dobrzykowice Wrocławskie	1	1
 Dobrzykowice Wrocławskie	2	1
 Dobrzyniewo Duże	2	1
 Dobrzyń	1	1
-Dolice	1	2
+Dolice	1	3
 Dolice	1	1
 Dolice	2	2
 Dolna Grupa	1	1
@@ -2308,8 +2308,6 @@ Krzemionki	1	1
 Krzepice	1	3
 Krzepice	2	3
 Krzepice	2	1
-Krzepów	1	1
-Krzepów	1	2
 Krzeszowice	1	4b
 Krzeszowice	2	1
 Krzeszowice	2	2
@@ -3558,6 +3556,7 @@ Parczew	1	3a,3b
 Parczew	1	1c
 Parczew Kolejowa	1	1
 Parkowo	1	1
+Parkowo	2	3
 Parlin	1	1
 Parlin	2	1
 Parlin	2	2
@@ -4022,6 +4021,8 @@ Radomsko	1	2
 Radomsko	1	1
 Radomyśl	1	1
 Radomyśl	2	2
+Radostowice	2	1
+Radostowice	2	2
 Radów	1	1
 Radów	2	2
 Raduń	1	1
@@ -4091,7 +4092,7 @@ Repczyce	1	1
 Reptowo	1	1
 Reptowo	1	3
 Reptowo	2	2
-Reptowo	2	3
+Reptowo	2	4
 Rębiszów	1	2
 Rębiszów	2	1
 Rębusz	1	1
@@ -4379,7 +4380,6 @@ Siedlce	2	4A
 Siedlce	2	2a
 Siedlce	3	1a
 Siedlce	3	3
-Siedlce	4	5a
 Siedlce Łaskie	1	1
 Siedlce Łaskie	2	2
 Siedlce Wschodnie	1	1
@@ -4480,6 +4480,7 @@ Skokowa	1	2
 Skokowa	2	1
 Skołyszyn	1	3
 Skołyszyn	1	1
+Skopanie	1	1
 Skoroszyce	1	1
 Skowarcz	1	3
 Skowarcz	2	2
@@ -4833,6 +4834,10 @@ Susiec	2	2
 Susk	1	1
 Susz	1	1
 Susz	2	2
+Suszec	2	3
+Suszec	2	1
+Suszec Kopalnia	1	1
+Suszec Rudziczka	1	1
 Suszka	1	2
 Suszka	2	1
 Suwałki	1	5
@@ -4896,7 +4901,7 @@ Szczecin Gumieńce	1	5
 Szczecin Gumieńce	1	1
 Szczecin Łasztownia	1	1
 Szczecin Łasztownia	2	2
-Szczecin Podjuchy	1	3x
+Szczecin Podjuchy	1	3
 Szczecin Podjuchy	2	1
 Szczecin Podjuchy	2	2
 Szczecin Port Centralny	1	1
@@ -5063,6 +5068,7 @@ Tarnobrzeg	2	3
 Tarnobrzeg Ocice	1	1
 Tarnobrzeg Olszynka	1	1
 Tarnobrzeg Sobów	1	1
+Tarnobrzeg Wielowieś	1	1
 Tarnobrzeg Wielowieś	2	1
 Tarnowiec	3	1
 Tarnowiec	3	3
@@ -5127,7 +5133,6 @@ Tomaszów Mazowiecki	2	1
 Tomaszów Mazowiecki Białobrzegi	1	1
 Tomaszówek	1	1
 Topola-Osiedle	1	1
-Topola-Osiedle	2	1
 Topola-Osiedle	2	3
 Toporów	1	3
 Toporów	1	1
@@ -5262,8 +5267,8 @@ Tychy Grota Roweckiego	2	2
 Tychy Lodowisko	1	50
 Tychy Zachodnie	1	1
 Tychy Zachodnie	2	2
-Tychy Żwaków	1	2
-Tychy Żwaków	2	1
+Tychy Żwaków	1	1
+Tychy Żwaków	2	2
 Tymień	1	1
 Ubocze	1	1
 Uherce	1	1
@@ -5570,8 +5575,6 @@ Wieliszew	1	2
 Wieliszew Centrum	1	1
 Wielkie Drogi	1	1
 Wielkie Drogi	1	2
-Wielowieś	1	1
-Wielowieś	2	1
 Wieluń	1	1
 Wieluń Dąbrowa	1	4
 Wieluń Dąbrowa	2	1
@@ -5927,7 +5930,6 @@ Zajączkowo Lubawskie	1	1
 Zajączkowo Lubawskie	2	2
 Zajezierce	1	1
 Zajezierze koło Dęblina	1	1
-Zajezierze koło Dęblina	2	1
 Zajezierze koło Dęblina	2	2
 Zaklików	1	3
 Zaklików	1	1
@@ -6135,7 +6137,7 @@ Zygmuntów	2	2
 Żagań	2	4
 Żagań	3	12
 Żagań	3	14
-Żagań	5	20x
+Żagań	5	20
 Żagań	5	22
 Żakowice	1	1
 Żakowice	2	2
