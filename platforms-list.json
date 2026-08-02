@@ -29345,8 +29345,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        16.6367058,
-        50.392614
+        16.6367023,
+        50.3926144
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -64697,8 +64697,8 @@
       "platform": "3",
       "track": "3",
       "location": [
-        18.6162521,
-        53.0006438
+        18.6162542,
+        53.0006407
       ],
       "exact_location": true,
       "single_track_platform": false
