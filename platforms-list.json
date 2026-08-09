@@ -49187,10 +49187,10 @@
       "platform": "1",
       "track": "3",
       "location": [
-        18.9534358,
-        49.974984
+        18.9533138,
+        49.9749963
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     },
     {
@@ -49199,10 +49199,10 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.9534358,
-        49.974984
+        18.9535693,
+        49.975066
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -49211,10 +49211,10 @@
       "platform": "2",
       "track": "1",
       "location": [
-        18.9534358,
-        49.974984
+        18.9533794,
+        49.9749945
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -56460,8 +56460,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.7898491,
-        49.793329
+        18.7898554,
+        49.7933261
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -56472,8 +56472,8 @@
       "platform": "2",
       "track": "2",
       "location": [
-        18.7899186,
-        49.7932953
+        18.7899173,
+        49.7932959
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -56484,8 +56484,8 @@
       "platform": "2",
       "track": "4",
       "location": [
-        18.7900212,
-        49.7932497
+        18.7900233,
+        49.7932481
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -56498,10 +56498,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.8011749,
-        49.7987323
+        18.8011633,
+        49.7987684
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -56512,10 +56512,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.7791496,
-        49.7721313
+        18.77922,
+        49.7721419
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
