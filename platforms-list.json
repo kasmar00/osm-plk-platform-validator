@@ -35863,10 +35863,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.9192929,
-        50.4869536
+        18.9193423,
+        50.4869349
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -51102,10 +51102,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.8091978,
-        49.9177493
+        19.8092037,
+        49.9181216
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -51128,10 +51128,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.8068826,
-        49.9369203
+        19.8068967,
+        49.9369315
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -54592,10 +54592,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.8043671,
-        49.9456881
+        19.8044004,
+        49.945652
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -54606,10 +54606,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.8032872,
-        49.9583212
+        19.8033369,
+        49.9583206
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -71632,10 +71632,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.7770832,
-        49.9063289
+        19.7771992,
+        49.9064409
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -71646,10 +71646,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        19.7946718,
-        49.9106683
+        19.7951355,
+        49.9107118
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
