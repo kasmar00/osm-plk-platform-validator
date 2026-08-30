@@ -64735,10 +64735,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.6180477,
-        53.0554456
+        18.6180739,
+        53.0555719
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
