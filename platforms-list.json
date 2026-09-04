@@ -60771,10 +60771,10 @@
       "platform": "2",
       "track": "1",
       "location": [
-        18.7923607,
-        50.0350047
+        18.7922949,
+        50.0350375
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -74898,8 +74898,8 @@
       "platform": "2",
       "track": "3",
       "location": [
-        21.9793239,
-        50.0953466
+        21.9793145,
+        50.0953457
       ],
       "exact_location": true,
       "single_track_platform": true
