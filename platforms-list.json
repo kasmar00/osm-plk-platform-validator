@@ -17551,10 +17551,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.5087246,
-        50.1700684
+        22.5085791,
+        50.1701517
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -17563,10 +17563,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        22.5087246,
-        50.1700684
+        22.5087166,
+        50.170174
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -19103,8 +19103,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.9864625,
-        50.1134756
+        21.9864624,
+        50.1134786
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -21309,8 +21309,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        22.0215127,
-        50.1156155
+        22.0218131,
+        50.1156157
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -21321,8 +21321,8 @@
       "platform": "1",
       "track": "3",
       "location": [
-        22.0215328,
-        50.1154856
+        22.0218051,
+        50.115483
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -22861,8 +22861,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.0466553,
-        50.7939631
+        18.04667,
+        50.7941316
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -27171,8 +27171,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.0361483,
-        50.7290478
+        18.0354339,
+        50.7282326
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -65963,8 +65963,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        18.1001005,
-        50.8746468
+        18.100109,
+        50.8746959
       ],
       "exact_location": true,
       "single_track_platform": true
