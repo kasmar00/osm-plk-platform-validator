@@ -52296,10 +52296,10 @@
       "platform": "1",
       "track": "3",
       "location": [
-        21.5798601,
-        50.0783583
+        21.5791844,
+        50.0781967
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -52308,10 +52308,10 @@
       "platform": "2",
       "track": "4",
       "location": [
-        21.5798601,
-        50.0783583
+        21.5791163,
+        50.0784416
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
