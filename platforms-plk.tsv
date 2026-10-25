@@ -807,7 +807,7 @@ Częstochowa Aniołów	2	2
 Częstochowa Gnaszyn	1	1
 Częstochowa Gnaszyn	1	2
 Częstochowa Raków	1	1
-Częstochowa Raków	1	3a
+Częstochowa Raków	1	85
 Częstochowa Raków	2	2
 Częstochowa Raków	2	6
 Częstochowa Stradom	1	5
@@ -3821,7 +3821,7 @@ Poznań Główny	4	12
 Poznań Główny	5	1
 Poznań Główny	6	11
 Poznań Główny	7	57
-Poznań Główny	7	55,55a
+Poznań Główny	7	55
 Poznań Główny	8	51
 Poznań Główny	9	53
 Poznań Górczyn	1	2
@@ -4596,8 +4596,11 @@ Sosnowe	2	2
 Sosnowiec Dańdówka	1	5
 Sosnowiec Dańdówka	2	1
 Sosnowiec Dańdówka	2	2
-Sosnowiec Główny	1	6N
-Sosnowiec Główny	2	4N
+Sosnowiec Główny	1	6
+Sosnowiec Główny	2	4
+Sosnowiec Główny	2	2
+Sosnowiec Główny	3	1
+Sosnowiec Główny	3	3
 Sosnowiec Jęzor Południowy	1	1
 Sosnowiec Jęzor Południowy	2	2
 Sosnowiec Kazimierz	2	1
