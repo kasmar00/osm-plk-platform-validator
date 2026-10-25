@@ -404,8 +404,8 @@ Brzoza Toruńska	2	2
 Brzozowica	1	1
 Brzozowica	2	2
 Brzozowiec Gorzowski	1	1
-Brzóstowa	1	
-Brzóstowa	2	
+Brzóstowa	1	1
+Brzóstowa	2	2
 Brzustów	1	1
 Buchałów	1	1
 Budachów	1	1
@@ -448,6 +448,7 @@ Bydgoszcz Bielawy	2	2
 Bydgoszcz Błonie	1	1
 Bydgoszcz Błonie	2	2
 Bydgoszcz Brdyujście	1	1
+Bydgoszcz Fordon	1	4
 Bydgoszcz Fordon	2	1
 Bydgoszcz Główna	1	6
 Bydgoszcz Główna	2	4
@@ -466,7 +467,8 @@ Bydgoszcz Łęgnowo	2	4
 Bydgoszcz Osowa Góra	1	1
 Bydgoszcz Osowa Góra	2	2
 Bydgoszcz Politechnika	1	1
-Bydgoszcz Stary Fordon 	1	1
+Bydgoszcz Stary Fordon 	1	41
+Bydgoszcz Stary Fordon 	2	11
 Bydgoszcz Wschód	1	201
 Bydgoszcz Wschód	2	202
 Bydgoszcz Wschód	2	204
@@ -486,7 +488,7 @@ Bytom	1	1b
 Bytom	2	2c
 Bytom	2	4a
 Bytom	3	6
-Bytom	3	6b
+Bytom	3	8b
 Bytom Karb	1	1a
 Bytom Karb	2	2
 Bytom Odrzański	1	1
@@ -546,6 +548,8 @@ Chludowo	1	1
 Chludowo	2	2
 Chmielniki Bydgoskie	1	1
 Chmielniki Bydgoskie	2	2
+Chmielów	1	1
+Chmielów	1	2
 Chmielów Zagumnie	1	1
 Chocicza	1	1
 Chocicza	2	2
@@ -601,6 +605,7 @@ Chotomów	1	3
 Chotomów	2	2
 Chotyłów	1	2a
 Chotyłów	2	1
+Chotyłów	2	3
 Chronów	1	1
 Chronów	2	2
 Chrosna	1	1
@@ -778,8 +783,6 @@ Czerwieńsk	2	1
 Czerwieńsk	3	4
 Czerwieńsk	4	6
 Czerwionka	1	1
-Czerwionka	2	3
-Czerwionka	2	1
 Czerwionka Dębieńsko	1	1b
 Czerwonak	1	3
 Czerwonak	2	1
@@ -804,7 +807,7 @@ Częstochowa Aniołów	2	2
 Częstochowa Gnaszyn	1	1
 Częstochowa Gnaszyn	1	2
 Częstochowa Raków	1	1
-Częstochowa Raków	1	85
+Częstochowa Raków	1	3a
 Częstochowa Raków	2	2
 Częstochowa Raków	2	6
 Częstochowa Stradom	1	5
@@ -1013,7 +1016,7 @@ Dygowo	1	2
 Dygowo	2	1
 Dytmarów	1	1
 Dytmarów	2	2
-Działdowo	1	2
+Działdowo	1	3
 Działdowo	2	2
 Działdowo	2	1
 Działdowo	3	6
@@ -1146,6 +1149,7 @@ Gierałtów Wykroty	2	1
 Gierwaty	1	1
 Gierwaty	1	2
 Gilów	1	1
+Giżycko	1	1
 Giżycko	2	4
 Giżycko	2	2
 Gliniczek	1	1
@@ -1355,8 +1359,8 @@ Grębocice	2	2
 Grębocin	1	1
 Gręboszów	1	2
 Gręboszów	2	1
-Grębów	2	1
-Grębów	2	2
+Grębów	1	1
+Grębów	1	2
 Grochowiska	1	1
 Grodków Śląski	1	1
 Grodzie	1	1
@@ -1447,9 +1451,9 @@ Hel	2	5
 Henrykowo	1	1
 Henryków	1	3
 Henryków	2	1
-Herby Nowe	1	2
+Herby Nowe	1	3
 Herby Nowe	1	1
-Herby Nowe	2	2x
+Herby Nowe	2	2
 Herby Nowe	2	4
 Herby Stare	1	103
 Herby Stare	2	1
@@ -1553,7 +1557,7 @@ Janowice Wielkie	1	2
 Janowice Wielkie	2	1
 Janówek	1	1
 Janówek	2	2
-Jarocin	1	21A,21B
+Jarocin	1	21
 Jarocin	1	22
 Jarocin	2	6
 Jarocin	2	4
@@ -1678,13 +1682,13 @@ Jelenia Góra Zabobrze	2	1
 Jelenia Góra Zachodnia	1	2
 Jelenia Góra Zachodnia	2	1
 Jelenino	1	1
-Jelenino	2	1
+Jelenino	2	2
 Jeleń	1	1
 Jeleśnia	1	1
 Jeleśnia	1	3
 Jelna	1	1
 Jelna	2	2
-Jełowa	1	1
+Jełowa	1	2
 Jeruty	1	1
 Jerzmanice Lubuskie	1	1
 Jerzmanice Lubuskie	2	2
@@ -1711,8 +1715,6 @@ Jordanów	1	3
 Jordanów	1	1a
 Józefin	1	1
 Józefin	2	2
-Józefów	1	1
-Józefów	1	2
 Józefów	2	1
 Józefów Roztoczański	1	1
 Jugowice	1	1
@@ -1872,6 +1874,7 @@ Kędzierzyn-Koźle Zachodnie	2	1
 Kępa	1	1
 Kępice	1	2
 Kępice	1	1
+Kępie Zaleszańskie	2	2
 Kępka	1	1
 Kępno	1	2
 Kępno	2	3
@@ -1999,7 +2002,7 @@ Kolbuszowa	2	2
 Kolbuszowa Górna	1	1
 Kolin	1	1
 Kolin	2	2
-Kolno	1	2
+Kolno	1	1
 Kolno	2	2
 Kolonia	1	1
 Kolonowskie	1	1
@@ -2156,6 +2159,8 @@ Krajenka	2	1
 Kraków Batowice	1	3
 Kraków Batowice	2	2
 Kraków Batowice	2	1
+Kraków Batowice	3	4
+Kraków Batowice	3	6
 Kraków Bieżanów	1	2
 Kraków Bieżanów	1	1
 Kraków Bieżanów	2	3
@@ -2272,7 +2277,6 @@ Krosnowa	1	1
 Krosnowa	2	2
 Krosnowice Kłodzkie	1	1
 Krostkowo	1	1
-Krostkowo	2	1
 Krostkowo	2	2
 Krościenko	1	5
 Krościenko	2	1
@@ -2880,7 +2884,6 @@ Miały	2	1
 Miały	2	3
 Miasteczko Krajeńskie	1	1
 Miasteczko Krajeńskie	2	2
-Miasteczko Krajeńskie	2	1
 Miasteczko Śląskie	1	1 TGE
 Miasteczko Śląskie	2	2 TGE
 Miasteczko Śląskie	3	3
@@ -2892,13 +2895,12 @@ Miąsowa	1	1
 Miąsowa	1	2
 Michalczew	1	1
 Michalczew	2	2
-Michalin	1	1
-Michalin	1	2
 Michalin	2	1
 Michałów-Reginów	1	1
 Miechów	1	2
 Miechów	1	1
 Miechów	2	4
+Miechów	3	3
 Miedwiecko	1	1
 Miedwiecko	2	2
 Mielec	1	1
@@ -3090,10 +3092,10 @@ Mykanów	1	1
 Mysłaków	1	1
 Mysłaków	2	2
 Mysłowice	1	11
-Mysłowice	2	1
 Mysłowice	2	3
-Mysłowice	3	4
-Mysłowice	3	2
+Mysłowice	3	1
+Mysłowice	4	2
+Mysłowice	5	4
 Mysłowice Brzezinka	1	1
 Mysłowice Brzezinka	1	2
 Mysłowice Brzęczkowice	1	1
@@ -3117,6 +3119,8 @@ Nakło nad Notecią	1	2
 Nakło nad Notecią	1	4
 Nakło nad Notecią	2	3
 Nakło nad Notecią	2	1
+Nakło nad Notecią Zachodnie	1	1
+Nakło nad Notecią Zachodnie	2	2
 Nakło Śląskie	1	1
 Nakło Śląskie	1	2
 Nałęczów	1	3
@@ -3444,7 +3448,7 @@ Osowiec	2	1
 Osowiec Przystanek	1	1
 Osowiec Śląski	1	1
 Ostaszewo Toruńskie	1	1
-Ostaszewo Toruńskie	1	13
+Ostaszewo Toruńskie	1	3
 Ostrołęka	1	1
 Ostrołęka	1	4
 Ostrołęka	2	7
@@ -3507,8 +3511,6 @@ Otwock	2	1
 Otwock	3	3
 Otwock Śródborów	1	1
 Otwock Śródborów	2	2
-Otwock Świder	1	1
-Otwock Świder	1	2
 Otwock Świder	2	1
 Owińska	1	1
 Ozimek	1	1
@@ -3534,7 +3536,7 @@ Paczków	1	2
 Paczków	2	1
 Paczyna	1	2
 Paczyna	2	1
-Padew	1	1
+Padew Narodowa	1	1
 Pakosławice	1	1
 Pakość	1	1
 Pakość	2	1
@@ -3819,7 +3821,7 @@ Poznań Główny	4	12
 Poznań Główny	5	1
 Poznań Główny	6	11
 Poznań Główny	7	57
-Poznań Główny	7	55
+Poznań Główny	7	55,55a
 Poznań Główny	8	51
 Poznań Główny	9	53
 Poznań Górczyn	1	2
@@ -3957,7 +3959,6 @@ Puszczykowo	1	1
 Puszczykowo	2	2
 Puszczykówko	1	1
 Puszczykówko	2	2
-Puszczykówko	2	4
 Pyrzowice Lotnisko	1	1
 Pyrzowice Lotnisko	1	2
 Pyrzowice Lotnisko	2	4
@@ -4021,8 +4022,8 @@ Radomsko	1	2
 Radomsko	1	1
 Radomyśl	1	1
 Radomyśl	2	2
-Radostowice	2	1
-Radostowice	2	2
+Radostowice	1	1
+Radostowice	1	2
 Radów	1	1
 Radów	2	2
 Raduń	1	1
@@ -4044,8 +4045,8 @@ Radziszów	1	2
 Radziszów Centrum	1	1
 Radziwiłłów Mazowiecki	1	1
 Radziwiłłów Mazowiecki	2	2
-Radzymin	2	1
-Radzymin	2	2
+Radzymin	1	1
+Radzymin	1	2
 Radzyń Podlaski	2	2
 Radzyń Podlaski	2	1
 Rajcza	1	1
@@ -4386,6 +4387,8 @@ Siedlce Wschodnie	1	1
 Siedlce Wschodnie	2	2
 Siedlce Zachodnie	1	1
 Siedlce Zachodnie	2	2
+Siedliska	1	1
+Siedliska	2	3
 Siedliska koło Tuchowa	1	3
 Siedliska koło Tuchowa	2	1
 Siedliska Tomaszowskie	1	1
@@ -4577,13 +4580,14 @@ Sokule	1	1
 Sokule	2	2
 Solec Kujawski	1	1
 Solec Kujawski	2	2
-Solec Kujawski	2	6
+Solec Kujawski	2	4
 Solec Wielkopolski	1	1
 Solec Wielkopolski	2	2
 Solniki Wielkie	1	2
 Solniki Wielkie	2	1
 Sołtyków	1	1
 Somonino	1	1
+Somonino	2	4
 Somonino Bernardyno	1	1
 Sopot	2	2
 Sopot	2	1
@@ -4592,8 +4596,8 @@ Sosnowe	2	2
 Sosnowiec Dańdówka	1	5
 Sosnowiec Dańdówka	2	1
 Sosnowiec Dańdówka	2	2
-Sosnowiec Główny	3	1
-Sosnowiec Główny	3	3
+Sosnowiec Główny	1	6N
+Sosnowiec Główny	2	4N
 Sosnowiec Jęzor Południowy	1	1
 Sosnowiec Jęzor Południowy	2	2
 Sosnowiec Kazimierz	2	1
@@ -4834,8 +4838,8 @@ Susiec	2	2
 Susk	1	1
 Susz	1	1
 Susz	2	2
-Suszec	2	3
-Suszec	2	1
+Suszec	1	3
+Suszec	1	1
 Suszec Kopalnia	1	1
 Suszec Rudziczka	1	1
 Suszka	1	2
@@ -5010,7 +5014,6 @@ Szymocice	2	2
 Środa Śląska	2	2
 Środa Wielkopolska	1	1
 Środa Wielkopolska	2	2
-Środa Wielkopolska	2	4
 Świba	1	1
 Świdnica Miasto	1	3
 Świdnica Miasto	2	1
@@ -5047,7 +5050,7 @@ Szymocice	2	2
 Świlcza	2	2
 Świnoujście	1	1
 Świnoujście	2	4
-Świnoujście	2	2c
+Świnoujście	2	2
 Świnoujście Port	1	5
 Świnoujście Przytór	1	2
 Świnoujście Przytór	2	1
@@ -5063,13 +5066,12 @@ Targowiska	2	3
 Targowiska	3	1
 Tarło	1	1
 Tarnawa Dolna	1	1
-Tarnobrzeg	2	1
-Tarnobrzeg	2	3
+Tarnobrzeg	1	1
+Tarnobrzeg	1	3
 Tarnobrzeg Ocice	1	1
 Tarnobrzeg Olszynka	1	1
 Tarnobrzeg Sobów	1	1
 Tarnobrzeg Wielowieś	1	1
-Tarnobrzeg Wielowieś	2	1
 Tarnowiec	3	1
 Tarnowiec	3	3
 Tarnowiec Brzeski	1	1
@@ -5372,9 +5374,6 @@ Warszawa Choszczówka	1	3
 Warszawa Choszczówka	2	2
 Warszawa Dawidy	1	1
 Warszawa Dawidy	2	2
-Warszawa Falenica	1	2
-Warszawa Falenica	2	3a
-Warszawa Falenica	2	1
 Warszawa Falenica	3	5
 Warszawa Falenica	3	3b
 Warszawa Gdańska	2	3
@@ -5400,8 +5399,6 @@ Warszawa Koło	1	1
 Warszawa Koło	2	2
 Warszawa Lotnisko Chopina	1	1L
 Warszawa Lotnisko Chopina	1	2L
-Warszawa Miedzeszyn	1	1F
-Warszawa Miedzeszyn	1	2F
 Warszawa Miedzeszyn	2	1F
 Warszawa Międzylesie	1	1F
 Warszawa Międzylesie	1	2F
@@ -5423,8 +5420,6 @@ Warszawa Powiśle	1	3
 Warszawa Powiśle	2	4
 Warszawa Praga	1	1e
 Warszawa Praga	1	2e
-Warszawa Radość	1	1F
-Warszawa Radość	1	2F
 Warszawa Radość	2	1F
 Warszawa Rakowiec	1	1
 Warszawa Rakowiec	2	2
@@ -5618,7 +5613,7 @@ Wiktorowo	1	1
 Wiktorowo	2	2
 Wilczyska	1	3
 Wilczyska	2	1
-Wilkasy Niegocin	2	1
+Wilkasy Niegocin	1	1
 Wilkołaz	1	3
 Wilkołaz	2	3
 Wilkołaz	2	1
@@ -5753,6 +5748,7 @@ Wołów	1	1
 Worowo	1	3
 Worowo	2	1
 Woszczele	1	1
+Woszczele	1	3
 Wójcice	1	1
 Wójcice	2	2
 Wólka	1	1
@@ -5867,6 +5863,7 @@ Wudzyn	1	1
 Wydartowo	1	1
 Wydartowo	2	2
 Wydminy	1	1
+Wydminy	1	2
 Wygoda	1	1
 Wygoda	2	2
 Wykno	1	1
@@ -5877,7 +5874,7 @@ Wyrzysk Osiek	2	2
 Wyrzysk Osiek	2	4
 Wysoczany	1	1
 Wysoka Braniewska	1	1
-Wysoka Kamieńska	1	9
+Wysoka Kamieńska	1	7
 Wysoka Kamieńska	1	5
 Wysoka Kamieńska	2	1
 Wysoka Kamieńska	2	2
@@ -5923,6 +5920,7 @@ Zagórz	1	4
 Zagórz	2	4
 Zagórz	2	2
 Zagórz	3	1
+Zagórz	4	1
 Zagórze Śląskie	1	1
 Zagrody	1	1
 Zagrody Kościół	1	1
