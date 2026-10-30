@@ -595,10 +595,7 @@
       "operator": "PLK",
       "platform": "1",
       "track": "1",
-      "location": [
-        21.559659,
-        50.4725453
-      ],
+      "location": null,
       "exact_location": false,
       "single_track_platform": true
     }
@@ -8053,8 +8050,8 @@
       "platform": "1",
       "track": "2",
       "location": [
-        19.414127,
-        50.1445314
+        19.4141311,
+        50.1445297
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -13199,10 +13196,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.7431315,
-        50.4288076
+        21.7431217,
+        50.4287765
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -19954,10 +19951,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.7157915,
-        50.3894315
+        21.7157423,
+        50.3894468
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -34870,10 +34867,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.7252267,
-        50.3789379
+        21.7251941,
+        50.37892
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     },
     {
@@ -34882,10 +34879,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        21.7252267,
-        50.3789379
+        21.7252549,
+        50.3790016
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -39966,10 +39963,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.7398508,
-        50.4159279
+        21.7398166,
+        50.4155634
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -56617,7 +56614,10 @@
       "operator": "PLK",
       "platform": "1",
       "track": "1",
-      "location": null,
+      "location": [
+        21.5596468,
+        50.4725607
+      ],
       "exact_location": false,
       "single_track_platform": true
     }
@@ -63985,10 +63985,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.7357423,
-        50.4515952
+        21.7356954,
+        50.4515879
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
