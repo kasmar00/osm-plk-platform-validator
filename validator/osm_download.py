@@ -60,8 +60,8 @@ def fetch_osm_platforms():
     area(id:3600049715)->.searchArea; //Poland
 
     (
-    node["railway"="stop"]["network"!="WKD"]["operator"!="WKD"]["operator"!="MPK Poznań"]["network"!="DSDiK"]["subway"!="yes"](area.searchArea);
-    node["public_transport"="stop_position"]["train"="yes"]["operator"!="WKD"]["operator"!="MPK Poznań"]["network"!="DSDiK"](area.searchArea);
+    node["railway"="stop"]["operator"!="MPK Poznań"]["network"!="DSDiK"]["subway"!="yes"](area.searchArea);
+    node["public_transport"="stop_position"]["train"="yes"]["operator"!="MPK Poznań"]["network"!="DSDiK"](area.searchArea);
     );
     foreach {
     way(bn)[railway] -> .ways;

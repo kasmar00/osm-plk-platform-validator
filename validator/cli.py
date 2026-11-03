@@ -26,7 +26,7 @@ def load_platforms_from_plk() -> List[PLK_Platform]:
         rd = csv.reader(f, delimiter="\t", quotechar='"')
         next(rd)  # skip header
         for row in rd:
-            platforms.append(PLK_Platform("PLK", *row))
+            platforms.append(PLK_Platform(DEFAULT_OPERATOR, *row))
 
     with open("platforms-others.tsv") as f:
         rd = csv.reader(f, delimiter="\t", quotechar='"')
@@ -67,11 +67,40 @@ OSM_Platform = NamedTuple(
         ("platform", str),
         ("track", str),
         ("location", tuple[float, float]),
+        ("operators", frozenset[str]),
     ],
 )
 
+DEFAULT_OPERATOR = "PLK"
+OPERATOR_ALIASES = {"PKP PLK": DEFAULT_OPERATOR}
 
-def load_platforms_from_osm() -> List[OSM_Platform]:
+
+def known_operators(plk_platforms: List[PLK_Platform]) -> set[str]:
+    return {p.operator for p in plk_platforms}
+
+
+def _tag_values(tags: Dict[str, str], key: str) -> set[str]:
+    values = (v.strip() for v in tags.get(key, "").split(";"))
+    return {OPERATOR_ALIASES.get(v, v) for v in values if v}
+
+
+def osm_operators(tags: Dict[str, str], known: set[str]) -> frozenset[str]:
+    """Operators an OSM stop is explicitly tagged with; empty if unknown.
+
+    operator:short is used first (only known operator values count).
+    network:short is used only when all its values are known operators,
+    since it usually lists carriers (PR, IC, KM...) whose codes may collide
+    with operator codes (e.g. PKM in Kutno).
+    """
+    if operators := _tag_values(tags, "operator:short") & known:
+        return frozenset(operators)
+    network = _tag_values(tags, "network:short")
+    if network and network <= known:
+        return frozenset(network)
+    return frozenset()
+
+
+def load_platforms_from_osm(known: set[str]) -> List[OSM_Platform]:
     platforms = []
     data = fetch_osm_platforms()
     for element in data:
@@ -85,6 +114,7 @@ def load_platforms_from_osm() -> List[OSM_Platform]:
                 platform=platform,
                 track=track,
                 location=tuple(element["geometry"]["coordinates"]),
+                operators=osm_operators(element["tags"], known),
             )
         )
 
@@ -173,6 +203,16 @@ Report_Platform = NamedTuple(
 def match_platform(
     plk: PLK_Platform, clean_track: str, osm_platforms: List[OSM_Platform]
 ) -> OSM_Platform | None:
+    # Prefer stops tagged with this operator, then untagged ones;
+    # never use stops tagged with a different operator.
+    tagged = [osm for osm in osm_platforms if plk.operator in osm.operators]
+    untagged = [osm for osm in osm_platforms if not osm.operators]
+    return _match_by_track(plk, clean_track, tagged) or _match_by_track(plk, clean_track, untagged)
+
+
+def _match_by_track(
+    plk: PLK_Platform, clean_track: str, osm_platforms: List[OSM_Platform]
+) -> OSM_Platform | None:
     for osm in osm_platforms:
         if osm.platform:
             if plk.track == osm.track and plk.platform == osm.platform:
@@ -250,7 +290,6 @@ def platform_locations(
             single_track_platform = len([platform for platform in platforms if platform.platform==plk.platform]) == 1
             global_id = f"{plk.platform}_{clean_track}"  # TODO: add station id
             # TODO: add station locations
-            # TODO: match by operators
 
             if matched_osm is not None:
                 locations.setdefault(station_slug, []).append(
@@ -331,7 +370,7 @@ def dump_report(locations: Dict[str, List[Report_Platform]]) -> None:
 
 def main() -> None:
     plk_platforms = load_platforms_from_plk()
-    osm_platforms = load_platforms_from_osm()
+    osm_platforms = load_platforms_from_osm(known_operators(plk_platforms))
     osm_stations = load_stations_from_osm()
 
     compare(plk_platforms, osm_platforms)
