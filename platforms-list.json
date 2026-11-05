@@ -54638,10 +54638,10 @@
       "station_name": "Rzęśnica",
       "operator": "PLK",
       "platform": "1",
-      "track": "2",
+      "track": "1",
       "location": [
-        15.9519762,
-        53.5244744
+        15.951965,
+        53.5245252
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -54650,10 +54650,10 @@
       "station_name": "Rzęśnica",
       "operator": "PLK",
       "platform": "2",
-      "track": "1",
+      "track": "2",
       "location": [
-        15.951965,
-        53.5245252
+        15.9519762,
+        53.5244744
       ],
       "exact_location": true,
       "single_track_platform": true
