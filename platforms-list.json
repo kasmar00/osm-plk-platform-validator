@@ -12559,8 +12559,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.495339,
-        50.1697579
+        21.4953409,
+        50.1697651
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -49413,8 +49413,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.4963286,
-        50.1436507
+        21.4961958,
+        50.1444891
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -65992,10 +65992,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.5025026,
-        50.1859122
+        21.5025193,
+        50.1859111
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
