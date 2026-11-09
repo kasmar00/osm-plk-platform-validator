@@ -7568,10 +7568,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.4530916,
-        50.3435613
+        21.4513854,
+        50.3412768
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -7582,10 +7582,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.4434182,
-        50.3303743
+        21.4434804,
+        50.3303849
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -24335,8 +24335,8 @@
       "platform": "3",
       "track": "2",
       "location": [
-        19.0170426,
-        50.2572484
+        19.0170986,
+        50.2574611
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -36143,8 +36143,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.4296234,
-        50.2926733
+        21.429623,
+        50.2926767
       ],
       "exact_location": true,
       "single_track_platform": false
@@ -36155,10 +36155,10 @@
       "platform": "1",
       "track": "2",
       "location": [
-        21.4296964,
-        50.2926787
+        21.4297713,
+        50.2926842
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": false
     }
   ],
@@ -36169,8 +36169,8 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.4836907,
-        50.2580424
+        21.4837574,
+        50.2579392
       ],
       "exact_location": true,
       "single_track_platform": true
@@ -36183,10 +36183,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.4456659,
-        50.2800772
+        21.4458592,
+        50.2799071
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
@@ -71513,10 +71513,10 @@
       "platform": "1",
       "track": "1",
       "location": [
-        21.46619,
-        50.2699084
+        21.4662011,
+        50.2698599
       ],
-      "exact_location": false,
+      "exact_location": true,
       "single_track_platform": true
     }
   ],
